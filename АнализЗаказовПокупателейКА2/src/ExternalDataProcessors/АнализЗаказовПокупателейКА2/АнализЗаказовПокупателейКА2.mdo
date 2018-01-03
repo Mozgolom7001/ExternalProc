@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="afc01fe1-3911-4bd4-9997-058351e6d1e3">
+  <producedTypes>
+    <objectType typeId="110c7161-385d-4c2c-94ff-261291ffcc59" valueTypeId="5e29144a-d9ef-41c1-9646-c5a2271d8334"/>
+  </producedTypes>
+  <name>АнализЗаказовПокупателейКА2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ заказов покупателей КА 2</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="48e160bc-d696-40c5-9ca8-13a5490753f2"/>
+</mdclass:ExternalDataProcessor>
