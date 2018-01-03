@@ -9,4 +9,14 @@
     <value>Анализ заказов покупателей КА 2</value>
   </synonym>
   <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="48e160bc-d696-40c5-9ca8-13a5490753f2"/>
+  <defaultForm>ExternalDataProcessor.АнализЗаказовПокупателейКА2.Form.Форма</defaultForm>
+  <forms uuid="85dfe277-c262-4f4c-90ba-8f42708691e7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:ExternalDataProcessor>
