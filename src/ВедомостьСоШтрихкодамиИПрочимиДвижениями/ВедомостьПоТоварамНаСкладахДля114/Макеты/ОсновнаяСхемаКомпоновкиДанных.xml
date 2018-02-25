@@ -11,55 +11,61 @@
 				<dataPath>ПериодГод</dataPath>
 				<field>ПериодГод</field>
 				<role>
-					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">8</periodNumber>
+					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">7</periodNumber>
 					<periodType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Additional</periodType>
 				</role>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ПериодКвартал</dataPath>
 				<field>ПериодКвартал</field>
 				<role>
-					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">7</periodNumber>
+					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">6</periodNumber>
 					<periodType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Additional</periodType>
 				</role>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ПериодМесяц</dataPath>
 				<field>ПериодМесяц</field>
 				<role>
-					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">6</periodNumber>
+					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">5</periodNumber>
 					<periodType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Additional</periodType>
 				</role>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ПериодДекада</dataPath>
 				<field>ПериодДекада</field>
 				<role>
-					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">5</periodNumber>
+					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">4</periodNumber>
 					<periodType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Additional</periodType>
 				</role>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ПериодНеделя</dataPath>
 				<field>ПериодНеделя</field>
 				<role>
-					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">4</periodNumber>
+					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">3</periodNumber>
 					<periodType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Additional</periodType>
 				</role>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ПериодДень</dataPath>
 				<field>ПериодДень</field>
 				<role>
-					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">3</periodNumber>
+					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">2</periodNumber>
 					<periodType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Additional</periodType>
 				</role>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ПериодСекунда</dataPath>
@@ -71,10 +77,11 @@
 					<order>true</order>
 				</useRestriction>
 				<role>
-					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">2</periodNumber>
+					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">1</periodNumber>
 					<periodType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Main</periodType>
 				</role>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Регистратор</dataPath>
@@ -100,6 +107,7 @@
 					<autoOrder xmlns="http://v8.1c.ru/8.1/data-composition-system/common">false</autoOrder>
 				</orderExpression>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Номенклатура</dataPath>
@@ -108,70 +116,19 @@
 					<dimension xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</dimension>
 				</role>
 				<appearance/>
-			</field>
-			<field xsi:type="DataSetFieldField">
-				<dataPath>ЕдиницаДляОтчетов</dataPath>
-				<field>ЕдиницаДляОтчетов</field>
-				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
-					<d5p1:item>
-						<d5p1:lang>ru</d5p1:lang>
-						<d5p1:content>Единица для отчетов</d5p1:content>
-					</d5p1:item>
-				</title>
-				<useRestriction>
-					<field>true</field>
-					<condition>true</condition>
-					<group>true</group>
-					<order>true</order>
-				</useRestriction>
-				<attributeUseRestriction>
-					<field>true</field>
-					<condition>true</condition>
-					<group>true</group>
-					<order>true</order>
-				</attributeUseRestriction>
-				<role>
-					<dimension xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</dimension>
-					<parentDimension xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Номенклатура</parentDimension>
-				</role>
-				<appearance/>
-			</field>
-			<field xsi:type="DataSetFieldField">
-				<dataPath>ЕдиницаХранения</dataPath>
-				<field>ЕдиницаХранения</field>
-				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
-					<d5p1:item>
-						<d5p1:lang>ru</d5p1:lang>
-						<d5p1:content>Единица хранения</d5p1:content>
-					</d5p1:item>
-				</title>
-				<useRestriction>
-					<field>true</field>
-					<condition>true</condition>
-					<group>true</group>
-					<order>true</order>
-				</useRestriction>
-				<attributeUseRestriction>
-					<field>true</field>
-					<condition>true</condition>
-					<group>true</group>
-					<order>true</order>
-				</attributeUseRestriction>
-				<role>
-					<dimension xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</dimension>
-					<parentDimension xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Номенклатура</parentDimension>
-				</role>
-				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>НоменклатураЕдиницаДляОтчетов</dataPath>
 				<field>НоменклатураЕдиницаДляОтчетов</field>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>НоменклатураЕдиницаИзмерения</dataPath>
 				<field>НоменклатураЕдиницаИзмерения</field>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Характеристика</dataPath>
@@ -180,6 +137,7 @@
 					<dimension xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</dimension>
 				</role>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Серия</dataPath>
@@ -188,6 +146,7 @@
 					<dimension xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</dimension>
 				</role>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Склад</dataPath>
@@ -247,6 +206,7 @@
 				<dataPath>ПересчетТоваров</dataPath>
 				<field>ПересчетТоваров</field>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Назначение</dataPath>
@@ -255,6 +215,7 @@
 					<dimension xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</dimension>
 				</role>
 				<appearance/>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>НачальныйОстаток</dataPath>
@@ -265,11 +226,6 @@
 						<d5p1:content>Начальный остаток</d5p1:content>
 					</d5p1:item>
 				</title>
-				<role>
-					<balance xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</balance>
-					<balanceGroupName xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Количество</balanceGroupName>
-					<balanceType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">OpeningBalance</balanceType>
-				</role>
 				<appearance>
 					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
 						<parameter>Формат</parameter>
@@ -288,6 +244,7 @@
 						<value xsi:type="xs:decimal">12</value>
 					</item>
 				</appearance>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>КонечныйОстаток</dataPath>
@@ -298,11 +255,6 @@
 						<d5p1:content>Конечный остаток</d5p1:content>
 					</d5p1:item>
 				</title>
-				<role>
-					<balance xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</balance>
-					<balanceGroupName xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Количество</balanceGroupName>
-					<balanceType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">ClosingBalance</balanceType>
-				</role>
 				<appearance>
 					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
 						<parameter>Формат</parameter>
@@ -321,6 +273,7 @@
 						<value xsi:type="xs:decimal">12</value>
 					</item>
 				</appearance>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Приход</dataPath>
@@ -349,6 +302,7 @@
 						<value xsi:type="xs:decimal">12</value>
 					</item>
 				</appearance>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Расход</dataPath>
@@ -377,15 +331,11 @@
 						<value xsi:type="xs:decimal">12</value>
 					</item>
 				</appearance>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>КОтгрузкеНачальныйОстаток</dataPath>
 				<field>КОтгрузкеНачальныйОстаток</field>
-				<role>
-					<balance xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</balance>
-					<balanceGroupName xmlns="http://v8.1c.ru/8.1/data-composition-system/common">КОтгрузке</balanceGroupName>
-					<balanceType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">OpeningBalance</balanceType>
-				</role>
 				<appearance>
 					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
 						<parameter>Формат</parameter>
@@ -404,15 +354,11 @@
 						<value xsi:type="xs:decimal">12</value>
 					</item>
 				</appearance>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>КОтгрузкеКонечныйОстаток</dataPath>
 				<field>КОтгрузкеКонечныйОстаток</field>
-				<role>
-					<balance xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</balance>
-					<balanceGroupName xmlns="http://v8.1c.ru/8.1/data-composition-system/common">КОтгрузке</balanceGroupName>
-					<balanceType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">ClosingBalance</balanceType>
-				</role>
 				<appearance>
 					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
 						<parameter>Формат</parameter>
@@ -431,6 +377,7 @@
 						<value xsi:type="xs:decimal">12</value>
 					</item>
 				</appearance>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>КОтгрузкеПриход</dataPath>
@@ -453,6 +400,7 @@
 						<value xsi:type="xs:decimal">12</value>
 					</item>
 				</appearance>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>НачальныйОстатокВес</dataPath>
@@ -465,7 +413,7 @@
 				</title>
 				<role>
 					<balance xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</balance>
-					<balanceGroupName xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Вес</balanceGroupName>
+					<balanceGroupName xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Группа</balanceGroupName>
 					<balanceType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">OpeningBalance</balanceType>
 				</role>
 				<appearance>
@@ -486,6 +434,7 @@
 						<value xsi:type="xs:decimal">12</value>
 					</item>
 				</appearance>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>КонечныйОстатокВес</dataPath>
@@ -498,7 +447,7 @@
 				</title>
 				<role>
 					<balance xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</balance>
-					<balanceGroupName xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Вес</balanceGroupName>
+					<balanceGroupName xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Группа</balanceGroupName>
 					<balanceType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">ClosingBalance</balanceType>
 				</role>
 				<appearance>
@@ -519,6 +468,7 @@
 						<value xsi:type="xs:decimal">12</value>
 					</item>
 				</appearance>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ПриходВес</dataPath>
@@ -547,6 +497,7 @@
 						<value xsi:type="xs:decimal">12</value>
 					</item>
 				</appearance>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>РасходВес</dataPath>
@@ -575,6 +526,7 @@
 						<value xsi:type="xs:decimal">12</value>
 					</item>
 				</appearance>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>НачальныйОстатокОбъем</dataPath>
@@ -587,7 +539,7 @@
 				</title>
 				<role>
 					<balance xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</balance>
-					<balanceGroupName xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Объем</balanceGroupName>
+					<balanceGroupName xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Группа2</balanceGroupName>
 					<balanceType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">OpeningBalance</balanceType>
 				</role>
 				<appearance>
@@ -608,6 +560,7 @@
 						<value xsi:type="xs:decimal">12</value>
 					</item>
 				</appearance>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>КонечныйОстатокОбъем</dataPath>
@@ -620,7 +573,7 @@
 				</title>
 				<role>
 					<balance xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</balance>
-					<balanceGroupName xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Объем</balanceGroupName>
+					<balanceGroupName xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Группа2</balanceGroupName>
 					<balanceType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">ClosingBalance</balanceType>
 				</role>
 				<appearance>
@@ -641,6 +594,7 @@
 						<value xsi:type="xs:decimal">12</value>
 					</item>
 				</appearance>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ПриходОбъем</dataPath>
@@ -669,6 +623,7 @@
 						<value xsi:type="xs:decimal">12</value>
 					</item>
 				</appearance>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>РасходОбъем</dataPath>
@@ -697,6 +652,7 @@
 						<value xsi:type="xs:decimal">12</value>
 					</item>
 				</appearance>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>КОтгрузкеНачальныйОстатокВес</dataPath>
@@ -709,7 +665,7 @@
 				</title>
 				<role>
 					<balance xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</balance>
-					<balanceGroupName xmlns="http://v8.1c.ru/8.1/data-composition-system/common">КОтгрузкеВес</balanceGroupName>
+					<balanceGroupName xmlns="http://v8.1c.ru/8.1/data-composition-system/common">КОтгрузке</balanceGroupName>
 					<balanceType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">OpeningBalance</balanceType>
 				</role>
 				<appearance>
@@ -730,6 +686,7 @@
 						<value xsi:type="xs:decimal">12</value>
 					</item>
 				</appearance>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>КОтгрузкеКонечныйОстатокВес</dataPath>
@@ -742,7 +699,7 @@
 				</title>
 				<role>
 					<balance xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</balance>
-					<balanceGroupName xmlns="http://v8.1c.ru/8.1/data-composition-system/common">КОтгрузкеВес</balanceGroupName>
+					<balanceGroupName xmlns="http://v8.1c.ru/8.1/data-composition-system/common">КОтгрузке</balanceGroupName>
 					<balanceType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">ClosingBalance</balanceType>
 				</role>
 				<appearance>
@@ -763,6 +720,7 @@
 						<value xsi:type="xs:decimal">12</value>
 					</item>
 				</appearance>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>КОтгрузкеПриходВес</dataPath>
@@ -791,6 +749,7 @@
 						<value xsi:type="xs:decimal">12</value>
 					</item>
 				</appearance>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>КОтгрузкеНачальныйОстатокОбъем</dataPath>
@@ -803,7 +762,7 @@
 				</title>
 				<role>
 					<balance xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</balance>
-					<balanceGroupName xmlns="http://v8.1c.ru/8.1/data-composition-system/common">КОтгрузкеОбъем</balanceGroupName>
+					<balanceGroupName xmlns="http://v8.1c.ru/8.1/data-composition-system/common">КОтгрузке2</balanceGroupName>
 					<balanceType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">OpeningBalance</balanceType>
 				</role>
 				<appearance>
@@ -824,6 +783,7 @@
 						<value xsi:type="xs:decimal">12</value>
 					</item>
 				</appearance>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>КОтгрузкеКонечныйОстатокОбъем</dataPath>
@@ -836,7 +796,7 @@
 				</title>
 				<role>
 					<balance xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</balance>
-					<balanceGroupName xmlns="http://v8.1c.ru/8.1/data-composition-system/common">КОтгрузкеОбъем</balanceGroupName>
+					<balanceGroupName xmlns="http://v8.1c.ru/8.1/data-composition-system/common">КОтгрузке2</balanceGroupName>
 					<balanceType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">ClosingBalance</balanceType>
 				</role>
 				<appearance>
@@ -857,6 +817,7 @@
 						<value xsi:type="xs:decimal">12</value>
 					</item>
 				</appearance>
+				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>КОтгрузкеПриходОбъем</dataPath>
@@ -885,6 +846,211 @@
 						<value xsi:type="xs:decimal">12</value>
 					</item>
 				</appearance>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ЕдиницаХранения</dataPath>
+				<field>ЕдиницаХранения</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Единица хранения</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ЕдиницаДляОтчетов</dataPath>
+				<field>ЕдиницаДляОтчетов</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Единица для отчетов</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПрочийПриходВес</dataPath>
+				<field>ПрочийПриходВес</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Прочий приход вес</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧЦ=15; ЧДЦ=3</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>МинимальнаяШирина</parameter>
+						<value xsi:type="xs:decimal">12</value>
+					</item>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>МаксимальнаяШирина</parameter>
+						<value xsi:type="xs:decimal">12</value>
+					</item>
+				</appearance>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПрочийРасходОбъем</dataPath>
+				<field>ПрочийРасходОбъем</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Прочий расход объем</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧЦ=15; ЧДЦ=3</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>МинимальнаяШирина</parameter>
+						<value xsi:type="xs:decimal">12</value>
+					</item>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>МаксимальнаяШирина</parameter>
+						<value xsi:type="xs:decimal">12</value>
+					</item>
+				</appearance>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПрочийРасход</dataPath>
+				<field>ПрочийРасход</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Прочий расход</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧЦ=15; ЧДЦ=3</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>МинимальнаяШирина</parameter>
+						<value xsi:type="xs:decimal">12</value>
+					</item>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>МаксимальнаяШирина</parameter>
+						<value xsi:type="xs:decimal">12</value>
+					</item>
+				</appearance>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПрочийРасходВес</dataPath>
+				<field>ПрочийРасходВес</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Прочий расход вес</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧЦ=15; ЧДЦ=3</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>МинимальнаяШирина</parameter>
+						<value xsi:type="xs:decimal">12</value>
+					</item>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>МаксимальнаяШирина</parameter>
+						<value xsi:type="xs:decimal">12</value>
+					</item>
+				</appearance>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПрочийПриход</dataPath>
+				<field>ПрочийПриход</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Прочий приход</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧЦ=15; ЧДЦ=3</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>МинимальнаяШирина</parameter>
+						<value xsi:type="xs:decimal">12</value>
+					</item>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>МаксимальнаяШирина</parameter>
+						<value xsi:type="xs:decimal">12</value>
+					</item>
+				</appearance>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПрочийПриходОбъем</dataPath>
+				<field>ПрочийПриходОбъем</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Прочий приход объем</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧЦ=15; ЧДЦ=3</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>МинимальнаяШирина</parameter>
+						<value xsi:type="xs:decimal">12</value>
+					</item>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>МаксимальнаяШирина</parameter>
+						<value xsi:type="xs:decimal">12</value>
+					</item>
+				</appearance>
+				<inputParameters/>
 			</field>
 			<dataSource>ИсточникДанных1</dataSource>
 			<query>ВЫБРАТЬ РАЗЛИЧНЫЕ
@@ -897,6 +1063,7 @@
 	Документ.ПересчетТоваров.Товары КАК ПересчетТоваровТовары
 {ГДЕ
 	ПересчетТоваровТовары.Ссылка.* КАК ПересчетТоваров}
+
 ИНДЕКСИРОВАТЬ ПО
 	Номенклатура,
 	Характеристика,
@@ -924,10 +1091,24 @@
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ТоварыНаСкладах.Регистратор КАК Регистратор
+ПОМЕСТИТЬ ВТ_ПриходныеРасходныеДокументы
+ИЗ
+	РегистрНакопления.ТоварыНаСкладах КАК ТоварыНаСкладах
+ГДЕ
+	(ТоварыНаСкладах.Регистратор ССЫЛКА Документ.ПриобретениеТоваровУслуг
+			ИЛИ ТоварыНаСкладах.Регистратор ССЫЛКА Документ.РеализацияТоваровУслуг)
+
+СГРУППИРОВАТЬ ПО
+	ТоварыНаСкладах.Регистратор
+;
+
+////////////////////////////////////////////////////////////////////////////////
 ВЫБРАТЬ РАЗРЕШЕННЫЕ
 	ТоварыНаСкладахОстаткиИОбороты.Номенклатура КАК Номенклатура,
 	ТоварыНаСкладахОстаткиИОбороты.Характеристика КАК Характеристика,
-	ТоварыНаСкладахОстаткиИОбороты.Назначение,
+	ТоварыНаСкладахОстаткиИОбороты.Назначение КАК Назначение,
 	ТоварыНаСкладахОстаткиИОбороты.Номенклатура.ЕдиницаИзмерения КАК ЕдиницаХранения,
 	ТоварыНаСкладахОстаткиИОбороты.Номенклатура.ЕдиницаДляОтчетов КАК ЕдиницаДляОтчетов,
 	ТоварыНаСкладахОстаткиИОбороты.Серия КАК Серия,
@@ -945,26 +1126,8 @@
 	ТоварыНаСкладахОстаткиИОбороты.ПериодМесяц КАК ПериодМесяц,
 	ТоварыНаСкладахОстаткиИОбороты.ПериодКвартал КАК ПериодКвартал,
 	ТоварыНаСкладахОстаткиИОбороты.ПериодГод КАК ПериодГод,
-	ВЫБОР
-		КОГДА &amp;ЕдиницыКоличества = 0
-			ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииНачальныйОстаток
-		КОГДА &amp;ЕдиницыКоличества = 1
-			ТОГДА ВЫБОР
-					КОГДА ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов &lt;&gt; 0
-						ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииНачальныйОстаток / ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов
-					ИНАЧЕ 0
-				КОНЕЦ
-	КОНЕЦ КАК НачальныйОстаток,
-	ВЫБОР
-		КОГДА &amp;ЕдиницыКоличества = 0
-			ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииКонечныйОстаток
-		КОГДА &amp;ЕдиницыКоличества = 1
-			ТОГДА ВЫБОР
-					КОГДА ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов &lt;&gt; 0
-						ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииКонечныйОстаток / ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов
-					ИНАЧЕ 0
-				КОНЕЦ
-	КОНЕЦ КАК КонечныйОстаток,
+	0 КАК НачальныйОстаток,
+	0 КАК КонечныйОстаток,
 	ВЫБОР
 		КОГДА &amp;ЕдиницыКоличества = 0
 			ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииПриход
@@ -985,51 +1148,29 @@
 					ИНАЧЕ 0
 				КОНЕЦ
 	КОНЕЦ КАК Расход,
-	ВЫБОР
-		КОГДА &amp;ЕдиницыКоличества = 0
-			ТОГДА ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеНачальныйОстаток
-		КОГДА &amp;ЕдиницыКоличества = 1
-			ТОГДА ВЫБОР
-					КОГДА ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов &lt;&gt; 0
-						ТОГДА ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеНачальныйОстаток / ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов
-					ИНАЧЕ 0
-				КОНЕЦ
-	КОНЕЦ КАК КОтгрузкеНачальныйОстаток,
-	ВЫБОР
-		КОГДА &amp;ЕдиницыКоличества = 0
-			ТОГДА ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеКонечныйОстаток
-		КОГДА &amp;ЕдиницыКоличества = 1
-			ТОГДА ВЫБОР
-					КОГДА ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов &lt;&gt; 0
-						ТОГДА ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеКонечныйОстаток / ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов
-					ИНАЧЕ 0
-				КОНЕЦ
-	КОНЕЦ КАК КОтгрузкеКонечныйОстаток,
-	ВЫБОР
-		КОГДА &amp;ЕдиницыКоличества = 0
-			ТОГДА ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеПриход
-		КОГДА &amp;ЕдиницыКоличества = 1
-			ТОГДА ВЫБОР
-					КОГДА ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов &lt;&gt; 0
-						ТОГДА ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеПриход / ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов
-					ИНАЧЕ 0
-				КОНЕЦ
-	КОНЕЦ КАК КОтгрузкеПриход,
-
-	ТоварыНаСкладахОстаткиИОбороты.ВНаличииНачальныйОстаток * &amp;ТекстЗапросаВесНоменклатуры КАК НачальныйОстатокВес,
-	ТоварыНаСкладахОстаткиИОбороты.ВНаличииКонечныйОстаток * &amp;ТекстЗапросаВесНоменклатуры КАК КонечныйОстатокВес,
+	0 КАК КОтгрузкеНачальныйОстаток,
+	0 КАК КОтгрузкеКонечныйОстаток,
+	0 КАК КОтгрузкеПриход,
+	0 КАК НачальныйОстатокВес,
+	0 КАК КонечныйОстатокВес,
 	ТоварыНаСкладахОстаткиИОбороты.ВНаличииПриход * &amp;ТекстЗапросаВесНоменклатуры КАК ПриходВес,
 	ТоварыНаСкладахОстаткиИОбороты.ВНаличииРасход * &amp;ТекстЗапросаВесНоменклатуры КАК РасходВес,
-	ТоварыНаСкладахОстаткиИОбороты.ВНаличииНачальныйОстаток * &amp;ТекстЗапросаОбъемНоменклатуры КАК НачальныйОстатокОбъем,
-	ТоварыНаСкладахОстаткиИОбороты.ВНаличииКонечныйОстаток * &amp;ТекстЗапросаОбъемНоменклатуры КАК КонечныйОстатокОбъем,
+	0 КАК НачальныйОстатокОбъем,
+	0 КАК КонечныйОстатокОбъем,
 	ТоварыНаСкладахОстаткиИОбороты.ВНаличииПриход * &amp;ТекстЗапросаОбъемНоменклатуры КАК ПриходОбъем,
 	ТоварыНаСкладахОстаткиИОбороты.ВНаличииРасход * &amp;ТекстЗапросаОбъемНоменклатуры КАК РасходОбъем,
-	ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеНачальныйОстаток * &amp;ТекстЗапросаВесНоменклатуры КАК КОтгрузкеНачальныйОстатокВес,
-	ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеКонечныйОстаток * &amp;ТекстЗапросаВесНоменклатуры КАК КОтгрузкеКонечныйОстатокВес,
-	ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеПриход * &amp;ТекстЗапросаВесНоменклатуры КАК КОтгрузкеПриходВес,
-	ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеНачальныйОстаток * &amp;ТекстЗапросаОбъемНоменклатуры КАК КОтгрузкеНачальныйОстатокОбъем,
-	ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеКонечныйОстаток * &amp;ТекстЗапросаОбъемНоменклатуры КАК КОтгрузкеКонечныйОстатокОбъем,
-	ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеПриход * &amp;ТекстЗапросаОбъемНоменклатуры КАК КОтгрузкеПриходОбъем
+	0 КАК КОтгрузкеНачальныйОстатокВес,
+	0 КАК КОтгрузкеКонечныйОстатокВес,
+	0 КАК КОтгрузкеПриходВес,
+	0 КАК КОтгрузкеНачальныйОстатокОбъем,
+	0 КАК КОтгрузкеКонечныйОстатокОбъем,
+	0 КАК КОтгрузкеПриходОбъем,
+	NULL КАК ПрочийПриход,
+	NULL КАК ПрочийРасход,
+	NULL КАК ПрочийПриходВес,
+	NULL КАК ПрочийРасходВес,
+	NULL КАК ПрочийПриходОбъем,
+	NULL КАК ПрочийРасходОбъем
 {ВЫБРАТЬ
 	Номенклатура.*,
 	Характеристика.*,
@@ -1067,6 +1208,425 @@
 	КОтгрузкеНачальныйОстатокОбъем,
 	КОтгрузкеКонечныйОстатокОбъем,
 	КОтгрузкеПриходОбъем}
+ИЗ
+	РегистрНакопления.ТоварыНаСкладах.ОстаткиИОбороты(, , Авто, , {((Номенклатура, Характеристика) В
+			    (ВЫБРАТЬ
+			        ОтборПоСегментуНоменклатуры.Номенклатура,
+			        ОтборПоСегментуНоменклатуры.Характеристика
+			    ИЗ
+			        ОтборПоСегментуНоменклатуры
+			    ГДЕ
+			        ОтборПоСегментуНоменклатуры.ИспользуетсяОтборПоСегментуНоменклатуры = &amp;ИспользуетсяОтборПоСегментуНоменклатуры)), ((Номенклатура, Характеристика, Серия) В
+			    (ВЫБРАТЬ
+			        ОтборПоПересчетуТоваров.Номенклатура,
+			        ОтборПоПересчетуТоваров.Характеристика,
+			        ОтборПоПересчетуТоваров.Серия
+			    ИЗ
+			        ОтборПоПересчетуТоваров
+			    ГДЕ
+			        ОтборПоПересчетуТоваров.ИспользуетсяОтборПересчетуТоваров = &amp;ИспользуетсяОтборПересчетуТоваров))}) КАК ТоварыНаСкладахОстаткиИОбороты
+ГДЕ
+	ТоварыНаСкладахОстаткиИОбороты.Регистратор В
+			(ВЫБРАТЬ
+				ВТ_ПриходныеРасходныеДокументы.Регистратор КАК Регистратор
+			ИЗ
+				ВТ_ПриходныеРасходныеДокументы КАК ВТ_ПриходныеРасходныеДокументы)
+{ГДЕ
+	ТоварыНаСкладахОстаткиИОбороты.Номенклатура.*,
+	ТоварыНаСкладахОстаткиИОбороты.Характеристика.*,
+	ТоварыНаСкладахОстаткиИОбороты.Номенклатура.ЕдиницаИзмерения.*,
+	ТоварыНаСкладахОстаткиИОбороты.Номенклатура.ЕдиницаДляОтчетов.*,
+	ТоварыНаСкладахОстаткиИОбороты.Серия.*,
+	ТоварыНаСкладахОстаткиИОбороты.Склад.*,
+	ТоварыНаСкладахОстаткиИОбороты.Помещение.*,
+	(ВЫБОР
+			КОГДА ТоварыНаСкладахОстаткиИОбороты.Регистратор = НЕОПРЕДЕЛЕНО
+				ТОГДА NULL
+			ИНАЧЕ ТоварыНаСкладахОстаткиИОбороты.Регистратор
+		КОНЕЦ).* КАК Регистратор,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодСекунда,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодДень,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодНеделя,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодДекада,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодМесяц,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодКвартал,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодГод,
+	(ВЫБОР
+			КОГДА &amp;ЕдиницыКоличества = 0
+				ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииНачальныйОстаток
+			КОГДА &amp;ЕдиницыКоличества = 1
+				ТОГДА ВЫБОР
+						КОГДА ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов &lt;&gt; 0
+							ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииНачальныйОстаток / ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов
+						ИНАЧЕ 0
+					КОНЕЦ
+		КОНЕЦ) КАК НачальныйОстаток,
+	(ВЫБОР
+			КОГДА &amp;ЕдиницыКоличества = 0
+				ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииКонечныйОстаток
+			КОГДА &amp;ЕдиницыКоличества = 1
+				ТОГДА ВЫБОР
+						КОГДА ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов &lt;&gt; 0
+							ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииКонечныйОстаток / ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов
+						ИНАЧЕ 0
+					КОНЕЦ
+		КОНЕЦ) КАК КонечныйОстаток,
+	(ВЫБОР
+			КОГДА &amp;ЕдиницыКоличества = 0
+				ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииПриход
+			КОГДА &amp;ЕдиницыКоличества = 1
+				ТОГДА ВЫБОР
+						КОГДА ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов &lt;&gt; 0
+							ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииПриход / ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов
+						ИНАЧЕ 0
+					КОНЕЦ
+		КОНЕЦ) КАК Приход,
+	(ВЫБОР
+			КОГДА &amp;ЕдиницыКоличества = 0
+				ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииРасход
+			КОГДА &amp;ЕдиницыКоличества = 1
+				ТОГДА ВЫБОР
+						КОГДА ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов &lt;&gt; 0
+							ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииРасход / ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов
+						ИНАЧЕ 0
+					КОНЕЦ
+		КОНЕЦ) КАК Расход,
+	(ВЫБОР
+			КОГДА &amp;ЕдиницыКоличества = 0
+				ТОГДА ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеНачальныйОстаток
+			КОГДА &amp;ЕдиницыКоличества = 1
+				ТОГДА ВЫБОР
+						КОГДА ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов &lt;&gt; 0
+							ТОГДА ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеНачальныйОстаток / ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов
+						ИНАЧЕ 0
+					КОНЕЦ
+		КОНЕЦ) КАК КОтгрузкеНачальныйОстаток,
+	(ВЫБОР
+			КОГДА &amp;ЕдиницыКоличества = 0
+				ТОГДА ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеКонечныйОстаток
+			КОГДА &amp;ЕдиницыКоличества = 1
+				ТОГДА ВЫБОР
+						КОГДА ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов &lt;&gt; 0
+							ТОГДА ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеКонечныйОстаток / ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов
+						ИНАЧЕ 0
+					КОНЕЦ
+		КОНЕЦ) КАК КОтгрузкеКонечныйОстаток,
+	(ВЫБОР
+			КОГДА &amp;ЕдиницыКоличества = 0
+				ТОГДА ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеПриход
+			КОГДА &amp;ЕдиницыКоличества = 1
+				ТОГДА ВЫБОР
+						КОГДА ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов &lt;&gt; 0
+							ТОГДА ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеПриход / ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов
+						ИНАЧЕ 0
+					КОНЕЦ
+		КОНЕЦ) КАК КОтгрузкеПриход,
+	(ТоварыНаСкладахОстаткиИОбороты.ВНаличииНачальныйОстаток * &amp;ТекстЗапросаВесНоменклатуры) КАК НачальныйОстатокВес,
+	(ТоварыНаСкладахОстаткиИОбороты.ВНаличииКонечныйОстаток * &amp;ТекстЗапросаВесНоменклатуры) КАК КонечныйОстатокВес,
+	(ТоварыНаСкладахОстаткиИОбороты.ВНаличииПриход * &amp;ТекстЗапросаВесНоменклатуры) КАК ПриходВес,
+	(ТоварыНаСкладахОстаткиИОбороты.ВНаличииРасход * &amp;ТекстЗапросаВесНоменклатуры) КАК РасходВес,
+	(ТоварыНаСкладахОстаткиИОбороты.ВНаличииНачальныйОстаток * &amp;ТекстЗапросаОбъемНоменклатуры) КАК НачальныйОстатокОбъем,
+	(ТоварыНаСкладахОстаткиИОбороты.ВНаличииКонечныйОстаток * &amp;ТекстЗапросаОбъемНоменклатуры) КАК КонечныйОстатокОбъем,
+	(ТоварыНаСкладахОстаткиИОбороты.ВНаличииПриход * &amp;ТекстЗапросаОбъемНоменклатуры) КАК ПриходОбъем,
+	(ТоварыНаСкладахОстаткиИОбороты.ВНаличииРасход * &amp;ТекстЗапросаОбъемНоменклатуры) КАК РасходОбъем,
+	(ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеНачальныйОстаток * &amp;ТекстЗапросаВесНоменклатуры) КАК КОтгрузкеНачальныйОстатокВес,
+	(ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеКонечныйОстаток * &amp;ТекстЗапросаВесНоменклатуры) КАК КОтгрузкеКонечныйОстатокВес,
+	(ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеПриход * &amp;ТекстЗапросаВесНоменклатуры) КАК КОтгрузкеПриходВес,
+	(ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеНачальныйОстаток * &amp;ТекстЗапросаОбъемНоменклатуры) КАК КОтгрузкеНачальныйОстатокОбъем,
+	(ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеКонечныйОстаток * &amp;ТекстЗапросаОбъемНоменклатуры) КАК КОтгрузкеКонечныйОстатокОбъем,
+	(ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеПриход * &amp;ТекстЗапросаОбъемНоменклатуры) КАК КОтгрузкеПриходОбъем}
+
+ОБЪЕДИНИТЬ
+
+ВЫБРАТЬ
+	ТоварыНаСкладахОстаткиИОбороты.Номенклатура,
+	ТоварыНаСкладахОстаткиИОбороты.Характеристика,
+	ТоварыНаСкладахОстаткиИОбороты.Назначение,
+	ТоварыНаСкладахОстаткиИОбороты.Номенклатура.ЕдиницаИзмерения,
+	ТоварыНаСкладахОстаткиИОбороты.Номенклатура.ЕдиницаДляОтчетов,
+	ТоварыНаСкладахОстаткиИОбороты.Серия,
+	ТоварыНаСкладахОстаткиИОбороты.Склад,
+	ТоварыНаСкладахОстаткиИОбороты.Помещение,
+	ВЫБОР
+		КОГДА ТоварыНаСкладахОстаткиИОбороты.Регистратор = НЕОПРЕДЕЛЕНО
+			ТОГДА NULL
+		ИНАЧЕ ТоварыНаСкладахОстаткиИОбороты.Регистратор
+	КОНЕЦ,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодСекунда,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодДень,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодНеделя,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодДекада,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодМесяц,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодКвартал,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодГод,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	ВЫБОР
+		КОГДА &amp;ЕдиницыКоличества = 0
+			ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииПриход
+		КОГДА &amp;ЕдиницыКоличества = 1
+			ТОГДА ВЫБОР
+					КОГДА ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов &lt;&gt; 0
+						ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииПриход / ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов
+					ИНАЧЕ 0
+				КОНЕЦ
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА &amp;ЕдиницыКоличества = 0
+			ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииРасход
+		КОГДА &amp;ЕдиницыКоличества = 1
+			ТОГДА ВЫБОР
+					КОГДА ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов &lt;&gt; 0
+						ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииРасход / ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов
+					ИНАЧЕ 0
+				КОНЕЦ
+	КОНЕЦ,
+	ТоварыНаСкладахОстаткиИОбороты.ВНаличииПриход * &amp;ТекстЗапросаВесНоменклатуры,
+	ТоварыНаСкладахОстаткиИОбороты.ВНаличииРасход * &amp;ТекстЗапросаВесНоменклатуры,
+	ТоварыНаСкладахОстаткиИОбороты.ВНаличииПриход * &amp;ТекстЗапросаОбъемНоменклатуры,
+	ТоварыНаСкладахОстаткиИОбороты.ВНаличииРасход * &amp;ТекстЗапросаОбъемНоменклатуры
+ИЗ
+	РегистрНакопления.ТоварыНаСкладах.ОстаткиИОбороты(, , Авто, , {((Номенклатура, Характеристика) В
+			    (ВЫБРАТЬ
+			        ОтборПоСегментуНоменклатуры.Номенклатура,
+			        ОтборПоСегментуНоменклатуры.Характеристика
+			    ИЗ
+			        ОтборПоСегментуНоменклатуры
+			    ГДЕ
+			        ОтборПоСегментуНоменклатуры.ИспользуетсяОтборПоСегментуНоменклатуры = &amp;ИспользуетсяОтборПоСегментуНоменклатуры)), ((Номенклатура, Характеристика, Серия) В
+			    (ВЫБРАТЬ
+			        ОтборПоПересчетуТоваров.Номенклатура,
+			        ОтборПоПересчетуТоваров.Характеристика,
+			        ОтборПоПересчетуТоваров.Серия
+			    ИЗ
+			        ОтборПоПересчетуТоваров
+			    ГДЕ
+			        ОтборПоПересчетуТоваров.ИспользуетсяОтборПересчетуТоваров = &amp;ИспользуетсяОтборПересчетуТоваров))}) КАК ТоварыНаСкладахОстаткиИОбороты
+ГДЕ
+	НЕ ТоварыНаСкладахОстаткиИОбороты.Регистратор В
+				(ВЫБРАТЬ
+					ВТ_ПриходныеРасходныеДокументы.Регистратор КАК Регистратор
+				ИЗ
+					ВТ_ПриходныеРасходныеДокументы КАК ВТ_ПриходныеРасходныеДокументы)
+{ГДЕ
+	ТоварыНаСкладахОстаткиИОбороты.Номенклатура.*,
+	ТоварыНаСкладахОстаткиИОбороты.Характеристика.*,
+	ТоварыНаСкладахОстаткиИОбороты.Номенклатура.ЕдиницаИзмерения.*,
+	ТоварыНаСкладахОстаткиИОбороты.Номенклатура.ЕдиницаДляОтчетов.*,
+	ТоварыНаСкладахОстаткиИОбороты.Серия.*,
+	ТоварыНаСкладахОстаткиИОбороты.Склад.*,
+	ТоварыНаСкладахОстаткиИОбороты.Помещение.*,
+	(ВЫБОР
+			КОГДА ТоварыНаСкладахОстаткиИОбороты.Регистратор = НЕОПРЕДЕЛЕНО
+				ТОГДА NULL
+			ИНАЧЕ ТоварыНаСкладахОстаткиИОбороты.Регистратор
+		КОНЕЦ).* КАК Регистратор,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодСекунда,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодДень,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодНеделя,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодДекада,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодМесяц,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодКвартал,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодГод,
+	(ВЫБОР
+			КОГДА &amp;ЕдиницыКоличества = 0
+				ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииНачальныйОстаток
+			КОГДА &amp;ЕдиницыКоличества = 1
+				ТОГДА ВЫБОР
+						КОГДА ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов &lt;&gt; 0
+							ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииНачальныйОстаток / ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов
+						ИНАЧЕ 0
+					КОНЕЦ
+		КОНЕЦ) КАК НачальныйОстаток,
+	(ВЫБОР
+			КОГДА &amp;ЕдиницыКоличества = 0
+				ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииКонечныйОстаток
+			КОГДА &amp;ЕдиницыКоличества = 1
+				ТОГДА ВЫБОР
+						КОГДА ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов &lt;&gt; 0
+							ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииКонечныйОстаток / ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов
+						ИНАЧЕ 0
+					КОНЕЦ
+		КОНЕЦ) КАК КонечныйОстаток,
+	(ВЫБОР
+			КОГДА &amp;ЕдиницыКоличества = 0
+				ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииПриход
+			КОГДА &amp;ЕдиницыКоличества = 1
+				ТОГДА ВЫБОР
+						КОГДА ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов &lt;&gt; 0
+							ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииПриход / ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов
+						ИНАЧЕ 0
+					КОНЕЦ
+		КОНЕЦ) КАК Приход,
+	(ВЫБОР
+			КОГДА &amp;ЕдиницыКоличества = 0
+				ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииРасход
+			КОГДА &amp;ЕдиницыКоличества = 1
+				ТОГДА ВЫБОР
+						КОГДА ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов &lt;&gt; 0
+							ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииРасход / ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов
+						ИНАЧЕ 0
+					КОНЕЦ
+		КОНЕЦ) КАК Расход,
+	(ВЫБОР
+			КОГДА &amp;ЕдиницыКоличества = 0
+				ТОГДА ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеНачальныйОстаток
+			КОГДА &amp;ЕдиницыКоличества = 1
+				ТОГДА ВЫБОР
+						КОГДА ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов &lt;&gt; 0
+							ТОГДА ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеНачальныйОстаток / ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов
+						ИНАЧЕ 0
+					КОНЕЦ
+		КОНЕЦ) КАК КОтгрузкеНачальныйОстаток,
+	(ВЫБОР
+			КОГДА &amp;ЕдиницыКоличества = 0
+				ТОГДА ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеКонечныйОстаток
+			КОГДА &amp;ЕдиницыКоличества = 1
+				ТОГДА ВЫБОР
+						КОГДА ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов &lt;&gt; 0
+							ТОГДА ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеКонечныйОстаток / ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов
+						ИНАЧЕ 0
+					КОНЕЦ
+		КОНЕЦ) КАК КОтгрузкеКонечныйОстаток,
+	(ВЫБОР
+			КОГДА &amp;ЕдиницыКоличества = 0
+				ТОГДА ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеПриход
+			КОГДА &amp;ЕдиницыКоличества = 1
+				ТОГДА ВЫБОР
+						КОГДА ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов &lt;&gt; 0
+							ТОГДА ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеПриход / ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов
+						ИНАЧЕ 0
+					КОНЕЦ
+		КОНЕЦ) КАК КОтгрузкеПриход,
+	(ТоварыНаСкладахОстаткиИОбороты.ВНаличииНачальныйОстаток * &amp;ТекстЗапросаВесНоменклатуры) КАК НачальныйОстатокВес,
+	(ТоварыНаСкладахОстаткиИОбороты.ВНаличииКонечныйОстаток * &amp;ТекстЗапросаВесНоменклатуры) КАК КонечныйОстатокВес,
+	(ТоварыНаСкладахОстаткиИОбороты.ВНаличииПриход * &amp;ТекстЗапросаВесНоменклатуры) КАК ПриходВес,
+	(ТоварыНаСкладахОстаткиИОбороты.ВНаличииРасход * &amp;ТекстЗапросаВесНоменклатуры) КАК РасходВес,
+	(ТоварыНаСкладахОстаткиИОбороты.ВНаличииНачальныйОстаток * &amp;ТекстЗапросаОбъемНоменклатуры) КАК НачальныйОстатокОбъем,
+	(ТоварыНаСкладахОстаткиИОбороты.ВНаличииКонечныйОстаток * &amp;ТекстЗапросаОбъемНоменклатуры) КАК КонечныйОстатокОбъем,
+	(ТоварыНаСкладахОстаткиИОбороты.ВНаличииПриход * &amp;ТекстЗапросаОбъемНоменклатуры) КАК ПриходОбъем,
+	(ТоварыНаСкладахОстаткиИОбороты.ВНаличииРасход * &amp;ТекстЗапросаОбъемНоменклатуры) КАК РасходОбъем,
+	(ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеНачальныйОстаток * &amp;ТекстЗапросаВесНоменклатуры) КАК КОтгрузкеНачальныйОстатокВес,
+	(ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеКонечныйОстаток * &amp;ТекстЗапросаВесНоменклатуры) КАК КОтгрузкеКонечныйОстатокВес,
+	(ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеПриход * &amp;ТекстЗапросаВесНоменклатуры) КАК КОтгрузкеПриходВес,
+	(ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеНачальныйОстаток * &amp;ТекстЗапросаОбъемНоменклатуры) КАК КОтгрузкеНачальныйОстатокОбъем,
+	(ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеКонечныйОстаток * &amp;ТекстЗапросаОбъемНоменклатуры) КАК КОтгрузкеКонечныйОстатокОбъем,
+	(ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеПриход * &amp;ТекстЗапросаОбъемНоменклатуры) КАК КОтгрузкеПриходОбъем}
+
+ОБЪЕДИНИТЬ
+
+ВЫБРАТЬ
+	ТоварыНаСкладахОстаткиИОбороты.Номенклатура,
+	ТоварыНаСкладахОстаткиИОбороты.Характеристика,
+	ТоварыНаСкладахОстаткиИОбороты.Назначение,
+	ТоварыНаСкладахОстаткиИОбороты.Номенклатура.ЕдиницаИзмерения,
+	ТоварыНаСкладахОстаткиИОбороты.Номенклатура.ЕдиницаДляОтчетов,
+	ТоварыНаСкладахОстаткиИОбороты.Серия,
+	ТоварыНаСкладахОстаткиИОбороты.Склад,
+	ТоварыНаСкладахОстаткиИОбороты.Помещение,
+	ВЫБОР
+		КОГДА ТоварыНаСкладахОстаткиИОбороты.Регистратор = НЕОПРЕДЕЛЕНО
+			ТОГДА NULL
+		ИНАЧЕ ТоварыНаСкладахОстаткиИОбороты.Регистратор
+	КОНЕЦ,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодСекунда,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодДень,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодНеделя,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодДекада,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодМесяц,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодКвартал,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодГод,
+	ВЫБОР
+		КОГДА &amp;ЕдиницыКоличества = 0
+			ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииНачальныйОстаток
+		КОГДА &amp;ЕдиницыКоличества = 1
+			ТОГДА ВЫБОР
+					КОГДА ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов &lt;&gt; 0
+						ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииНачальныйОстаток / ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов
+					ИНАЧЕ 0
+				КОНЕЦ
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА &amp;ЕдиницыКоличества = 0
+			ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииКонечныйОстаток
+		КОГДА &amp;ЕдиницыКоличества = 1
+			ТОГДА ВЫБОР
+					КОГДА ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов &lt;&gt; 0
+						ТОГДА ТоварыНаСкладахОстаткиИОбороты.ВНаличииКонечныйОстаток / ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов
+					ИНАЧЕ 0
+				КОНЕЦ
+	КОНЕЦ,
+	0,
+	0,
+	ВЫБОР
+		КОГДА &amp;ЕдиницыКоличества = 0
+			ТОГДА ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеНачальныйОстаток
+		КОГДА &amp;ЕдиницыКоличества = 1
+			ТОГДА ВЫБОР
+					КОГДА ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов &lt;&gt; 0
+						ТОГДА ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеНачальныйОстаток / ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов
+					ИНАЧЕ 0
+				КОНЕЦ
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА &amp;ЕдиницыКоличества = 0
+			ТОГДА ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеКонечныйОстаток
+		КОГДА &amp;ЕдиницыКоличества = 1
+			ТОГДА ВЫБОР
+					КОГДА ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов &lt;&gt; 0
+						ТОГДА ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеКонечныйОстаток / ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов
+					ИНАЧЕ 0
+				КОНЕЦ
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА &amp;ЕдиницыКоличества = 0
+			ТОГДА ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеПриход
+		КОГДА &amp;ЕдиницыКоличества = 1
+			ТОГДА ВЫБОР
+					КОГДА ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов &lt;&gt; 0
+						ТОГДА ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеПриход / ТоварыНаСкладахОстаткиИОбороты.Номенклатура.КоэффициентЕдиницыДляОтчетов
+					ИНАЧЕ 0
+				КОНЕЦ
+	КОНЕЦ,
+	ТоварыНаСкладахОстаткиИОбороты.ВНаличииНачальныйОстаток * &amp;ТекстЗапросаВесНоменклатуры,
+	ТоварыНаСкладахОстаткиИОбороты.ВНаличииКонечныйОстаток * &amp;ТекстЗапросаВесНоменклатуры,
+	0,
+	0,
+	ТоварыНаСкладахОстаткиИОбороты.ВНаличииНачальныйОстаток * &amp;ТекстЗапросаОбъемНоменклатуры,
+	ТоварыНаСкладахОстаткиИОбороты.ВНаличииКонечныйОстаток * &amp;ТекстЗапросаОбъемНоменклатуры,
+	0,
+	0,
+	ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеНачальныйОстаток * &amp;ТекстЗапросаВесНоменклатуры,
+	ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеКонечныйОстаток * &amp;ТекстЗапросаВесНоменклатуры,
+	ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеПриход * &amp;ТекстЗапросаВесНоменклатуры,
+	ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеНачальныйОстаток * &amp;ТекстЗапросаОбъемНоменклатуры,
+	ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеКонечныйОстаток * &amp;ТекстЗапросаОбъемНоменклатуры,
+	ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеПриход * &amp;ТекстЗапросаОбъемНоменклатуры,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL
 ИЗ
 	РегистрНакопления.ТоварыНаСкладах.ОстаткиИОбороты(, , Авто, , {((Номенклатура, Характеристика) В
 			    (ВЫБРАТЬ
@@ -1174,7 +1734,6 @@
 						ИНАЧЕ 0
 					КОНЕЦ
 		КОНЕЦ) КАК КОтгрузкеПриход,
-	
 	(ТоварыНаСкладахОстаткиИОбороты.ВНаличииНачальныйОстаток * &amp;ТекстЗапросаВесНоменклатуры) КАК НачальныйОстатокВес,
 	(ТоварыНаСкладахОстаткиИОбороты.ВНаличииКонечныйОстаток * &amp;ТекстЗапросаВесНоменклатуры) КАК КонечныйОстатокВес,
 	(ТоварыНаСкладахОстаткиИОбороты.ВНаличииПриход * &amp;ТекстЗапросаВесНоменклатуры) КАК ПриходВес,
@@ -1190,6 +1749,54 @@
 	(ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеКонечныйОстаток * &amp;ТекстЗапросаОбъемНоменклатуры) КАК КОтгрузкеКонечныйОстатокОбъем,
 	(ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеПриход * &amp;ТекстЗапросаОбъемНоменклатуры) КАК КОтгрузкеПриходОбъем}</query>
 		</dataSet>
+		<dataSet xsi:type="DataSetQuery">
+			<name>НаборДанных1</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Номенклатура</dataPath>
+				<field>Номенклатура</field>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Штрихкод</dataPath>
+				<field>Штрихкод</field>
+				<role>
+					<dimension xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</dimension>
+				</role>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Характеристика</dataPath>
+				<field>Характеристика</field>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ
+	ШтрихкодыНоменклатуры.Штрихкод КАК Штрихкод,
+	ШтрихкодыНоменклатуры.Номенклатура КАК Номенклатура,
+	ШтрихкодыНоменклатуры.Характеристика КАК Характеристика
+ИЗ
+	РегистрСведений.ШтрихкодыНоменклатуры КАК ШтрихкодыНоменклатуры
+
+СГРУППИРОВАТЬ ПО
+	ШтрихкодыНоменклатуры.Штрихкод,
+	ШтрихкодыНоменклатуры.Номенклатура,
+	ШтрихкодыНоменклатуры.Характеристика</query>
+		</dataSet>
+		<dataSetLink>
+			<sourceDataSet>НаборДанных</sourceDataSet>
+			<destinationDataSet>НаборДанных1</destinationDataSet>
+			<sourceExpression>Номенклатура</sourceExpression>
+			<destinationExpression>Номенклатура</destinationExpression>
+		</dataSetLink>
+		<dataSetLink>
+			<sourceDataSet>НаборДанных</sourceDataSet>
+			<destinationDataSet>НаборДанных1</destinationDataSet>
+			<sourceExpression>Номенклатура</sourceExpression>
+			<destinationExpression>Характеристика</destinationExpression>
+		</dataSetLink>
 		<calculatedField>
 			<dataPath>Номенклатура.ЕдиницаИзмерения</dataPath>
 			<expression>ВЫБОР
@@ -1340,6 +1947,42 @@
 			<dataPath>КОтгрузкеПриходОбъем</dataPath>
 			<expression>Сумма(КОтгрузкеПриходОбъем)</expression>
 		</totalField>
+		<totalField>
+			<dataPath>Штрихкод</dataPath>
+			<expression>Количество(Штрихкод)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>ПрочийПриход</dataPath>
+			<expression>ВЫБОР
+	КОГДА &amp;КоличественныеИтогиПоЕдИзм И Количество(Различные ЕдиницаОтчета) &gt; 1
+		ТОГДА 0
+	ИНАЧЕ Сумма(ПрочийПриход)
+КОНЕЦ</expression>
+		</totalField>
+		<totalField>
+			<dataPath>ПрочийРасход</dataPath>
+			<expression>ВЫБОР
+	КОГДА &amp;КоличественныеИтогиПоЕдИзм И Количество(Различные ЕдиницаОтчета) &gt; 1
+		ТОГДА 0
+	ИНАЧЕ Сумма(ПрочийРасход)
+КОНЕЦ</expression>
+		</totalField>
+		<totalField>
+			<dataPath>ПрочийПриходВес</dataPath>
+			<expression>Сумма(ПрочийПриходВес)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>ПрочийПриходОбъем</dataPath>
+			<expression>Сумма(ПрочийПриходОбъем)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>ПрочийРасходВес</dataPath>
+			<expression>Сумма(ПрочийРасходВес)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>ПрочийРасходОбъем</dataPath>
+			<expression>Сумма(ПрочийРасходОбъем)</expression>
+		</totalField>
 		<parameter>
 			<name>Период</name>
 			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
@@ -1355,6 +1998,7 @@
 				<d4p1:variant xsi:type="d4p1:StandardPeriodVariant">Today</d4p1:variant>
 			</value>
 			<useRestriction>false</useRestriction>
+			<inputParameters/>
 		</parameter>
 		<parameter>
 			<name>НачалоПериода</name>
@@ -1421,6 +2065,7 @@
 			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 			<useRestriction>true</useRestriction>
 			<expression>ТекущаяДатаСеанса()</expression>
+			<inputParameters/>
 		</parameter>
 		<parameter>
 			<name>ИспользуетсяОтборПоСегментуНоменклатуры</name>
@@ -1436,6 +2081,7 @@
 			<value xsi:type="xs:boolean">false</value>
 			<useRestriction>true</useRestriction>
 			<availableAsField>false</availableAsField>
+			<inputParameters/>
 		</parameter>
 		<parameter>
 			<name>ИспользуетсяОтборПересчетуТоваров</name>
@@ -1451,6 +2097,7 @@
 			<value xsi:type="xs:boolean">false</value>
 			<useRestriction>true</useRestriction>
 			<availableAsField>false</availableAsField>
+			<inputParameters/>
 		</parameter>
 		<parameter>
 			<name>ЕдиницыКоличества</name>
@@ -1488,6 +2135,7 @@
 					</d5p1:item>
 				</presentation>
 			</availableValue>
+			<inputParameters/>
 			<use>Always</use>
 		</parameter>
 		<parameter>
@@ -1521,6 +2169,7 @@
 					</d5p1:item>
 				</presentation>
 			</availableValue>
+			<inputParameters/>
 			<use>Always</use>
 		</parameter>
 		<parameter>
@@ -1542,6 +2191,7 @@
 			<value xsi:type="xs:decimal">0</value>
 			<useRestriction>true</useRestriction>
 			<availableAsField>false</availableAsField>
+			<inputParameters/>
 		</parameter>
 		<parameter>
 			<name>ТекстЗапросаОбъемНоменклатуры</name>
@@ -1562,6 +2212,7 @@
 			<value xsi:type="xs:decimal">0</value>
 			<useRestriction>true</useRestriction>
 			<availableAsField>false</availableAsField>
+			<inputParameters/>
 		</parameter>
 		<settingsVariant>
 			<name xmlns="http://v8.1c.ru/8.1/data-composition-system/settings">ВедомостьПоТоварамНаСкладах</name>
@@ -1630,6 +2281,9 @@
 				</v8:item>
 			</lwsTitle>
 		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Штрихкод</field>
+		</item>
 		<item xsi:type="SelectedItemFolder">
 			<lwsTitle>
 				<v8:item>
@@ -1644,7 +2298,13 @@
 				<field>Приход</field>
 			</item>
 			<item xsi:type="SelectedItemField">
+				<field>ПрочийПриход</field>
+			</item>
+			<item xsi:type="SelectedItemField">
 				<field>Расход</field>
+			</item>
+			<item xsi:type="SelectedItemField">
+				<field>ПрочийРасход</field>
 			</item>
 			<item xsi:type="SelectedItemField">
 				<field>КонечныйОстаток</field>
@@ -1678,11 +2338,29 @@
 				</lwsTitle>
 			</item>
 			<item xsi:type="SelectedItemField">
+				<field>ПрочийПриходВес</field>
+				<lwsTitle>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ПрочийПриход</v8:content>
+					</v8:item>
+				</lwsTitle>
+			</item>
+			<item xsi:type="SelectedItemField">
 				<field>РасходВес</field>
 				<lwsTitle>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Расход</v8:content>
+					</v8:item>
+				</lwsTitle>
+			</item>
+			<item xsi:type="SelectedItemField">
+				<field>РасходВес</field>
+				<lwsTitle>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ПрочийРасход</v8:content>
 					</v8:item>
 				</lwsTitle>
 			</item>
@@ -1724,11 +2402,29 @@
 				</lwsTitle>
 			</item>
 			<item xsi:type="SelectedItemField">
+				<field>ПрочийПриходОбъем</field>
+				<lwsTitle>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ПрочийПриход</v8:content>
+					</v8:item>
+				</lwsTitle>
+			</item>
+			<item xsi:type="SelectedItemField">
 				<field>РасходОбъем</field>
 				<lwsTitle>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Расход</v8:content>
+					</v8:item>
+				</lwsTitle>
+			</item>
+			<item xsi:type="SelectedItemField">
+				<field>ПрочийРасходОбъем</field>
+				<lwsTitle>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ПрочийПриход</v8:content>
 					</v8:item>
 				</lwsTitle>
 			</item>
@@ -1782,6 +2478,19 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Артикул</v8:content>
+				</v8:item>
+			</userSettingPresentation>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">Номенклатура.Производитель</left>
+			<comparisonType>Equal</comparisonType>
+			<right xsi:type="dcscor:DesignTimeValue"/>
+			<userSettingID>ed4b569a-24c8-4439-8e4e-b735b9aa9b3e</userSettingID>
+			<userSettingPresentation xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Производитель товара</v8:content>
 				</v8:item>
 			</userSettingPresentation>
 		</item>
@@ -1938,6 +2647,7 @@
 		<itemsViewMode>Normal</itemsViewMode>
 	</item>
 	<item xsi:type="StructureItemGroup">
+		<use>false</use>
 		<groupItems>
 			<item xsi:type="GroupItemField">
 				<field>Номенклатура.ЕдиницаИзмерения</field>
