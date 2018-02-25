@@ -11,7 +11,7 @@
 				<dataPath>ПериодГод</dataPath>
 				<field>ПериодГод</field>
 				<role>
-					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">7</periodNumber>
+					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">8</periodNumber>
 					<periodType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Additional</periodType>
 				</role>
 				<appearance/>
@@ -21,7 +21,7 @@
 				<dataPath>ПериодКвартал</dataPath>
 				<field>ПериодКвартал</field>
 				<role>
-					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">6</periodNumber>
+					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">7</periodNumber>
 					<periodType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Additional</periodType>
 				</role>
 				<appearance/>
@@ -31,7 +31,7 @@
 				<dataPath>ПериодМесяц</dataPath>
 				<field>ПериодМесяц</field>
 				<role>
-					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">5</periodNumber>
+					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">6</periodNumber>
 					<periodType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Additional</periodType>
 				</role>
 				<appearance/>
@@ -41,7 +41,7 @@
 				<dataPath>ПериодДекада</dataPath>
 				<field>ПериодДекада</field>
 				<role>
-					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">4</periodNumber>
+					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">5</periodNumber>
 					<periodType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Additional</periodType>
 				</role>
 				<appearance/>
@@ -51,7 +51,7 @@
 				<dataPath>ПериодНеделя</dataPath>
 				<field>ПериодНеделя</field>
 				<role>
-					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">3</periodNumber>
+					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">4</periodNumber>
 					<periodType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Additional</periodType>
 				</role>
 				<appearance/>
@@ -61,7 +61,7 @@
 				<dataPath>ПериодДень</dataPath>
 				<field>ПериодДень</field>
 				<role>
-					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">2</periodNumber>
+					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">3</periodNumber>
 					<periodType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Additional</periodType>
 				</role>
 				<appearance/>
@@ -77,8 +77,8 @@
 					<order>true</order>
 				</useRestriction>
 				<role>
-					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">1</periodNumber>
-					<periodType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Main</periodType>
+					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">2</periodNumber>
+					<periodType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Additional</periodType>
 				</role>
 				<appearance/>
 				<inputParameters/>
@@ -1052,6 +1052,15 @@
 				</appearance>
 				<inputParameters/>
 			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Штрихкод</dataPath>
+				<field>Штрихкод</field>
+				<role>
+					<dimension xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</dimension>
+				</role>
+				<appearance/>
+				<inputParameters/>
+			</field>
 			<dataSource>ИсточникДанных1</dataSource>
 			<query>ВЫБРАТЬ РАЗЛИЧНЫЕ
 	ПересчетТоваровТовары.Номенклатура КАК Номенклатура,
@@ -1119,7 +1128,6 @@
 			ТОГДА NULL
 		ИНАЧЕ ТоварыНаСкладахОстаткиИОбороты.Регистратор
 	КОНЕЦ КАК Регистратор,
-	ТоварыНаСкладахОстаткиИОбороты.ПериодСекунда КАК ПериодСекунда,
 	ТоварыНаСкладахОстаткиИОбороты.ПериодДень КАК ПериодДень,
 	ТоварыНаСкладахОстаткиИОбороты.ПериодНеделя КАК ПериодНеделя,
 	ТоварыНаСкладахОстаткиИОбороты.ПериодДекада КАК ПериодДекада,
@@ -1170,7 +1178,9 @@
 	NULL КАК ПрочийПриходВес,
 	NULL КАК ПрочийРасходВес,
 	NULL КАК ПрочийПриходОбъем,
-	NULL КАК ПрочийРасходОбъем
+	NULL КАК ПрочийРасходОбъем,
+	ШтрихкодыНоменклатуры.Штрихкод КАК Штрихкод,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодСекунда КАК ПериодСекунда
 {ВЫБРАТЬ
 	Номенклатура.*,
 	Характеристика.*,
@@ -1180,7 +1190,6 @@
 	Склад.*,
 	Помещение.*,
 	Регистратор.*,
-	ПериодСекунда,
 	ПериодДень,
 	ПериодНеделя,
 	ПериодДекада,
@@ -1225,6 +1234,9 @@
 			        ОтборПоПересчетуТоваров
 			    ГДЕ
 			        ОтборПоПересчетуТоваров.ИспользуетсяОтборПересчетуТоваров = &amp;ИспользуетсяОтборПересчетуТоваров))}) КАК ТоварыНаСкладахОстаткиИОбороты
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ШтрихкодыНоменклатуры КАК ШтрихкодыНоменклатуры
+		ПО ТоварыНаСкладахОстаткиИОбороты.Номенклатура = ШтрихкодыНоменклатуры.Номенклатура
+			И ТоварыНаСкладахОстаткиИОбороты.Характеристика = ШтрихкодыНоменклатуры.Характеристика
 ГДЕ
 	ТоварыНаСкладахОстаткиИОбороты.Регистратор В
 			(ВЫБРАТЬ
@@ -1352,7 +1364,6 @@
 			ТОГДА NULL
 		ИНАЧЕ ТоварыНаСкладахОстаткиИОбороты.Регистратор
 	КОНЕЦ,
-	ТоварыНаСкладахОстаткиИОбороты.ПериодСекунда,
 	ТоварыНаСкладахОстаткиИОбороты.ПериодДень,
 	ТоварыНаСкладахОстаткиИОбороты.ПериодНеделя,
 	ТоварыНаСкладахОстаткиИОбороты.ПериодДекада,
@@ -1403,7 +1414,9 @@
 	ТоварыНаСкладахОстаткиИОбороты.ВНаличииПриход * &amp;ТекстЗапросаВесНоменклатуры,
 	ТоварыНаСкладахОстаткиИОбороты.ВНаличииРасход * &amp;ТекстЗапросаВесНоменклатуры,
 	ТоварыНаСкладахОстаткиИОбороты.ВНаличииПриход * &amp;ТекстЗапросаОбъемНоменклатуры,
-	ТоварыНаСкладахОстаткиИОбороты.ВНаличииРасход * &amp;ТекстЗапросаОбъемНоменклатуры
+	ТоварыНаСкладахОстаткиИОбороты.ВНаличииРасход * &amp;ТекстЗапросаОбъемНоменклатуры,
+	ШтрихкодыНоменклатуры.Штрихкод,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодСекунда
 ИЗ
 	РегистрНакопления.ТоварыНаСкладах.ОстаткиИОбороты(, , Авто, , {((Номенклатура, Характеристика) В
 			    (ВЫБРАТЬ
@@ -1421,6 +1434,9 @@
 			        ОтборПоПересчетуТоваров
 			    ГДЕ
 			        ОтборПоПересчетуТоваров.ИспользуетсяОтборПересчетуТоваров = &amp;ИспользуетсяОтборПересчетуТоваров))}) КАК ТоварыНаСкладахОстаткиИОбороты
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ШтрихкодыНоменклатуры КАК ШтрихкодыНоменклатуры
+		ПО ТоварыНаСкладахОстаткиИОбороты.Номенклатура = ШтрихкодыНоменклатуры.Номенклатура
+			И ТоварыНаСкладахОстаткиИОбороты.Характеристика = ШтрихкодыНоменклатуры.Характеристика
 ГДЕ
 	НЕ ТоварыНаСкладахОстаткиИОбороты.Регистратор В
 				(ВЫБРАТЬ
@@ -1548,7 +1564,6 @@
 			ТОГДА NULL
 		ИНАЧЕ ТоварыНаСкладахОстаткиИОбороты.Регистратор
 	КОНЕЦ,
-	ТоварыНаСкладахОстаткиИОбороты.ПериодСекунда,
 	ТоварыНаСкладахОстаткиИОбороты.ПериодДень,
 	ТоварыНаСкладахОстаткиИОбороты.ПериодНеделя,
 	ТоварыНаСкладахОстаткиИОбороты.ПериодДекада,
@@ -1626,7 +1641,9 @@
 	NULL,
 	NULL,
 	NULL,
-	NULL
+	NULL,
+	ШтрихкодыНоменклатуры.Штрихкод,
+	ТоварыНаСкладахОстаткиИОбороты.ПериодСекунда
 ИЗ
 	РегистрНакопления.ТоварыНаСкладах.ОстаткиИОбороты(, , Авто, , {((Номенклатура, Характеристика) В
 			    (ВЫБРАТЬ
@@ -1644,6 +1661,9 @@
 			        ОтборПоПересчетуТоваров
 			    ГДЕ
 			        ОтборПоПересчетуТоваров.ИспользуетсяОтборПересчетуТоваров = &amp;ИспользуетсяОтборПересчетуТоваров))}) КАК ТоварыНаСкладахОстаткиИОбороты
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ШтрихкодыНоменклатуры КАК ШтрихкодыНоменклатуры
+		ПО ТоварыНаСкладахОстаткиИОбороты.Номенклатура = ШтрихкодыНоменклатуры.Номенклатура
+			И ТоварыНаСкладахОстаткиИОбороты.Характеристика = ШтрихкодыНоменклатуры.Характеристика
 {ГДЕ
 	ТоварыНаСкладахОстаткиИОбороты.Номенклатура.*,
 	ТоварыНаСкладахОстаткиИОбороты.Характеристика.*,
@@ -1749,54 +1769,6 @@
 	(ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеКонечныйОстаток * &amp;ТекстЗапросаОбъемНоменклатуры) КАК КОтгрузкеКонечныйОстатокОбъем,
 	(ТоварыНаСкладахОстаткиИОбороты.КОтгрузкеПриход * &amp;ТекстЗапросаОбъемНоменклатуры) КАК КОтгрузкеПриходОбъем}</query>
 		</dataSet>
-		<dataSet xsi:type="DataSetQuery">
-			<name>НаборДанных1</name>
-			<field xsi:type="DataSetFieldField">
-				<dataPath>Номенклатура</dataPath>
-				<field>Номенклатура</field>
-				<appearance/>
-				<inputParameters/>
-			</field>
-			<field xsi:type="DataSetFieldField">
-				<dataPath>Штрихкод</dataPath>
-				<field>Штрихкод</field>
-				<role>
-					<dimension xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</dimension>
-				</role>
-				<appearance/>
-				<inputParameters/>
-			</field>
-			<field xsi:type="DataSetFieldField">
-				<dataPath>Характеристика</dataPath>
-				<field>Характеристика</field>
-				<appearance/>
-				<inputParameters/>
-			</field>
-			<dataSource>ИсточникДанных1</dataSource>
-			<query>ВЫБРАТЬ
-	ШтрихкодыНоменклатуры.Штрихкод КАК Штрихкод,
-	ШтрихкодыНоменклатуры.Номенклатура КАК Номенклатура,
-	ШтрихкодыНоменклатуры.Характеристика КАК Характеристика
-ИЗ
-	РегистрСведений.ШтрихкодыНоменклатуры КАК ШтрихкодыНоменклатуры
-
-СГРУППИРОВАТЬ ПО
-	ШтрихкодыНоменклатуры.Штрихкод,
-	ШтрихкодыНоменклатуры.Номенклатура,
-	ШтрихкодыНоменклатуры.Характеристика</query>
-		</dataSet>
-		<dataSetLink>
-			<sourceDataSet>НаборДанных</sourceDataSet>
-			<destinationDataSet>НаборДанных1</destinationDataSet>
-			<sourceExpression>Номенклатура</sourceExpression>
-			<destinationExpression>Номенклатура</destinationExpression>
-		</dataSetLink>
-		<dataSetLink>
-			<sourceDataSet>НаборДанных</sourceDataSet>
-			<destinationDataSet>НаборДанных1</destinationDataSet>
-			<sourceExpression>Номенклатура</sourceExpression>
-			<destinationExpression>Характеристика</destinationExpression>
-		</dataSetLink>
 		<calculatedField>
 			<dataPath>Номенклатура.ЕдиницаИзмерения</dataPath>
 			<expression>ВЫБОР
@@ -1946,10 +1918,6 @@
 		<totalField>
 			<dataPath>КОтгрузкеПриходОбъем</dataPath>
 			<expression>Сумма(КОтгрузкеПриходОбъем)</expression>
-		</totalField>
-		<totalField>
-			<dataPath>Штрихкод</dataPath>
-			<expression>Количество(Штрихкод)</expression>
 		</totalField>
 		<totalField>
 			<dataPath>ПрочийПриход</dataPath>
@@ -2485,7 +2453,6 @@
 			<use>false</use>
 			<left xsi:type="dcscor:Field">Номенклатура.Производитель</left>
 			<comparisonType>Equal</comparisonType>
-			<right xsi:type="dcscor:DesignTimeValue"/>
 			<userSettingID>ed4b569a-24c8-4439-8e4e-b735b9aa9b3e</userSettingID>
 			<userSettingPresentation xsi:type="v8:LocalStringType">
 				<v8:item>
