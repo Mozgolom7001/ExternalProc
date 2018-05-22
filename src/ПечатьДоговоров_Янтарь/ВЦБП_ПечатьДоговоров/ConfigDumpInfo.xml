@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.6">
+	<ConfigVersions>
+		<Metadata name="Catalog.ВидыОтпусков" id="18de83da-f8a4-4729-bf98-5f5128ca3def" configVersion="0c2628bb5eeefc8261975920548b8d2da4fa517c"/>
+		<Metadata name="Catalog.ВидыОтпусков.Predefined" id="18de83da-f8a4-4729-bf98-5f5128ca3def.1c" configVersion="523af0ddb8798a724733fe6a3597da9e6128c88f"/>
+		<Metadata name="Catalog.ГрафикиРаботыСотрудников" id="a3f8313e-50eb-4049-919e-356023ea970f" configVersion="c4be661d4d7dd1c42f7da19915d3de49c8796df1"/>
+		<Metadata name="Catalog.Должности" id="c781eeac-0d3b-4411-b9f5-0d22c06a616d" configVersion="b99e560c74aeee88c32f27d4e81317da64c9d85b">
+			<Metadata name="Catalog.Должности.TabularSection.ДополнительныеРеквизиты" id="860c2a55-8e95-46e3-9962-6fa16ddd2f4d"/>
+		</Metadata>
+		<Metadata name="Catalog.Организации" id="46f7fb7a-f535-4e48-aa0d-0bba6714dac5" configVersion="5ffc4fbe6d7e24b7b8ba79b4d8dce4e8dcfde04d"/>
+		<Metadata name="Catalog.ОснованияЗаключенияСрочныхТрудовыхДоговоров" id="9bc594be-8953-41b0-a6b4-19cf3581848c" configVersion="79bb9935c57cde8e98c4d0f0b7d7549030c9f0d9"/>
+		<Metadata name="Catalog.ПодразделенияОрганизаций" id="1e7dbdce-0a4c-4f20-90ae-12fdfbfcd32b" configVersion="679c6353ec39704a9b04d498ae17d2a654ce9cb7"/>
+		<Metadata name="Catalog.ПоказателиРасчетаЗарплаты" id="e9980b17-47b7-4596-9239-77245d2ed8cc" configVersion="e77a892b8de790b9d8056edff07b0221581b1d5d"/>
+		<Metadata name="Catalog.Пользователи" id="faf6562f-7c05-4ddc-a04b-29d86e217129" configVersion="d34e786f2188ee239f2027beeea6e4c4d3839eae"/>
+		<Metadata name="Catalog.РазрядыКатегорииДолжностей" id="abfd8067-4033-416a-b953-be213b6b94ab" configVersion="40b72d9811b88f54441ff3bfa79d8e55373398a0"/>
+		<Metadata name="Catalog.Сотрудники" id="7b24a218-f6d5-4c60-b408-2eb7cf31c24a" configVersion="b37a3eb9df35f90412c5296294a1ca6659248cb2"/>
+		<Metadata name="Catalog.СпособыОтраженияЗарплатыВБухУчете" id="b6015b2e-cecc-4c2f-a48f-09b3ff681bda" configVersion="0976a64253b5b54da6ff043c8b90d029f2bc586b"/>
+		<Metadata name="Catalog.СтатьиФинансированияЗарплата" id="e2e03acb-9756-4c2a-bffd-3043b1397c00" configVersion="7d2eb7ec82d5e6e711b9331b608a9b6259ecaa46"/>
+		<Metadata name="Catalog.ТарифныеСетки" id="b576a141-3d76-478d-aedc-ca513a9bb51b" configVersion="28f5696bbfa253f75d57f72609d999218cadf007"/>
+		<Metadata name="Catalog.ТерриторииВыполненияРабот" id="a234d05d-1cc0-4b69-9112-3bb5e690e56d" configVersion="817efdfa2894f6ac8da4af13ab659217e678172d"/>
+		<Metadata name="Catalog.ФизическиеЛица" id="9b4fc29e-f925-4575-a2b1-53c46740fc8f" configVersion="2efbb378c85c844a50c91aa8670c380d9eea3fd9"/>
+		<Metadata name="Catalog.ШтатноеРасписание" id="4fab9845-76c8-477c-a155-01318fe955ec" configVersion="ca107d3c273da1f8a7c03f07bc82eeddd19457cc"/>
+		<Metadata name="ChartOfCalculationTypes.Начисления" id="9c13df37-a67e-47c7-9fe8-0344f173111e" configVersion="9e351e7b4ece973da94607cf9035d1812dc10b7d"/>
+		<Metadata name="CommonCommand.ПрисоединенныеФайлы" id="4305c032-a488-4a2f-ba86-822969bd44b4" configVersion="5ab9340742f61c9f2d908236b4423e3c51a98a7b"/>
+		<Metadata name="CommonPicture.ПересчитатьЗарплатуСерая" id="12cf2c05-0f9c-491e-a8bc-ceecc7a6adcf" configVersion="4a43678111081f6f19349ca3f5fef981a2aad323"/>
+		<Metadata name="CommonPicture.Предупреждение" id="9168d5f0-3ba0-46b4-9daa-a345fe119c39" configVersion="fc511aa9c969e8ddff033acd0767185a9bb59e38"/>
+		<Metadata name="Configuration.ВЦБП_ПечатьДоговоров" id="34b78ce1-6574-482a-9b66-9f6d7ccb7c1c" configVersion="a54ac148a915c115c6c700814c2cead15713487a"/>
+		<Metadata name="Constant.ИспользоватьИндивидуальныеПравилаПересчетаТарифныхСтавокСотрудников" id="fbb506f0-9fc7-44b3-b611-15abf0c04fb4" configVersion="4aa01d55513db5755e2238c984e902babb43e56a"/>
+		<Metadata name="Constant.ИспользоватьНачислениеЗарплаты" id="613746d5-42f1-40f3-97eb-fc0e5794bcfa" configVersion="5f8df919059eebccca4904714530f8a32331275b"/>
+		<Metadata name="Constant.ИспользоватьУчетКлассныхЧинов" id="617cce42-092b-4ab4-a17b-ab68d6484150" configVersion="4de027dd1a72cf57ac5c240b40eae7c2834bfc54"/>
+		<Metadata name="DataProcessor.ПечатьКадровыхПриказовРасширенная" id="370ee2a7-efef-4fd5-a5e0-14d20d89c4c0" configVersion="10440dea3eba7b8505f15ca132ffe8a904cd774f"/>
+		<Metadata name="DataProcessor.ПечатьКадровыхПриказовРасширенная.ManagerModule" id="370ee2a7-efef-4fd5-a5e0-14d20d89c4c0.2" configVersion="d664ed6ccc28d7f80158463246107348698198b9"/>
+		<Metadata name="DataProcessor.ПечатьКадровыхПриказовРасширенная.Template.ПФ_MXL_ТрудовойДоговор_Янтарь" id="ff24d9db-478e-4bad-b9e7-969a7daba189" configVersion="d3b9da5e680080a7ed1bf948f8f0aafe0b483170"/>
+		<Metadata name="DataProcessor.ПечатьКадровыхПриказовРасширенная.Template.ПФ_MXL_ТрудовойДоговор_Янтарь.Template" id="ff24d9db-478e-4bad-b9e7-969a7daba189.0" configVersion="a755bcd942b2acdb8a15081433c15d74e972153f"/>
+		<Metadata name="DefinedType.ЗначениеПоказателяРасчетаЗарплаты" id="3a3c4886-5d73-47c5-92f0-adfbd02df18d" configVersion="4fd7297a62d15150bc3b8e15735107184f47ad1a"/>
+		<Metadata name="Document.ПриемНаРаботу" id="415fe6c6-6295-47b7-ad9d-22e21af4be50" configVersion="333d69a8b73d55128c56147363228590d0d1c1c6">
+			<Metadata name="Document.ПриемНаРаботу.Attribute.ПКУ" id="06824fd1-a7fc-41ff-b04b-e7b3a88ebd36"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.Аванс" id="06bf9d45-2f1f-4587-8473-7fb29da8bdd8"/>
+			<Metadata name="Document.ПриемНаРаботу.TabularSection.УправленческиеНачисления" id="0867a270-6b78-4beb-8fd3-e8ac219f9aee"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.ИныеУсловияДоговора" id="0c23c1d7-e7a2-47bc-8f4e-b76e6d04bae8"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.СпособРасчетаАванса" id="20a80850-3856-42ce-814f-6c5718beb342"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.Подразделение" id="20af2d6b-e13a-445a-8b0c-67c574509246"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.БронированиеПозиции" id="23add17a-5307-419d-b95b-5092cc63d02b"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.Должность" id="24be5bc6-a7d7-4f71-8acc-9192531191e8"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.ТрудовойДоговорНомер" id="2b62aa66-a04f-4729-b26d-266bca9ba2f8"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.ДатаПриема" id="3188c8c3-ff0e-4206-99e9-50b40bc1c466"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.Сотрудник" id="33957ff8-7138-4935-9084-3da11a8ab51a"/>
+			<Metadata name="Document.ПриемНаРаботу.TabularSection.Начисления.Attribute.Размер" id="33ea2ceb-81cf-4228-8842-45b94d8421ce"/>
+			<Metadata name="Document.ПриемНаРаботу.TabularSection.Льготы.Attribute.Размер" id="3a9280ca-2d14-4bed-a312-54fd50730c92"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.УсловияПриема" id="45b0448d-8c58-4ad5-af37-899f96605489"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.Комментарий" id="4685beb4-8331-455d-8ab8-37a5a7b2b82f"/>
+			<Metadata name="Document.ПриемНаРаботу.TabularSection.Показатели" id="51479bdc-6e63-4957-bc7e-1b3f55f57522"/>
+			<Metadata name="Document.ПриемНаРаботу.TabularSection.Начисления" id="54c42791-ee02-4bde-b093-befe6db8db91"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.СпособПоступленияНаСлужбу" id="5563a4e6-0b99-48f5-91ba-7d6101b862d5"/>
+			<Metadata name="Document.ПриемНаРаботу.TabularSection.УправленческиеНачисления.Attribute.Размер" id="5a93c192-9905-4c98-96d9-55115bd12651"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.ДлительностьИспытательногоСрока" id="6abab0bb-68b4-4824-a598-fb19ff19fd46"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.РазрешениеНаРаботу" id="6d03e763-ec70-4cbf-935f-4c6dcc1a678c"/>
+			<Metadata name="Document.ПриемНаРаботу.TabularSection.Показатели.Attribute.Показатель" id="7c4fba92-9950-4527-9be2-8281ef9b3f92"/>
+			<Metadata name="Document.ПриемНаРаботу.TabularSection.УправленческиеНачисления.Attribute.Начисление" id="853ebdb0-d82e-4464-bca9-a79551a77cf9"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.СрокЗаключенияДоговора" id="87c70299-a036-47eb-b41b-8d1fb144b9a2"/>
+			<Metadata name="Document.ПриемНаРаботу.TabularSection.Начисления.Attribute.Начисление" id="9262589d-17f3-4aa9-acfa-53b90da2ee58"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.ВидЗанятости" id="96000c96-878c-4951-9dcf-c1265758bef5"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.СпособОтраженияЗарплатыВБухучете" id="981cd95e-cc8f-4582-86d8-250e05073fed"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.ОснованиеСрочногоДоговора" id="9a9f9304-a942-4dd8-b4c9-034f2122661e"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.ПоступлениеНаСлужбуВпервые" id="9ceef911-3a9c-41fb-8c2a-b7a79c07bcd8"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.ДатаЗавершенияТрудовогоДоговора" id="9e262898-6698-40dc-8b22-4a61c84be78a"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.СовокупнаяТарифнаяСтавка" id="9e3f1251-4076-4031-992e-f3df21ba996b"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.Территория" id="9fdcbd32-0662-45fa-acad-1c95d3a33fd0"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.Организация" id="a1648ad0-2bcd-4c49-8bdd-9dd41676273d"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.ОснованиеПредставителяНанимателя" id="a9196025-ede1-484f-b7bd-d9a3ac4f7124"/>
+			<Metadata name="Document.ПриемНаРаботу.TabularSection.Льготы.Attribute.Льгота" id="acea4b68-de4e-4a82-a04f-35430292dda9"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.СезонныйДоговор" id="ae70a2d4-49f8-405a-a92e-d16786f52187"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.ДолжностьПоШтатномуРасписанию" id="b3e1e8fb-4946-492c-9e82-1e09af08b2e1"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.РазрядКатегория" id="ba4a5183-e512-46ea-8da8-014bb48f5756"/>
+			<Metadata name="Document.ПриемНаРаботу.TabularSection.Показатели.Attribute.Значение" id="bca963b8-c0b0-4d83-af9e-2e770ba0f97a"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.ПорядокРасчетаСтоимостиЕдиницыВремени" id="c319d373-99f9-4b3b-95d0-3bf4cd29d120"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.ОборудованиеРабочегоМеста" id="c6a1fa7c-194a-4e11-aec0-24f7c47b8837"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.ТрудовойДоговорДата" id="c8bc2f29-69f8-4f03-8f79-1933b12624f5"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.СрочныйДоговор" id="c915f8d6-632a-4e2f-b346-4028bab5aa79"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.Руководитель" id="d0dd628f-2fbe-4af6-965d-d6a3bd478fe9"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.РазрешениеНаПроживание" id="d14e64ab-8adb-4f36-bbe4-c9452aad7127"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.ДолжностьРуководителя" id="d3c0be97-fa0c-430f-840e-9c73c905f5c6"/>
+			<Metadata name="Document.ПриемНаРаботу.TabularSection.Льготы" id="d6030c1b-8065-4407-855a-c470dc62b13b"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.ГрафикРаботы" id="d78454ff-6034-47cc-8289-4e6b5cced190"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.СтатьяФинансирования" id="db42f555-3534-4c33-a48c-df0d0489044f"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.УсловияОказанияМедпомощи" id="de5c7571-fffb-4879-a1d8-aa63a3b51c1f"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.ВидТарифнойСтавки" id="e8b45a67-b99a-4598-bfd9-4412c9c78a08"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.ВидДоговора" id="e8f13d51-873d-4e1e-999f-e3b899fe4bd1"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.ВидАктаГосоргана" id="ecdcc7fa-87da-4254-a171-021639f79acb"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.ОтношениеКЕНВД" id="f8c4f8f1-3986-44c0-b5ec-f3a883d596e2"/>
+			<Metadata name="Document.ПриемНаРаботу.Attribute.Ответственный" id="fe7d5349-1f10-4c51-8029-1d9e873d974c"/>
+		</Metadata>
+		<Metadata name="Document.ПриемНаРаботу.Form.ФормаДокумента" id="a62faa80-8503-4a83-97ce-dd4ba700b307" configVersion="e226a1d8b42f416e347fe7cba98c2da443a6773d"/>
+		<Metadata name="Document.ПриемНаРаботу.Form.ФормаДокумента.Form" id="a62faa80-8503-4a83-97ce-dd4ba700b307.0" configVersion="05b27939ec2695207fe0b1a355a8affa54a59d4c"/>
+		<Metadata name="Document.ПриемНаРаботу.ManagerModule" id="415fe6c6-6295-47b7-ad9d-22e21af4be50.2" configVersion="8234e6912203175a95071399fc8aab26d7369a0b"/>
+		<Metadata name="Document.СторнированиеНачислений" id="4bf748f8-d23a-4254-9c84-f490b33253aa" configVersion="d380130c172ba93fc5099f43ce857a9fdfdea1d6"/>
+		<Metadata name="Enum.ВидыДоговоровССотрудниками" id="7bcd4a8d-4004-429e-bd32-037641c774a7" configVersion="f916eb19ec2f3690c87f31a805f0454cea0c7501"/>
+		<Metadata name="Enum.ВидыЗанятости" id="37dd1e18-30e8-4cea-ae58-f605127877fa" configVersion="d1180fa4f927c13babf9d77abb4895103569b546"/>
+		<Metadata name="Enum.ВидыЗастрахованныхЛицОбязательногоСтрахования" id="a1dba66a-5111-4b57-80f8-0ad15cd8f658" configVersion="e3db1d1a722a7ff183d32a4f3328a6583d505b6b"/>
+		<Metadata name="Enum.ВидыТарифныхСтавок" id="9e428534-9516-4daa-b90e-76feb313ded3" configVersion="72a7fb53f1e385bc52a5c72e726c9561a609753f"/>
+		<Metadata name="Enum.ОтношениеКЕНВДЗатратНаЗарплату" id="d794a9d7-7b80-446f-bcec-edaf7f63b74f" configVersion="3d697babe26e19486ea070f71f6577a0c97376ae"/>
+		<Metadata name="Enum.ПорядокРасчетаСтоимостиЕдиницыВремениОплатыТруда" id="78e231f2-23b0-47a2-a06b-10865e32354a" configVersion="6d843569bb1492c3c13e420123a4bf24dff26ea5"/>
+		<Metadata name="Enum.СпособыЗаполненияГрафикаРаботы" id="65a55aaa-0b22-4507-8939-662460db1209" configVersion="f2160065852e3ec59cd19e54d3e162826b01f2d6">
+			<Metadata name="Enum.СпособыЗаполненияГрафикаРаботы.EnumValue.ПоЦикламПроизвольнойДлины" id="2941d43d-6d10-4970-8dc6-b19618272c26"/>
+			<Metadata name="Enum.СпособыЗаполненияГрафикаРаботы.EnumValue.ПоНеделям" id="fa7c570c-2844-436d-a74e-c4ee5732886b"/>
+		</Metadata>
+		<Metadata name="Enum.СпособыРасчетаАванса" id="943f8d36-17e6-42f0-80ef-e72da05f8202" configVersion="847fb1acdb41617465cf7700e2e0ae41101631a4"/>
+		<Metadata name="FunctionalOption.ИспользоватьИндивидуальныеПравилаПересчетаТарифныхСтавокСотрудников" id="991a974e-0e7b-4d76-8170-8fff59c170ad" configVersion="02670701b2fe8d77198ab0f90a87857c28b211e6"/>
+		<Metadata name="FunctionalOption.ИспользоватьРаботуНаНеполнуюСтавку" id="46edd26c-66fe-42ae-b393-9c06052c24c2" configVersion="e96c605cc8875a9a65f3bec1458aa0c4b7f57c6d"/>
+		<Metadata name="FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная" id="e35be5c2-ce5d-4081-bf5d-1a8a9ecc87dd" configVersion="ad3d21ed55c157b8007a29fa42c8d44089f705a1"/>
+		<Metadata name="FunctionalOption.ИспользоватьУчетКлассныхЧинов" id="f02efde7-af1b-4750-9026-376bd1d09df6" configVersion="3a213a43fd388684cce9a44470448ad00f15ff34"/>
+		<Metadata name="FunctionalOption.ИспользоватьШтатноеРасписание" id="bdb88d00-7e5b-4a93-8ca7-dd32674968e7" configVersion="f8c43b1072a088539fe1c909fa2475a75cdf6665"/>
+		<Metadata name="InformationRegister.НастройкиКадровогоУчета" id="2bfc2c77-37e2-4c69-98b4-278bddcfe1af" configVersion="6bbdb49300a3aff3aa1caf0b28e7335601ba02eb">
+			<Metadata name="InformationRegister.НастройкиКадровогоУчета.Resource.ИспользоватьРаботуНаНеполнуюСтавку" id="3b2f8978-db52-4151-a120-ca8824fbd2b2"/>
+		</Metadata>
+		<Metadata name="InformationRegister.НастройкиШтатногоРасписания" id="6193ddcf-7db8-4f48-97e9-2f87d2ed4521" configVersion="8f79fafff5de4ba1628b860bcc9ecf8acadcd49a">
+			<Metadata name="InformationRegister.НастройкиШтатногоРасписания.Resource.ИспользоватьШтатноеРасписание" id="f38ac92a-6fd2-420c-b22d-8400100ef807"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="9df3b36a-d33c-436c-9e80-909ca37092db" configVersion="c090cd0bd0698538f3914b6979e11726aa081215"/>
+		<Metadata name="StyleItem.ПоясняющийТекст" id="d391a553-e9ad-465b-8fc6-3fcf7da8c506" configVersion="6c8420db2a6b1de47b8301ea79974e25f1e11e6f"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

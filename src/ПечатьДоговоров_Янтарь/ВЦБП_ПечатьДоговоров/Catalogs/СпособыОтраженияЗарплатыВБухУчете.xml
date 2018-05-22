@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<Catalog uuid="b6015b2e-cecc-4c2f-a48f-09b3ff681bda">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СпособыОтраженияЗарплатыВБухУчете" category="Object">
+				<xr:TypeId>15ef8b48-9fa0-47a0-a44b-55f4932cc0dc</xr:TypeId>
+				<xr:ValueId>96f6b63d-44ec-486e-8c78-3d3aaa186d32</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СпособыОтраженияЗарплатыВБухУчете" category="Ref">
+				<xr:TypeId>61120956-ed07-4256-b618-646933036bcb</xr:TypeId>
+				<xr:ValueId>179b4adf-5f9a-4cee-b748-6c08eb6269f0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СпособыОтраженияЗарплатыВБухУчете" category="Selection">
+				<xr:TypeId>e8bc1191-59ab-40b7-bcde-2617cb836a57</xr:TypeId>
+				<xr:ValueId>cc909d52-bea8-4959-957b-e9b2b0aa7322</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СпособыОтраженияЗарплатыВБухУчете" category="List">
+				<xr:TypeId>b16f7ccd-e047-406c-bb1d-3fc95ab34ff0</xr:TypeId>
+				<xr:ValueId>bbfc8d3f-860b-4cdb-9873-894541699cd2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СпособыОтраженияЗарплатыВБухУчете" category="Manager">
+				<xr:TypeId>159da152-3bb4-42b4-9523-3b9baad6d126</xr:TypeId>
+				<xr:ValueId>e0cdac61-bf25-47d3-a19c-a282cf39a764</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыОтраженияЗарплатыВБухУчете</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

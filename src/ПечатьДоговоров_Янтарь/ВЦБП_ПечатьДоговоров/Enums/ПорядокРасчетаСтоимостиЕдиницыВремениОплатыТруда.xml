@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<Enum uuid="78e231f2-23b0-47a2-a06b-10865e32354a">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПорядокРасчетаСтоимостиЕдиницыВремениОплатыТруда" category="Ref">
+				<xr:TypeId>be6ce52c-68d0-4e97-a9c2-d7bb3321c5ec</xr:TypeId>
+				<xr:ValueId>e17c1d63-49f4-46d3-a59f-6040b22a3f09</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПорядокРасчетаСтоимостиЕдиницыВремениОплатыТруда" category="Manager">
+				<xr:TypeId>4b2c62cc-6d26-48f2-8824-c205746b6f7c</xr:TypeId>
+				<xr:ValueId>516ac1b2-716a-4ffb-8b88-81f742032544</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПорядокРасчетаСтоимостиЕдиницыВремениОплатыТруда" category="List">
+				<xr:TypeId>49209cad-1bf2-4cb1-ad8a-334f49380c52</xr:TypeId>
+				<xr:ValueId>6aaf1eae-58a9-4978-8a7e-3ccd347ae620</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПорядокРасчетаСтоимостиЕдиницыВремениОплатыТруда</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

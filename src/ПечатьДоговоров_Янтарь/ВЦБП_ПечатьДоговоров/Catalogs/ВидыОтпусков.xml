@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<Catalog uuid="18de83da-f8a4-4729-bf98-5f5128ca3def">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыОтпусков" category="Object">
+				<xr:TypeId>b899bf0b-785b-4685-b847-5d3eb1bf76b2</xr:TypeId>
+				<xr:ValueId>57ea810e-c0fe-4bc1-8773-b5b12e1664e5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыОтпусков" category="Ref">
+				<xr:TypeId>91d5c7d2-e881-4b88-a31c-9cc99c239d3a</xr:TypeId>
+				<xr:ValueId>f7f7649c-d0c8-4057-a344-55b65eb65ad1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыОтпусков" category="Selection">
+				<xr:TypeId>d6596b77-d9f0-4d87-8368-938442a29d61</xr:TypeId>
+				<xr:ValueId>aaeb2d21-4df9-40b4-99be-980a55814517</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыОтпусков" category="List">
+				<xr:TypeId>983980ba-e023-40c0-9094-c065e2e6f1c4</xr:TypeId>
+				<xr:ValueId>9b11d003-0565-4f7d-bcac-0d31ecbd5ddf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыОтпусков" category="Manager">
+				<xr:TypeId>0b5e7147-58d7-4749-b7a9-864fbe0de680</xr:TypeId>
+				<xr:ValueId>c1dc2b37-10c5-4bc7-8c27-b5603fe0b525</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыОтпусков</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<CodeLength>0</CodeLength>
+			<CodeType>String</CodeType>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>
