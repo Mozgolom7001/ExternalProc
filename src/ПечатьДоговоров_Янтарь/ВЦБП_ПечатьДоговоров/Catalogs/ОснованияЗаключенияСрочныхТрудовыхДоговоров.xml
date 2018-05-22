@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<Catalog uuid="9bc594be-8953-41b0-a6b4-19cf3581848c">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ОснованияЗаключенияСрочныхТрудовыхДоговоров" category="Object">
+				<xr:TypeId>edb7a655-6586-4263-9b12-4af9a3752bfc</xr:TypeId>
+				<xr:ValueId>8964e85d-54b5-4548-a19e-daf31ae026ee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ОснованияЗаключенияСрочныхТрудовыхДоговоров" category="Ref">
+				<xr:TypeId>b3b3dab8-0a5d-4d5c-a1dd-70650188ec40</xr:TypeId>
+				<xr:ValueId>a3975695-1ab0-40ac-a7e0-bbc1ff0882e5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ОснованияЗаключенияСрочныхТрудовыхДоговоров" category="Selection">
+				<xr:TypeId>bbaf9fc9-2b63-43a1-a6b4-f504fc8cd0b9</xr:TypeId>
+				<xr:ValueId>fb8c9cb5-f1cb-4527-8cdb-fce8cab8bbca</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ОснованияЗаключенияСрочныхТрудовыхДоговоров" category="List">
+				<xr:TypeId>dd768518-2064-45ed-9921-67145504203c</xr:TypeId>
+				<xr:ValueId>c1635e73-abb4-4c58-a2ae-95d9b7f8cc45</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ОснованияЗаключенияСрочныхТрудовыхДоговоров" category="Manager">
+				<xr:TypeId>18313737-5e46-46f5-ae8c-103befda4d76</xr:TypeId>
+				<xr:ValueId>c5f50f0c-1f65-43f0-ad1b-0d6a45c84553</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОснованияЗаключенияСрочныхТрудовыхДоговоров</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

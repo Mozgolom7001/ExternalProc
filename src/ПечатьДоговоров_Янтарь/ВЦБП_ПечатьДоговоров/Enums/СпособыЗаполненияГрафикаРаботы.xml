@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<Enum uuid="65a55aaa-0b22-4507-8939-662460db1209">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыЗаполненияГрафикаРаботы" category="Ref">
+				<xr:TypeId>2a35d3b5-55e2-4c7b-896a-ec60d904d729</xr:TypeId>
+				<xr:ValueId>be52248e-aa87-4bcb-b418-268770d92894</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыЗаполненияГрафикаРаботы" category="Manager">
+				<xr:TypeId>53cb1688-6b4f-449c-8101-1241a0ba06cd</xr:TypeId>
+				<xr:ValueId>32a19843-834c-4a8d-ba12-83bcf5f8c07a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыЗаполненияГрафикаРаботы" category="List">
+				<xr:TypeId>3038dc6b-c2b7-4665-b8c1-6e1c8c619352</xr:TypeId>
+				<xr:ValueId>492b9b31-d69e-44ad-8134-3016292a3f81</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыЗаполненияГрафикаРаботы</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="fa7c570c-2844-436d-a74e-c4ee5732886b">
+				<Properties>
+					<Name>ПоНеделям</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2941d43d-6d10-4970-8dc6-b19618272c26">
+				<Properties>
+					<Name>ПоЦикламПроизвольнойДлины</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

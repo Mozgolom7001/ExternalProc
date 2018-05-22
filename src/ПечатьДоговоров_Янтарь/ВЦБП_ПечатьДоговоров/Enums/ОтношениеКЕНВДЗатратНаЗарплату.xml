@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<Enum uuid="d794a9d7-7b80-446f-bcec-edaf7f63b74f">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ОтношениеКЕНВДЗатратНаЗарплату" category="Ref">
+				<xr:TypeId>2e8e7c77-e9e3-4bba-b8e9-ebc779cb06d7</xr:TypeId>
+				<xr:ValueId>b24cb7ed-8d27-459d-8b3c-0306024ecbb4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ОтношениеКЕНВДЗатратНаЗарплату" category="Manager">
+				<xr:TypeId>ac411947-6ccd-4d96-88c4-677cc8caf631</xr:TypeId>
+				<xr:ValueId>fc4ed34c-8356-471b-a5f9-fd7b470280f5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ОтношениеКЕНВДЗатратНаЗарплату" category="List">
+				<xr:TypeId>fd94dfcb-da41-416b-8501-aa4b6ee1b573</xr:TypeId>
+				<xr:ValueId>11c50020-d168-4999-9902-f845532504b7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОтношениеКЕНВДЗатратНаЗарплату</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

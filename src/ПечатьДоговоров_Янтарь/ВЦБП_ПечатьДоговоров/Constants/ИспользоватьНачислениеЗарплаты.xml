@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<Constant uuid="613746d5-42f1-40f3-97eb-fc0e5794bcfa">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьНачислениеЗарплаты" category="Manager">
+				<xr:TypeId>7cec02c3-43d2-41fc-95c8-73d632b82ebb</xr:TypeId>
+				<xr:ValueId>9948ada3-d6b3-449a-9e7c-042fb1be7e1a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьНачислениеЗарплаты" category="ValueManager">
+				<xr:TypeId>74f7feb6-5357-4a8d-b33e-1c12d8f44d67</xr:TypeId>
+				<xr:ValueId>8a57fae4-9d3e-42ca-8b2b-da4ce759e517</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИспользоватьНачислениеЗарплаты</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>
