@@ -668,6 +668,15 @@
 							</Type>
 						</Properties>
 					</Attribute>
+					<Attribute uuid="b443efb9-6299-40e1-a4f3-d3449520b4c1">
+						<Properties>
+							<Name>КодТНВЭД</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.КлассификаторТНВЭД</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
 				</ChildObjects>
 			</TabularSection>
 			<TabularSection uuid="e4063644-95f5-460f-8ef2-7a039e6cc14b">

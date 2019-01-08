@@ -46,7 +46,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>ЕК_Ефремов</Vendor>
-			<Version>1.0.0.2</Version>
+			<Version>1.0.0.3</Version>
 			<BriefInformation/>
 			<DetailedInformation/>
 			<Copyright/>
@@ -140,6 +140,7 @@
 			<Catalog>ГруппыФинансовогоУчетаРасчетов</Catalog>
 			<Catalog>СерииНоменклатуры</Catalog>
 			<Catalog>УпаковкиЕдиницыИзмерения</Catalog>
+			<Catalog>КлассификаторТНВЭД</Catalog>
 			<Document>РеализацияТоваровУслуг</Document>
 			<Document>ТранспортнаяНакладная</Document>
 			<Enum>СпособыДоставки</Enum>
@@ -151,6 +152,7 @@
 			<Enum>ТипыНоменклатуры</Enum>
 			<Enum>СтавкиНДС</Enum>
 			<Enum>ВариантыОплатыКлиентом</Enum>
+			<Enum>СтатусыДействияВидовЦен</Enum>
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
 		</ChildObjects>
 	</Configuration>

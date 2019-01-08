@@ -7,6 +7,7 @@
 		<Metadata name="Catalog.ДоговорыКонтрагентов" id="0e96d23c-140e-4ee9-b81c-4d4c76acd19e" configVersion="3e55d800c7de3e91075633da16e486e9d07b6929"/>
 		<Metadata name="Catalog.ЗоныДоставки" id="5cbcf9bc-b1c7-4d62-b00c-85a5bf1131e5" configVersion="9bc658321ff80030257a200bac62f734bae34bcc"/>
 		<Metadata name="Catalog.КартыЛояльности" id="1cdbc704-b832-4049-81d3-e3cefb698f8c" configVersion="5806983fbc62798adf54409ab3cb82bf9a2b92ac"/>
+		<Metadata name="Catalog.КлассификаторТНВЭД" id="b34f3cbd-b35f-46d1-a819-f73dc347bddc" configVersion="20c1285b2b8ec9417933a28abcd2dff9793a6a3d"/>
 		<Metadata name="Catalog.КонтактныеЛицаПартнеров" id="8f32cd52-c65b-4a26-9b89-00a047f22c34" configVersion="5b5d173852500e2876a137b8c5cbf1a0c4c860f9"/>
 		<Metadata name="Catalog.Контрагенты" id="9db3f159-b3b7-411a-800e-e0b098bcfdd1" configVersion="198faab320427bcb512ca3203fca2d533fba3cff"/>
 		<Metadata name="Catalog.НаправленияДеятельности" id="d492c00c-d97d-4186-98eb-974c070bd34c" configVersion="17bafbe1602b91d28307fb4ed2dcf89e7cf27ef6"/>
@@ -56,7 +57,7 @@
 		<Metadata name="CommonPicture.СостоянияСтрок" id="bb3981a1-9386-40b4-8792-65c4252c1793" configVersion="dbf57fe02b0795898e8464c00244650ec53c44b6"/>
 		<Metadata name="CommonPicture.СтатусыУказанияСерий" id="854f98b5-2e8e-45c9-9b29-0f4f7373dfc6" configVersion="c1ff011ff9a3e89f3738bad50c6bc7cf166c88aa"/>
 		<Metadata name="CommonPicture.СчитатьКартуЛояльности" id="f3070b5c-a9a0-4d73-bca9-e98668618f02" configVersion="deb2937f30ed55a50324246e7f0ef20bc8850b00"/>
-		<Metadata name="Configuration.РасширениеЗаменаМенеджера" id="cc2540c4-614b-41ea-8042-adfb8db769cd" configVersion="50ca82b1c0f6a12c2885c8cc158813972dbd1ff1"/>
+		<Metadata name="Configuration.РасширениеЗаменаМенеджера" id="cc2540c4-614b-41ea-8042-adfb8db769cd" configVersion="fe1f59eecbc571d30ca372133d14ca67a24a4e5b"/>
 		<Metadata name="Constant.ИспользоватьАвтоматическиеСкидкиВПродажах" id="392621ae-9315-4100-a6c6-576c3810ba83" configVersion="a26fb93c955f770004eb7aea382885e309c2026f"/>
 		<Metadata name="Constant.ИспользоватьЗаказыКлиентов" id="670ecd35-b934-4ca3-bd8c-85e923a5910e" configVersion="44678e6d54e1ca4ea78dcec767cc5bfac40d683d"/>
 		<Metadata name="Constant.ИспользоватьЗаявкиНаВозвратТоваровОтКлиентов" id="98925fb8-fa35-4a38-ab89-9f3704392d4f" configVersion="fc041af959f0bf2082d73f363299011ec2b28967"/>
@@ -76,7 +77,7 @@
 			<Metadata name="DataProcessor.ПомощникЗачетаОплат.Command.ЗачетОплаты" id="2de58e58-c89c-48d4-9a54-816d28bb5284"/>
 		</Metadata>
 		<Metadata name="DefinedType.Артикул" id="58bca628-349a-40cf-a9b0-8d16ef68e713" configVersion="8128a70fbebe4b63aaeb642d5d25f353f2d34459"/>
-		<Metadata name="Document.РеализацияТоваровУслуг" id="b9bca64f-ea09-4384-9c50-079af80436fd" configVersion="14b0fb92553903d9fa4cd596be55584bc57178c9">
+		<Metadata name="Document.РеализацияТоваровУслуг" id="b9bca64f-ea09-4384-9c50-079af80436fd" configVersion="f35ba7b115406a950a28f5eba3cc543307124b8a">
 			<Metadata name="Document.РеализацияТоваровУслуг.Attribute.ПеревозчикПартнер" id="00b17d87-f94a-4433-85f5-2d03426cb3f5"/>
 			<Metadata name="Document.РеализацияТоваровУслуг.TabularSection.Товары.Attribute.ПроцентАвтоматическойСкидки" id="026b07b4-6e30-493e-9687-7efdf767747a"/>
 			<Metadata name="Document.РеализацияТоваровУслуг.Attribute.Менеджер" id="049259d5-c7d7-4646-b1bf-8be9d1c5d242"/>
@@ -120,6 +121,7 @@
 			<Metadata name="Document.РеализацияТоваровУслуг.TabularSection.Товары.Attribute.Характеристика" id="abf4e018-e939-405d-a460-791aace79c39"/>
 			<Metadata name="Document.РеализацияТоваровУслуг.TabularSection.Товары.Attribute.СуммаСНДС" id="acb1bc3b-f7c4-4199-9d61-81c3e998a8e7"/>
 			<Metadata name="Document.РеализацияТоваровУслуг.TabularSection.Товары.Attribute.СуммаНДС" id="b432524c-1d5e-4ea7-96cb-8339d29a2562"/>
+			<Metadata name="Document.РеализацияТоваровУслуг.TabularSection.Товары.Attribute.КодТНВЭД" id="b443efb9-6299-40e1-a4f3-d3449520b4c1"/>
 			<Metadata name="Document.РеализацияТоваровУслуг.Attribute.ОсобыеУсловияПеревозки" id="b971abc6-0ff9-4f95-9c96-c74d9a15f6f6"/>
 			<Metadata name="Document.РеализацияТоваровУслуг.Attribute.ДополнительнаяИнформацияПоДоставке" id="be6afd4f-ae8c-4a6a-8b74-895d963ceefb"/>
 			<Metadata name="Document.РеализацияТоваровУслуг.Attribute.ЦенаВключаетНДС" id="bf8a4586-b619-45bc-9c37-58d1bcd9ea3b"/>
@@ -140,7 +142,7 @@
 			<Metadata name="Document.РеализацияТоваровУслуг.TabularSection.Товары.Attribute.Склад" id="fe3c61a7-fd51-46b1-974d-f181099719d2"/>
 		</Metadata>
 		<Metadata name="Document.РеализацияТоваровУслуг.Form.ФормаДокумента" id="304516b0-881a-4fa6-8c35-011410273661" configVersion="4a3ddd8d6e9cc0e5718006b295ab5637748e89b5"/>
-		<Metadata name="Document.РеализацияТоваровУслуг.Form.ФормаДокумента.Form" id="304516b0-881a-4fa6-8c35-011410273661.0" configVersion="f1ad826ece25c67598111dc5a7bce38e4bfab715"/>
+		<Metadata name="Document.РеализацияТоваровУслуг.Form.ФормаДокумента.Form" id="304516b0-881a-4fa6-8c35-011410273661.0" configVersion="980dcc403af88b6c7fb138809893619409ee4fd5"/>
 		<Metadata name="Document.ТранспортнаяНакладная" id="27a80548-ee82-4608-b47e-45b7b0b152fa" configVersion="2d778dbd641bd7e79eb83877a2cb160c2ce5f0f6"/>
 		<Metadata name="Enum.ВариантыОплатыКлиентом" id="92d52d5f-b18e-4795-965e-64ea5e7ced29" configVersion="deba0e1daedaff0c84c689eac541fa01fe1dbc42"/>
 		<Metadata name="Enum.ВариантыОформленияПродажи" id="3fb25561-df0c-4d69-8a64-15e560dda891" configVersion="9eba75e274a6d899fee591f3556e9b650afbc951">
@@ -156,6 +158,9 @@
 			<Metadata name="Enum.СпособыДоставки.EnumValue.СиламиПеревозчикаПоАдресу" id="a348a41b-d747-4b1b-a902-805854c3b5c3"/>
 		</Metadata>
 		<Metadata name="Enum.СтавкиНДС" id="d2921321-f1dd-4346-bef7-d0a45ba39d87" configVersion="d0946b14c5f8e72ac679df6000b5f9f2a267cf4f"/>
+		<Metadata name="Enum.СтатусыДействияВидовЦен" id="88176177-b6b8-411f-891c-d7c63caf3356" configVersion="679333e05f46a8d0e85738b970fd2b7809624a3f">
+			<Metadata name="Enum.СтатусыДействияВидовЦен.EnumValue.Действует" id="157f6118-7807-4d46-a5d2-1ec5434b514c"/>
+		</Metadata>
 		<Metadata name="Enum.СтатусыРеализацийТоваровУслуг" id="3316dfa5-8a4e-457e-889e-8c234553f6da" configVersion="dc045809d15f2fcd033772c9ed7082781091fc2f"/>
 		<Metadata name="Enum.ТипыНалогообложенияНДС" id="7b90c7b8-35fe-4f59-81f1-792df014b83a" configVersion="173c9f625cc76d258ec94a91f230b669562b6fd2">
 			<Metadata name="Enum.ТипыНалогообложенияНДС.EnumValue.ПродажаНаЭкспорт" id="07fc5b80-203a-40b2-8e0f-58407882d80f"/>
