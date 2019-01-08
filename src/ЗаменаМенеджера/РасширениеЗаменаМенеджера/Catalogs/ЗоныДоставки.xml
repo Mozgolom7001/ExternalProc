@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<Catalog uuid="5cbcf9bc-b1c7-4d62-b00c-85a5bf1131e5">
+	<Catalog uuid="c9e7f118-2b40-404a-81cd-bf23cf431217">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.ЗоныДоставки" category="Object">
-				<xr:TypeId>060d4d75-e8c2-421e-ad8e-89022cb3a213</xr:TypeId>
-				<xr:ValueId>6f396eb1-1008-428f-b25e-79c4f9ad6ef6</xr:ValueId>
+				<xr:TypeId>d1f3e6b4-761e-433a-9481-b85429b44c26</xr:TypeId>
+				<xr:ValueId>f06d2129-d9a5-43ff-9077-287f85041327</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.ЗоныДоставки" category="Ref">
-				<xr:TypeId>2e1be46b-604c-45c0-bb06-557c8575d1ec</xr:TypeId>
-				<xr:ValueId>dcc68d92-98cb-410a-a884-78a6979ab524</xr:ValueId>
+				<xr:TypeId>0c4ac10a-518f-4937-b715-0e45cce7a9f9</xr:TypeId>
+				<xr:ValueId>bfa4eba0-5e0f-4334-af7f-3cadb69084ef</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.ЗоныДоставки" category="Selection">
-				<xr:TypeId>ccb7f3e4-18c4-41ed-b801-ec1249cb093e</xr:TypeId>
-				<xr:ValueId>e103f5a8-e43e-4645-ae20-e62a923cd797</xr:ValueId>
+				<xr:TypeId>ff305df5-a9ce-4e8d-af2c-f00309985949</xr:TypeId>
+				<xr:ValueId>049c0007-e372-4203-8e77-e568bf28b321</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.ЗоныДоставки" category="List">
-				<xr:TypeId>7ff5a968-0a2f-4b7b-9b4f-cd1a1f2ccfac</xr:TypeId>
-				<xr:ValueId>a89ff44f-4046-4d8d-a7fa-abbf0d59b123</xr:ValueId>
+				<xr:TypeId>c0707850-f029-486a-a014-ac99d62b2920</xr:TypeId>
+				<xr:ValueId>50479516-b368-4ab4-bce4-514e893e663e</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.ЗоныДоставки" category="Manager">
-				<xr:TypeId>4255ac36-3aac-43f5-8d6e-c73b8fdf8340</xr:TypeId>
-				<xr:ValueId>d9f2e499-b018-46a7-b41d-17743973819c</xr:ValueId>
+				<xr:TypeId>ca7dde6f-b3a2-48ca-bbc1-f38289948b43</xr:TypeId>
+				<xr:ValueId>d1b01149-7ef9-4391-a9c5-f806158a94eb</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>

@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<Enum uuid="5a5c3250-5557-464d-8c88-3ef31fe6bc3a">
+	<Enum uuid="20f6f20a-fae6-41c8-9e27-2acc43c1196a">
 		<InternalInfo>
 			<xr:GeneratedType name="EnumRef.ХозяйственныеОперации" category="Ref">
-				<xr:TypeId>08f16a47-8df7-4f9d-8d44-9d84d37f4045</xr:TypeId>
-				<xr:ValueId>0e1c4477-69fd-4c8b-8e3f-b0d54d2f9325</xr:ValueId>
+				<xr:TypeId>5fb5a036-1000-4725-9aab-273942ab46d3</xr:TypeId>
+				<xr:ValueId>6ae3e3e9-1f04-4155-b3b4-ebc98b671928</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumManager.ХозяйственныеОперации" category="Manager">
-				<xr:TypeId>0c7c2f0c-f9a2-4afb-b58a-79c29c0fb5b4</xr:TypeId>
-				<xr:ValueId>e7eed1f8-d1ca-4ee0-8a5d-680f76c78dfd</xr:ValueId>
+				<xr:TypeId>630e233c-c679-42aa-891a-1dfe64c0e116</xr:TypeId>
+				<xr:ValueId>8c9a7637-0da0-4e21-8c15-d8e3e2fa5969</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumList.ХозяйственныеОперации" category="List">
-				<xr:TypeId>f5334686-9f64-457d-8d13-86c580cd52a3</xr:TypeId>
-				<xr:ValueId>46109242-f7d6-4b1d-8340-9dec3c916774</xr:ValueId>
+				<xr:TypeId>3229fe71-0b75-4944-a7e8-5fe100bfc462</xr:TypeId>
+				<xr:ValueId>6950adbf-5473-4e9b-a1d3-77f59f8662a8</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -20,25 +20,25 @@
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
 		<ChildObjects>
-			<EnumValue uuid="1ba7a61d-d817-401b-9c58-c4a7e7b57bcf">
-				<Properties>
-					<Name>РеализацияКлиенту</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="632bbae1-a192-4158-9953-9fdfdf45b920">
+			<EnumValue uuid="6047cd52-3a56-4340-9d68-e0de229d654a">
 				<Properties>
 					<Name>РеализацияБезПереходаПраваСобственности</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="5a32ea11-a73f-4417-ae34-7e5fb0ca2648">
+			<EnumValue uuid="af00ab1b-67cd-4dcb-bf95-ed6bc351392a">
+				<Properties>
+					<Name>РеализацияКлиенту</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ac298086-f3a2-47e1-a009-2264f9b0a069">
 				<Properties>
 					<Name>ПередачаНаКомиссию</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="8c5bf7bd-3396-47fe-90f0-0d02dc9b5b64">
+			<EnumValue uuid="0dbbdb08-69d2-44d0-9ac8-917dc79329e1">
 				<Properties>
 					<Name>РеализацияКлиентуРеглУчет</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>

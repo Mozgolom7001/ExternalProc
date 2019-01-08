@@ -21,13 +21,13 @@
 			<Button name="ФормаЗаписать" id="1159">
 				<Type>CommandBarButton</Type>
 				<Representation>Picture</Representation>
-				<CommandName>0:fe558fde-99b3-45d0-a060-9fc2905309f6</CommandName>
+				<CommandName>Form.Command.ЗаписатьДокумент</CommandName>
 				<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="1160"/>
 			</Button>
 			<Button name="ФормаПровести" id="1161">
 				<Type>CommandBarButton</Type>
 				<Representation>Picture</Representation>
-				<CommandName>0:3b8cedbc-8e74-4017-b901-d14b09f32f7a</CommandName>
+				<CommandName>Form.Command.ПровестиДокумент</CommandName>
 				<ExtendedTooltip name="ФормаПровестиРасширеннаяПодсказка" id="1162"/>
 			</Button>
 			<Popup name="ПодменюСоздатьНаОсновании" id="1211">
@@ -37,12 +37,6 @@
 						<v8:content>Создать на основании</v8:content>
 					</v8:item>
 				</Title>
-				<ToolTip>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Создать на основании</v8:content>
-					</v8:item>
-				</ToolTip>
 				<Picture>
 					<xr:Ref>CommonPicture.ЗаполнитьПоШаблону</xr:Ref>
 					<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -57,12 +51,6 @@
 								<v8:content>Создать на основании (Важное)</v8:content>
 							</v8:item>
 						</Title>
-						<ToolTip>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Создать на основании (Важное)</v8:content>
-							</v8:item>
-						</ToolTip>
 						<ExtendedTooltip name="ПодменюСоздатьНаОснованииВажноеРасширеннаяПодсказка" id="1431"/>
 					</ButtonGroup>
 					<ButtonGroup name="ПодменюСоздатьНаОснованииОбычное" id="1432">
@@ -72,12 +60,6 @@
 								<v8:content>Создать на основании (Обычное)</v8:content>
 							</v8:item>
 						</Title>
-						<ToolTip>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Создать на основании (Обычное)</v8:content>
-							</v8:item>
-						</ToolTip>
 						<ExtendedTooltip name="ПодменюСоздатьНаОснованииОбычноеРасширеннаяПодсказка" id="1433"/>
 					</ButtonGroup>
 					<ButtonGroup name="ПодменюСоздатьНаОснованииСмТакже" id="1434">
@@ -87,15 +69,24 @@
 								<v8:content>Создать на основании (См. также)</v8:content>
 							</v8:item>
 						</Title>
-						<ToolTip>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Создать на основании (См. также)</v8:content>
-							</v8:item>
-						</ToolTip>
 						<ExtendedTooltip name="ПодменюСоздатьНаОснованииСмТакжеРасширеннаяПодсказка" id="1435"/>
 					</ButtonGroup>
 				</ChildItems>
+			</Popup>
+			<Popup name="ПодменюЭДО" id="1395">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ЭДО</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Команды электронного документооборота</v8:content>
+					</v8:item>
+				</ToolTip>
+				<ExtendedTooltip name="ПодменюЭДОРасширеннаяПодсказка" id="1396"/>
 			</Popup>
 			<Popup name="ПодменюПечать" id="1114">
 				<Title>
@@ -123,30 +114,9 @@
 						<v8:content>Команды формы</v8:content>
 					</v8:item>
 				</Title>
-				<ToolTip>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Команды формы</v8:content>
-					</v8:item>
-				</ToolTip>
 				<CommandSource>Form</CommandSource>
 				<ExtendedTooltip name="ФормаГруппаКомандыФормыРасширеннаяПодсказка" id="1119"/>
 			</ButtonGroup>
-			<Popup name="ПодменюЭДО" id="1395">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>ЭДО</v8:content>
-					</v8:item>
-				</Title>
-				<ToolTip>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Команды электронного документооборота</v8:content>
-					</v8:item>
-				</ToolTip>
-				<ExtendedTooltip name="ПодменюЭДОРасширеннаяПодсказка" id="1396"/>
-			</Popup>
 			<Popup name="ПодменюОтчеты" id="1213">
 				<Title>
 					<v8:item>
@@ -154,12 +124,6 @@
 						<v8:content>Отчеты</v8:content>
 					</v8:item>
 				</Title>
-				<ToolTip>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Отчеты</v8:content>
-					</v8:item>
-				</ToolTip>
 				<Picture>
 					<xr:Ref>CommonPicture.Отчеты</xr:Ref>
 					<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -168,24 +132,36 @@
 				<ExtendedTooltip name="ПодменюОтчетыРасширеннаяПодсказка" id="1214"/>
 				<ChildItems>
 					<ButtonGroup name="ПодменюОтчетыВажное" id="1215">
-						<ToolTip>
+						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Подменю отчеты важное</v8:content>
 							</v8:item>
-						</ToolTip>
+						</Title>
 						<ExtendedTooltip name="ПодменюОтчетыВажноеРасширеннаяПодсказка" id="1216"/>
 					</ButtonGroup>
-					<ButtonGroup name="ПодменюОтчетыОбычное" id="1443">
+					<ButtonGroup name="ПодменюОтчетыОбычное" id="1217">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Подменю отчеты обычное</v8:content>
+							</v8:item>
+						</Title>
 						<ToolTip>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Подменю отчеты важное</v8:content>
 							</v8:item>
 						</ToolTip>
-						<ExtendedTooltip name="ПодменюОтчетыОбычноеРасширеннаяПодсказка" id="1446"/>
+						<ExtendedTooltip name="ПодменюОтчетыОбычноеРасширеннаяПодсказка" id="1218"/>
 					</ButtonGroup>
 					<ButtonGroup name="ПодменюОтчетыСмТакже" id="1219">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Подменю отчеты см также</v8:content>
+							</v8:item>
+						</Title>
 						<ToolTip>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -222,7 +198,7 @@
 				<CommandName>Form.Command.СчитатьКартуЛояльности</CommandName>
 				<ExtendedTooltip name="СчитатьКартуЛояльностиExtendedTooltip" id="719"/>
 			</Button>
-			<Popup name="ПодменюЗаполнить" id="1441">
+			<Popup name="ПодменюЗаполнить" id="1112">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -239,7 +215,7 @@
 					<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
 					<xr:LoadTransparent>true</xr:LoadTransparent>
 				</Picture>
-				<ExtendedTooltip name="ПодменюДополнительныхОбработокЗаполненияРасширеннаяПодсказка" id="1445"/>
+				<ExtendedTooltip name="ПодменюДополнительныхОбработокЗаполненияРасширеннаяПодсказка" id="1113"/>
 			</Popup>
 			<Button name="ФормаСправка" id="1120">
 				<Type>CommandBarButton</Type>
@@ -262,15 +238,9 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа статус</v8:content>
+					<v8:content>Статус</v8:content>
 				</v8:item>
 			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа статус</v8:content>
-				</v8:item>
-			</ToolTip>
 			<Group>Horizontal</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
@@ -325,12 +295,6 @@
 					<v8:content>Страницы</v8:content>
 				</v8:item>
 			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Страницы</v8:content>
-				</v8:item>
-			</ToolTip>
 			<ExtendedTooltip name="ГруппаСтраницыExtendedTooltip" id="757"/>
 			<ChildItems>
 				<Page name="ГруппаОсновное" id="1170">
@@ -340,12 +304,6 @@
 							<v8:content>Основное</v8:content>
 						</v8:item>
 					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Основное</v8:content>
-						</v8:item>
-					</ToolTip>
 					<ExtendedTooltip name="ГруппаОсновноеРасширеннаяПодсказка" id="1171"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаРеализацияПоЗаказам" id="534">
@@ -390,12 +348,6 @@
 													<v8:content>Страница заказ</v8:content>
 												</v8:item>
 											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Страница заказ</v8:content>
-												</v8:item>
-											</ToolTip>
 											<Group>Horizontal</Group>
 											<ExtendedTooltip name="СтраницаЗаказExtendedTooltip" id="722"/>
 											<ChildItems>
@@ -483,12 +435,6 @@
 													<v8:content>Страница заказы</v8:content>
 												</v8:item>
 											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Страница заказы</v8:content>
-												</v8:item>
-											</ToolTip>
 											<Group>Horizontal</Group>
 											<ExtendedTooltip name="СтраницаЗаказыExtendedTooltip" id="727"/>
 											<ChildItems>
@@ -509,6 +455,7 @@
 													</Title>
 													<TitleLocation>None</TitleLocation>
 													<AutoMaxWidth>false</AutoMaxWidth>
+													<MaxWidth>15</MaxWidth>
 													<Hiperlink>true</Hiperlink>
 													<ContextMenu name="НадписьЗаголовокЗаказыКлиентовКонтекстноеМеню" id="545"/>
 													<ExtendedTooltip name="НадписьЗаголовокЗаказыКлиентовExtendedTooltip" id="729"/>
@@ -578,12 +525,6 @@
 									<v8:content>Шапка</v8:content>
 								</v8:item>
 							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Шапка</v8:content>
-								</v8:item>
-							</ToolTip>
 							<Group>Horizontal</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -596,12 +537,6 @@
 											<v8:content>Шапка лево</v8:content>
 										</v8:item>
 									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Шапка лево</v8:content>
-										</v8:item>
-									</ToolTip>
 									<Group>Vertical</Group>
 									<Representation>None</Representation>
 									<United>false</United>
@@ -615,12 +550,6 @@
 													<v8:content>Номер и дата</v8:content>
 												</v8:item>
 											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Номер и дата</v8:content>
-												</v8:item>
-											</ToolTip>
 											<Group>Horizontal</Group>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
@@ -700,12 +629,6 @@
 															<v8:content>Страницы проблема проверка контрагента партнер</v8:content>
 														</v8:item>
 													</Title>
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Страницы проблема проверка контрагента партнер</v8:content>
-														</v8:item>
-													</ToolTip>
 													<GroupVerticalAlign>Center</GroupVerticalAlign>
 													<PagesRepresentation>None</PagesRepresentation>
 													<ExtendedTooltip name="СтраницыПроблемаПроверкаКонтрагентаПартнерРасширеннаяПодсказка" id="1128"/>
@@ -717,12 +640,6 @@
 																	<v8:content>Страница нет проблемы партнер</v8:content>
 																</v8:item>
 															</Title>
-															<ToolTip>
-																<v8:item>
-																	<v8:lang>ru</v8:lang>
-																	<v8:content>Страница нет проблемы партнер</v8:content>
-																</v8:item>
-															</ToolTip>
 															<ExtendedTooltip name="СтраницаНетПроблемыПартнерРасширеннаяПодсказка" id="1130"/>
 															<ChildItems>
 																<LabelDecoration name="ДекорацияНетПроблемыПартнер" id="1131">
@@ -742,12 +659,6 @@
 																	<v8:content>Страница есть проблема партнер</v8:content>
 																</v8:item>
 															</Title>
-															<ToolTip>
-																<v8:item>
-																	<v8:lang>ru</v8:lang>
-																	<v8:content>Страница есть проблема партнер</v8:content>
-																</v8:item>
-															</ToolTip>
 															<ExtendedTooltip name="СтраницаЕстьПроблемаПартнерРасширеннаяПодсказка" id="1135"/>
 															<ChildItems>
 																<PictureDecoration name="ПроблемаПроверкаКонтрагентаПартнер" id="1136">
@@ -782,12 +693,6 @@
 													<v8:content>Группа контрагента</v8:content>
 												</v8:item>
 											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Группа контрагент</v8:content>
-												</v8:item>
-											</ToolTip>
 											<Group>Horizontal</Group>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
@@ -817,12 +722,6 @@
 															<v8:content>Страницы проблема проверка контрагента контрагент</v8:content>
 														</v8:item>
 													</Title>
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Страницы проблема проверка контрагента контрагент</v8:content>
-														</v8:item>
-													</ToolTip>
 													<GroupVerticalAlign>Center</GroupVerticalAlign>
 													<PagesRepresentation>None</PagesRepresentation>
 													<ExtendedTooltip name="СтраницыПроблемаПроверкаКонтрагентаКонтрагентРасширеннаяПодсказка" id="1145"/>
@@ -834,12 +733,6 @@
 																	<v8:content>Страница нет проблемы контрагент</v8:content>
 																</v8:item>
 															</Title>
-															<ToolTip>
-																<v8:item>
-																	<v8:lang>ru</v8:lang>
-																	<v8:content>Страница нет проблемы контрагент</v8:content>
-																</v8:item>
-															</ToolTip>
 															<ExtendedTooltip name="СтраницаНетПроблемыКонтрагентРасширеннаяПодсказка" id="1147"/>
 															<ChildItems>
 																<LabelDecoration name="ДекорацияНетПроблемыКонтрагент" id="1148">
@@ -859,12 +752,6 @@
 																	<v8:content>Страница есть проблема контрагент</v8:content>
 																</v8:item>
 															</Title>
-															<ToolTip>
-																<v8:item>
-																	<v8:lang>ru</v8:lang>
-																	<v8:content>Страница есть проблема контрагент</v8:content>
-																</v8:item>
-															</ToolTip>
 															<ExtendedTooltip name="СтраницаЕстьПроблемаКонтрагентРасширеннаяПодсказка" id="1152"/>
 															<ChildItems>
 																<PictureDecoration name="ПроблемаПроверкаКонтрагента" id="1153">
@@ -896,15 +783,9 @@
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Группа соглашение</v8:content>
+													<v8:content>Соглашение</v8:content>
 												</v8:item>
 											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Группа соглашение</v8:content>
-												</v8:item>
-											</ToolTip>
 											<Group>Horizontal</Group>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
@@ -939,12 +820,6 @@
 											<v8:content>Шапка право</v8:content>
 										</v8:item>
 									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Шапка право</v8:content>
-										</v8:item>
-									</ToolTip>
 									<Group>Vertical</Group>
 									<Representation>None</Representation>
 									<United>false</United>
@@ -955,15 +830,9 @@
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Группа хозяйственная операция</v8:content>
+													<v8:content>Хозяйственная операция</v8:content>
 												</v8:item>
 											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Группа хозяйственная операция</v8:content>
-												</v8:item>
-											</ToolTip>
 											<Group>Horizontal</Group>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
@@ -1012,7 +881,7 @@
 														</xr:Item>
 													</ChoiceList>
 													<DropListWidth>28</DropListWidth>
-													<BackColor>0:7793b52f-6012-4980-866f-5cf97f767f94</BackColor>
+													<BackColor>0:de17b31f-a0b7-423b-91ef-265be5274361</BackColor>
 													<ContextMenu name="ХозяйственнаяОперацияКонтекстноеМеню" id="1006"/>
 													<ExtendedTooltip name="ХозяйственнаяОперацияРасширеннаяПодсказка" id="1007"/>
 												</InputField>
@@ -1022,7 +891,7 @@
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Группа организация</v8:content>
+													<v8:content>Организация</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
@@ -1048,15 +917,9 @@
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Группа договор</v8:content>
+													<v8:content>Договор</v8:content>
 												</v8:item>
 											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Группа договор</v8:content>
-												</v8:item>
-											</ToolTip>
 											<Group>Horizontal</Group>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
@@ -1086,12 +949,6 @@
 													<v8:content>Склад</v8:content>
 												</v8:item>
 											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Склад</v8:content>
-												</v8:item>
-											</ToolTip>
 											<Group>Horizontal</Group>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
@@ -1120,12 +977,12 @@
 									</ChildItems>
 								</UsualGroup>
 								<UsualGroup name="ГруппаНадписи" id="1189">
-									<ToolTip>
+									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Группа надписи</v8:content>
+											<v8:content>Надписи</v8:content>
 										</v8:item>
-									</ToolTip>
+									</Title>
 									<Group>Vertical</Group>
 									<Representation>None</Representation>
 									<United>false</United>
@@ -1133,12 +990,12 @@
 									<ExtendedTooltip name="ГруппаНадписиРасширеннаяПодсказка" id="1190"/>
 									<ChildItems>
 										<UsualGroup name="ГруппаНадписьОперация" id="1229">
-											<ToolTip>
+											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Группа надпись операция</v8:content>
+													<v8:content>Надпись операция</v8:content>
 												</v8:item>
-											</ToolTip>
+											</Title>
 											<Group>Horizontal</Group>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
@@ -1153,12 +1010,12 @@
 											</ChildItems>
 										</UsualGroup>
 										<UsualGroup name="ГруппаНадписьОрганизация" id="1196">
-											<ToolTip>
+											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Группа надпись организация</v8:content>
+													<v8:content>Надпись организация</v8:content>
 												</v8:item>
-											</ToolTip>
+											</Title>
 											<Group>Horizontal</Group>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
@@ -1196,12 +1053,12 @@
 											</ChildItems>
 										</UsualGroup>
 										<UsualGroup name="ГруппаНадписьДоговор" id="1201">
-											<ToolTip>
+											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Группа надпись договор</v8:content>
+													<v8:content>Надпись договор</v8:content>
 												</v8:item>
-											</ToolTip>
+											</Title>
 											<Group>Horizontal</Group>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
@@ -1234,12 +1091,12 @@
 										</UsualGroup>
 										<UsualGroup name="ГруппаНадписьСклад" id="1234">
 											<EnableContentChange>true</EnableContentChange>
-											<ToolTip>
+											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Группа надпись склад</v8:content>
+													<v8:content>Надпись склад</v8:content>
 												</v8:item>
-											</ToolTip>
+											</Title>
 											<GroupVerticalAlign>Center</GroupVerticalAlign>
 											<Group>Horizontal</Group>
 											<Representation>None</Representation>
@@ -1316,12 +1173,6 @@
 									<v8:content>Группа оплата</v8:content>
 								</v8:item>
 							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа оплата</v8:content>
-								</v8:item>
-							</ToolTip>
 							<Width>79</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<Group>Horizontal</Group>
@@ -1391,12 +1242,6 @@
 							<v8:content>Товары</v8:content>
 						</v8:item>
 					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Товары</v8:content>
-						</v8:item>
-					</ToolTip>
 					<TitleDataPath>Объект.Товары.RowsCount</TitleDataPath>
 					<ExtendedTooltip name="ГруппаТоварыExtendedTooltip" id="758"/>
 					<ChildItems>
@@ -1412,6 +1257,12 @@
 								<xr:LoadTransparent>false</xr:LoadTransparent>
 							</RowsPicture>
 							<BorderColor>style:BorderColor</BorderColor>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Товары</v8:content>
+								</v8:item>
+							</Title>
 							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="ТоварыКонтекстноеМеню" id="28">
 								<ChildItems>
@@ -1471,12 +1322,6 @@
 												<v8:content>Подобрать товары</v8:content>
 											</v8:item>
 										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Группа товары подобрать товары</v8:content>
-											</v8:item>
-										</ToolTip>
 										<ExtendedTooltip name="ГруппаТоварыПодобратьТоварыExtendedTooltip" id="767"/>
 										<ChildItems>
 											<ButtonGroup name="ГруппаТорговоеОборудование" id="359">
@@ -1486,12 +1331,6 @@
 														<v8:content>Торговое оборудование</v8:content>
 													</v8:item>
 												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Торговое оборудование</v8:content>
-													</v8:item>
-												</ToolTip>
 												<ExtendedTooltip name="ГруппаТорговоеОборудованиеExtendedTooltip" id="768"/>
 												<ChildItems>
 													<Button name="ТоварыПоискПоШтрихкоду" id="269">
@@ -1548,12 +1387,6 @@
 														<v8:content>Заполнить</v8:content>
 													</v8:item>
 												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Заполнить</v8:content>
-													</v8:item>
-												</ToolTip>
 												<ExtendedTooltip name="ТоварыГруппаЗаполнитьExtendedTooltip" id="775"/>
 												<ChildItems>
 													<Button name="ТоварыОткрытьПодбор" id="358">
@@ -1594,12 +1427,6 @@
 												<v8:content>Цены и скидки</v8:content>
 											</v8:item>
 										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Группа цены скидки</v8:content>
-											</v8:item>
-										</ToolTip>
 										<ExtendedTooltip name="ГруппаЦеныСкидкиРасширеннаяПодсказка" id="1176"/>
 										<ChildItems>
 											<ButtonGroup name="ГруппаТоварыЦены" id="320">
@@ -1638,12 +1465,6 @@
 														<v8:content>Скидки (наценки)</v8:content>
 													</v8:item>
 												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Скидки (наценки)</v8:content>
-													</v8:item>
-												</ToolTip>
 												<ExtendedTooltip name="ГруппаТоварыСкидкиНаценкиExtendedTooltip" id="787"/>
 												<ChildItems>
 													<Button name="ТоварыРассчитатьСкидкиНаценки" id="351">
@@ -1676,15 +1497,9 @@
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Группа товары информация о скидках</v8:content>
+																<v8:content>Товары информация о скидках</v8:content>
 															</v8:item>
 														</Title>
-														<ToolTip>
-															<v8:item>
-																<v8:lang>ru</v8:lang>
-																<v8:content>Группа товары информация о скидках</v8:content>
-															</v8:item>
-														</ToolTip>
 														<ExtendedTooltip name="ГруппаТоварыИнформацияОСкидкахExtendedTooltip" id="793"/>
 														<ChildItems>
 															<Button name="ТоварыОткрытьИнформациюОСкидках" id="378">
@@ -1808,12 +1623,6 @@
 											<v8:content>Набор</v8:content>
 										</v8:item>
 									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Товары группа набор</v8:content>
-										</v8:item>
-									</ToolTip>
 									<Group>InCell</Group>
 									<ShowInHeader>true</ShowInHeader>
 									<ExtendedTooltip name="ТоварыГруппаНаборРасширеннаяПодсказка" id="1002"/>
@@ -1865,12 +1674,6 @@
 											<v8:content>Товары группа колонок серия</v8:content>
 										</v8:item>
 									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Товары группа колонок серия</v8:content>
-										</v8:item>
-									</ToolTip>
 									<Group>InCell</Group>
 									<ExtendedTooltip name="ТоварыГруппаКолонокСерияExtendedTooltip" id="805"/>
 									<ChildItems>
@@ -1925,12 +1728,6 @@
 											<v8:content>Упаковка, единица измерения</v8:content>
 										</v8:item>
 									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Упаковка, единица измерения</v8:content>
-										</v8:item>
-									</ToolTip>
 									<Group>InCell</Group>
 									<ExtendedTooltip name="ТоварыУпаковкаЕдиницаИзмеренияExtendedTooltip" id="809"/>
 									<ChildItems>
@@ -2142,12 +1939,6 @@
 											<v8:content>Товары группа заказ клиента</v8:content>
 										</v8:item>
 									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Товары группа заказ клиента</v8:content>
-										</v8:item>
-									</ToolTip>
 									<Group>InCell</Group>
 									<ExtendedTooltip name="ТоварыГруппаЗаказКлиентаExtendedTooltip" id="825"/>
 									<ChildItems>
@@ -2193,15 +1984,9 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Группа надпись и картинка несколько складов</v8:content>
+									<v8:content>Надпись и картинка несколько складов</v8:content>
 								</v8:item>
 							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа надпись и картинка несколько складов</v8:content>
-								</v8:item>
-							</ToolTip>
 							<Group>Horizontal</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -2250,27 +2035,15 @@
 							<v8:content>Доставка</v8:content>
 						</v8:item>
 					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Доставка</v8:content>
-						</v8:item>
-					</ToolTip>
 					<ExtendedTooltip name="СтраницаДоставкаExtendedTooltip" id="828"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаСпособДоставкиПеревозчик" id="1257">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Группа способ доставки перевозчик</v8:content>
+									<v8:content>Способ доставки перевозчик</v8:content>
 								</v8:item>
 							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа способ доставки перевозчик</v8:content>
-								</v8:item>
-							</ToolTip>
 							<Group>Horizontal</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -2359,12 +2132,6 @@
 											<v8:content>Страницы перевозчик</v8:content>
 										</v8:item>
 									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Страницы перевозчик</v8:content>
-										</v8:item>
-									</ToolTip>
 									<PagesRepresentation>None</PagesRepresentation>
 									<ExtendedTooltip name="СтраницыПеревозчикРасширеннаяПодсказка" id="1266"/>
 									<ChildItems>
@@ -2375,12 +2142,6 @@
 													<v8:content>Страница перевозчик</v8:content>
 												</v8:item>
 											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Страница перевозчик</v8:content>
-												</v8:item>
-											</ToolTip>
 											<ExtendedTooltip name="СтраницаПеревозчикРасширеннаяПодсказка" id="1268"/>
 											<ChildItems>
 												<InputField name="ПеревозчикПартнер" id="1269">
@@ -2411,12 +2172,6 @@
 													<v8:content>Страница перевозчик пусто</v8:content>
 												</v8:item>
 											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Страница перевозчик пусто</v8:content>
-												</v8:item>
-											</ToolTip>
 											<VerticalAlign>Bottom</VerticalAlign>
 											<ExtendedTooltip name="СтраницаПеревозчикПустоРасширеннаяПодсказка" id="1273"/>
 											<ChildItems>
@@ -2438,12 +2193,6 @@
 									<v8:content>Страницы доставки</v8:content>
 								</v8:item>
 							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Страницы доставки</v8:content>
-								</v8:item>
-							</ToolTip>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="СтраницыДоставкиExtendedTooltip" id="1278"/>
 							<ChildItems>
@@ -2454,12 +2203,6 @@
 											<v8:content>Страница самовывоз</v8:content>
 										</v8:item>
 									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Страница самовывоз</v8:content>
-										</v8:item>
-									</ToolTip>
 									<Group>Horizontal</Group>
 									<ExtendedTooltip name="СтраницаСамовывозExtendedTooltip" id="1280"/>
 									<ChildItems>
@@ -2491,12 +2234,6 @@
 											<v8:content>Страница доставка до получателя</v8:content>
 										</v8:item>
 									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Страница доставка до получателя</v8:content>
-										</v8:item>
-									</ToolTip>
 									<ExtendedTooltip name="СтраницаДоставкаДоПолучателяExtendedTooltip" id="1288"/>
 									<ChildItems>
 										<InputField name="АдресДоставкиПолучателя" id="1289">
@@ -2519,7 +2256,7 @@
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Группа зона время</v8:content>
+													<v8:content>Зона время</v8:content>
 												</v8:item>
 											</Title>
 											<ToolTip>
@@ -2546,7 +2283,7 @@
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Желаемое время
+															<v8:content>Желаемое время
 доставки с</v8:content>
 														</v8:item>
 													</Title>
@@ -2580,7 +2317,7 @@
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Группа доставка до получателя доп инфо</v8:content>
+													<v8:content>Доставка до получателя доп инфо</v8:content>
 												</v8:item>
 											</Title>
 											<ToolTip>
@@ -2601,8 +2338,8 @@
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Дополнительная
-информация
+															<v8:content>Дополнительная
+информация
 по доставке</v8:content>
 														</v8:item>
 													</Title>
@@ -2658,12 +2395,6 @@
 											<v8:content>Страница доставка перевозчиком по адресу</v8:content>
 										</v8:item>
 									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Страница доставка перевозчиком по адресу</v8:content>
-										</v8:item>
-									</ToolTip>
 									<ExtendedTooltip name="СтраницаДоставкаПеревозчикомПоАдресуExtendedTooltip" id="1324"/>
 									<ChildItems>
 										<InputField name="АдресДоставкиПеревозчика" id="1325">
@@ -2671,7 +2402,7 @@
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Адрес доставки
+													<v8:content>Адрес доставки
 до перевозчика</v8:content>
 												</v8:item>
 											</Title>
@@ -2688,15 +2419,9 @@
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Группа зона время1</v8:content>
+													<v8:content>Зона время 1</v8:content>
 												</v8:item>
 											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Группа зона время1</v8:content>
-												</v8:item>
-											</ToolTip>
 											<Group>Horizontal</Group>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
@@ -2707,7 +2432,7 @@
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Зона доставки
+															<v8:content>Зона доставки
 до перевозчика</v8:content>
 														</v8:item>
 													</Title>
@@ -2723,7 +2448,7 @@
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Время доставки 
+															<v8:content>Время доставки 
 к перевозчику с</v8:content>
 														</v8:item>
 													</Title>
@@ -2757,15 +2482,9 @@
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Группа доставка до получателя доп инфо1</v8:content>
+													<v8:content>Доставка до получателя доп инфо 1</v8:content>
 												</v8:item>
 											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Группа доставка до получателя доп инфо1</v8:content>
-												</v8:item>
-											</ToolTip>
 											<GroupVerticalAlign>Bottom</GroupVerticalAlign>
 											<Group>Horizontal</Group>
 											<VerticalAlign>Bottom</VerticalAlign>
@@ -2778,9 +2497,9 @@
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Дополнительная
-информация
-по доставке
+															<v8:content>Дополнительная
+информация
+по доставке
 до перевозчика</v8:content>
 														</v8:item>
 													</Title>
@@ -2808,7 +2527,7 @@
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Адрес доставки
+													<v8:content>Адрес доставки
 до клиента</v8:content>
 												</v8:item>
 											</Title>
@@ -2853,12 +2572,6 @@
 											<v8:content>Страница доставка перевозчиком</v8:content>
 										</v8:item>
 									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Страница доставка перевозчиком</v8:content>
-										</v8:item>
-									</ToolTip>
 									<ExtendedTooltip name="СтраницаДоставкаПеревозчикомExtendedTooltip" id="1369"/>
 									<ChildItems>
 										<InputField name="АдресДоставкиПолучателя2" id="1372">
@@ -2866,7 +2579,7 @@
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Адрес доставки
+													<v8:content>Адрес доставки
 до клиента</v8:content>
 												</v8:item>
 											</Title>
@@ -2883,15 +2596,9 @@
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Группа доставка до получателя доп инфо2</v8:content>
+													<v8:content>Доставка до получателя доп инфо 2</v8:content>
 												</v8:item>
 											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Группа доставка до получателя доп инфо2</v8:content>
-												</v8:item>
-											</ToolTip>
 											<GroupVerticalAlign>Bottom</GroupVerticalAlign>
 											<Group>Horizontal</Group>
 											<VerticalAlign>Bottom</VerticalAlign>
@@ -2904,8 +2611,8 @@
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Дополнительная
-информация
+															<v8:content>Дополнительная
+информация
 по доставке</v8:content>
 														</v8:item>
 													</Title>
@@ -2966,12 +2673,6 @@
 							<v8:content>Дополнительно</v8:content>
 						</v8:item>
 					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Дополнительно</v8:content>
-						</v8:item>
-					</ToolTip>
 					<ExtendedTooltip name="ГруппаДополнительноExtendedTooltip" id="861"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаПараметры" id="335">
@@ -2981,12 +2682,6 @@
 									<v8:content>Параметры</v8:content>
 								</v8:item>
 							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа параметры</v8:content>
-								</v8:item>
-							</ToolTip>
 							<Group>Horizontal</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -2999,12 +2694,6 @@
 											<v8:content>Параметры лево</v8:content>
 										</v8:item>
 									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Группа параметры лево</v8:content>
-										</v8:item>
-									</ToolTip>
 									<Group>Vertical</Group>
 									<Representation>None</Representation>
 									<United>false</United>
@@ -3066,7 +2755,7 @@
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Группа фин.
+													<v8:content>Группа фин.
 учета расчетов</v8:content>
 												</v8:item>
 											</Title>
@@ -3081,7 +2770,7 @@
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Направление
+													<v8:content>Направление
 деятельности</v8:content>
 												</v8:item>
 											</Title>
@@ -3101,12 +2790,6 @@
 											<v8:content>Параметры право</v8:content>
 										</v8:item>
 									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Параметры право</v8:content>
-										</v8:item>
-									</ToolTip>
 									<Group>Vertical</Group>
 									<Representation>None</Representation>
 									<United>false</United>
@@ -3120,12 +2803,6 @@
 													<v8:content>Валюта</v8:content>
 												</v8:item>
 											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Валюта</v8:content>
-												</v8:item>
-											</ToolTip>
 											<Group>Horizontal</Group>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
@@ -3196,12 +2873,6 @@
 													<v8:content>Многооборотная тара</v8:content>
 												</v8:item>
 											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Группа тара</v8:content>
-												</v8:item>
-											</ToolTip>
 											<Group>Vertical</Group>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
@@ -3211,15 +2882,9 @@
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Группа возвращать срок возврата</v8:content>
+															<v8:content>Возвращать срок возврата</v8:content>
 														</v8:item>
 													</Title>
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Группа возвращать срок возврата</v8:content>
-														</v8:item>
-													</ToolTip>
 													<Group>Horizontal</Group>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
@@ -3255,15 +2920,9 @@
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Группа требуется залог за тару</v8:content>
+													<v8:content>Требуется залог за тару</v8:content>
 												</v8:item>
 											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Группа требуется залог за тару</v8:content>
-												</v8:item>
-											</ToolTip>
 											<Group>Horizontal</Group>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
@@ -3294,12 +2953,6 @@
 									<v8:content>Печать</v8:content>
 								</v8:item>
 							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа печать</v8:content>
-								</v8:item>
-							</ToolTip>
 							<Group>Horizontal</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -3310,7 +2963,7 @@
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Вариант оформления
+											<v8:content>Вариант оформления
 продажи</v8:content>
 										</v8:item>
 									</Title>
@@ -3352,12 +3005,6 @@
 									<v8:content>Дополнительные реквизиты</v8:content>
 								</v8:item>
 							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Дополнительные реквизиты</v8:content>
-								</v8:item>
-							</ToolTip>
 							<Group>Vertical</Group>
 							<Representation>NormalSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -3374,32 +3021,19 @@
 					<v8:content>Подвал</v8:content>
 				</v8:item>
 			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Подвал</v8:content>
-				</v8:item>
-			</ToolTip>
 			<HorizontalStretch>true</HorizontalStretch>
 			<Group>Horizontal</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
-			<ThroughAlign>DontUse</ThroughAlign>
 			<ExtendedTooltip name="ГруппаПодвалExtendedTooltip" id="904"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаСостояниеЭДО" id="1403">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Группа состояние ЭДО</v8:content>
+							<v8:content>Состояние ЭДО</v8:content>
 						</v8:item>
 					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа состояние ЭДО</v8:content>
-						</v8:item>
-					</ToolTip>
 					<Group>Vertical</Group>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
@@ -3429,17 +3063,10 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Группа итого расчеты</v8:content>
+							<v8:content>Итого расчеты</v8:content>
 						</v8:item>
 					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа итого расчеты</v8:content>
-						</v8:item>
-					</ToolTip>
 					<HorizontalStretch>true</HorizontalStretch>
-					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
 					<HorizontalAlign>Right</HorizontalAlign>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
@@ -3461,7 +3088,7 @@
 							<Group>Horizontal</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
-							<BackColor>0:94581921-73ec-4d1f-8a7a-1efb94b73d52</BackColor>
+							<BackColor>0:8292a2e1-9f78-4874-9bed-1b41d880f83a</BackColor>
 							<ExtendedTooltip name="ГруппаИтогоExtendedTooltip" id="905"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаВсегоСкидка" id="446">
@@ -3471,12 +3098,6 @@
 											<v8:content>Всего скидка</v8:content>
 										</v8:item>
 									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Группа всего скидка</v8:content>
-										</v8:item>
-									</ToolTip>
 									<Group>Horizontal</Group>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
@@ -3497,7 +3118,7 @@
 											<Format>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>ЧЦ=15; ЧДЦ=2; ЧН=0,00</v8:content>
+													<v8:content>ЧДЦ=2; ЧН=0,00</v8:content>
 												</v8:item>
 											</Format>
 											<ContextMenu name="СуммаСкидкиКонтекстноеМеню" id="448"/>
@@ -3509,7 +3130,7 @@
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Группа страницы всего</v8:content>
+											<v8:content>Страницы всего</v8:content>
 										</v8:item>
 									</Title>
 									<ToolTip>
@@ -3528,12 +3149,6 @@
 													<v8:content>Страница с НДС</v8:content>
 												</v8:item>
 											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Страница с НДС</v8:content>
-												</v8:item>
-											</ToolTip>
 											<ExtendedTooltip name="СтраницаВсегоСНДСExtendedTooltip" id="907"/>
 											<ChildItems>
 												<InputField name="СуммаВсегоСНДС" id="478">
@@ -3550,7 +3165,7 @@
 													<Format>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>ЧЦ=15; ЧДЦ=2; ЧН=0,00</v8:content>
+															<v8:content>ЧДЦ=2; ЧН=0,00</v8:content>
 														</v8:item>
 													</Format>
 													<ContextMenu name="СуммаВсегоСНДСКонтекстноеМеню" id="479"/>
@@ -3565,12 +3180,6 @@
 													<v8:content>Страница без НДС</v8:content>
 												</v8:item>
 											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Страница без НДС</v8:content>
-												</v8:item>
-											</ToolTip>
 											<ExtendedTooltip name="СтраницаВсегоБезНДСExtendedTooltip" id="909"/>
 											<ChildItems>
 												<InputField name="СуммаВсегоБезНДС" id="481">
@@ -3587,7 +3196,7 @@
 													<Format>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>ЧЦ=15; ЧДЦ=2; ЧН=0,00</v8:content>
+															<v8:content>ЧДЦ=2; ЧН=0,00</v8:content>
 														</v8:item>
 													</Format>
 													<ContextMenu name="СуммаВсегоБезНДСКонтекстноеМеню" id="482"/>
@@ -3617,12 +3226,12 @@
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаСчетФактураИСостояние" id="1428">
-			<ToolTip>
+			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа счет фактура и состояние</v8:content>
+					<v8:content>Счет фактура и состояние</v8:content>
 				</v8:item>
-			</ToolTip>
+			</Title>
 			<Group>Horizontal</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
@@ -3644,12 +3253,12 @@
 					<ContextMenu name="ПроблемаПроверкаКонтрагентаСчетФактураКонтекстноеМеню" id="1157"/>
 					<ExtendedTooltip name="ПроблемаПроверкаКонтрагентаСчетФактураРасширеннаяПодсказка" id="1158"/>
 				</PictureDecoration>
-				<LabelField name="ТекстДокументыНаОсновании" id="1226">
-					<DataPath>ТекстДокументыНаОсновании</DataPath>
+				<LabelField name="ТекстДокументыНаОснованииПодвал" id="1444">
+					<DataPath>ТекстДокументыНаОснованииПодвал</DataPath>
 					<TitleLocation>None</TitleLocation>
 					<AutoMaxWidth>false</AutoMaxWidth>
-					<ContextMenu name="ТекстДокументыНаОснованииКонтекстноеМеню" id="1227"/>
-					<ExtendedTooltip name="ТекстДокументыНаОснованииРасширеннаяПодсказка" id="1228"/>
+					<ContextMenu name="ТекстДокументыНаОснованииПодвалКонтекстноеМеню" id="1445"/>
+					<ExtendedTooltip name="ТекстДокументыНаОснованииПодвалРасширеннаяПодсказка" id="1446"/>
 				</LabelField>
 			</ChildItems>
 		</UsualGroup>
@@ -3657,15 +3266,9 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа интеграция</v8:content>
+					<v8:content>Интеграция</v8:content>
 				</v8:item>
 			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа интеграция</v8:content>
-				</v8:item>
-			</ToolTip>
 			<Group>Vertical</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
@@ -3732,12 +3335,7 @@
 							</v8:item>
 						</Title>
 						<Type>
-							<v8:Type>xs:decimal</v8:Type>
-							<v8:NumberQualifiers>
-								<v8:Digits>15</v8:Digits>
-								<v8:FractionDigits>2</v8:FractionDigits>
-								<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-							</v8:NumberQualifiers>
+							<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
 						</Type>
 					</Column>
 					<Column name="БезВозвратнойТары" id="4">
@@ -3759,12 +3357,7 @@
 							</v8:item>
 						</Title>
 						<Type>
-							<v8:Type>xs:decimal</v8:Type>
-							<v8:NumberQualifiers>
-								<v8:Digits>15</v8:Digits>
-								<v8:FractionDigits>2</v8:FractionDigits>
-								<v8:AllowedSign>Any</v8:AllowedSign>
-							</v8:NumberQualifiers>
+							<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
 						</Type>
 					</Column>
 					<Column name="СуммаБезВозвратнойТары" id="6">
@@ -3775,12 +3368,7 @@
 							</v8:item>
 						</Title>
 						<Type>
-							<v8:Type>xs:decimal</v8:Type>
-							<v8:NumberQualifiers>
-								<v8:Digits>15</v8:Digits>
-								<v8:FractionDigits>2</v8:FractionDigits>
-								<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-							</v8:NumberQualifiers>
+							<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
 						</Type>
 					</Column>
 					<Column name="СуммаНДСБезВозвратнойТары" id="7">
@@ -3791,12 +3379,7 @@
 							</v8:item>
 						</Title>
 						<Type>
-							<v8:Type>xs:decimal</v8:Type>
-							<v8:NumberQualifiers>
-								<v8:Digits>15</v8:Digits>
-								<v8:FractionDigits>2</v8:FractionDigits>
-								<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-							</v8:NumberQualifiers>
+							<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
 						</Type>
 					</Column>
 					<Column name="СуммаАвтоматическойСкидкиБезВозвратнойТары" id="8">
@@ -3807,12 +3390,7 @@
 							</v8:item>
 						</Title>
 						<Type>
-							<v8:Type>xs:decimal</v8:Type>
-							<v8:NumberQualifiers>
-								<v8:Digits>15</v8:Digits>
-								<v8:FractionDigits>2</v8:FractionDigits>
-								<v8:AllowedSign>Any</v8:AllowedSign>
-							</v8:NumberQualifiers>
+							<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
 						</Type>
 					</Column>
 					<Column name="Артикул" id="9">
@@ -3863,12 +3441,7 @@
 							</v8:item>
 						</Title>
 						<Type>
-							<v8:Type>xs:decimal</v8:Type>
-							<v8:NumberQualifiers>
-								<v8:Digits>15</v8:Digits>
-								<v8:FractionDigits>2</v8:FractionDigits>
-								<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-							</v8:NumberQualifiers>
+							<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
 						</Type>
 					</Column>
 					<Column name="ИндексНабора" id="13">
@@ -3890,6 +3463,17 @@
 							<Item>FunctionalOption.ИспользоватьНаборы</Item>
 						</FunctionalOptions>
 					</Column>
+					<Column name="НДСИсчисляетсяНалоговымАгентом" id="14">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>НДСИсчисляется налоговым агентом</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:boolean</v8:Type>
+						</Type>
+					</Column>
 				</AdditionalColumns>
 			</Columns>
 		</Attribute>
@@ -3901,12 +3485,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>xs:decimal</v8:Type>
-				<v8:NumberQualifiers>
-					<v8:Digits>15</v8:Digits>
-					<v8:FractionDigits>2</v8:FractionDigits>
-					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-				</v8:NumberQualifiers>
+				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
 			</Type>
 		</Attribute>
 		<Attribute name="ВалютаДокумента" id="3">
@@ -3918,17 +3497,6 @@
 			</Title>
 			<Type>
 				<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
-			</Type>
-		</Attribute>
-		<Attribute name="ТекстСчетФактура" id="4">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Счет-фактура</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>v8ui:FormattedString</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="ИспользоватьПодключаемоеОборудование" id="5">
@@ -4009,12 +3577,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>xs:decimal</v8:Type>
-				<v8:NumberQualifiers>
-					<v8:Digits>15</v8:Digits>
-					<v8:FractionDigits>2</v8:FractionDigits>
-					<v8:AllowedSign>Any</v8:AllowedSign>
-				</v8:NumberQualifiers>
+				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
 			</Type>
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьАвтоматическиеСкидкиВПродажах</Item>
@@ -4076,12 +3639,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>xs:decimal</v8:Type>
-				<v8:NumberQualifiers>
-					<v8:Digits>15</v8:Digits>
-					<v8:FractionDigits>2</v8:FractionDigits>
-					<v8:AllowedSign>Any</v8:AllowedSign>
-				</v8:NumberQualifiers>
+				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
 			</Type>
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьРучныеСкидкиВПродажах</Item>
@@ -4095,12 +3653,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>xs:decimal</v8:Type>
-				<v8:NumberQualifiers>
-					<v8:Digits>15</v8:Digits>
-					<v8:FractionDigits>2</v8:FractionDigits>
-					<v8:AllowedSign>Any</v8:AllowedSign>
-				</v8:NumberQualifiers>
+				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
 			</Type>
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьРучныеСкидкиВПродажах</Item>
@@ -4115,12 +3668,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>xs:decimal</v8:Type>
-				<v8:NumberQualifiers>
-					<v8:Digits>15</v8:Digits>
-					<v8:FractionDigits>2</v8:FractionDigits>
-					<v8:AllowedSign>Any</v8:AllowedSign>
-				</v8:NumberQualifiers>
+				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
 			</Type>
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьАвтоматическиеСкидкиВПродажах</Item>
@@ -4134,12 +3682,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>xs:decimal</v8:Type>
-				<v8:NumberQualifiers>
-					<v8:Digits>15</v8:Digits>
-					<v8:FractionDigits>2</v8:FractionDigits>
-					<v8:AllowedSign>Any</v8:AllowedSign>
-				</v8:NumberQualifiers>
+				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
 			</Type>
 		</Attribute>
 		<Attribute name="СуммаОплаты" id="19">
@@ -4150,12 +3693,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>xs:decimal</v8:Type>
-				<v8:NumberQualifiers>
-					<v8:Digits>15</v8:Digits>
-					<v8:FractionDigits>2</v8:FractionDigits>
-					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-				</v8:NumberQualifiers>
+				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
 			</Type>
 		</Attribute>
 		<Attribute name="СуммаОтгрузки" id="20">
@@ -4166,12 +3704,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>xs:decimal</v8:Type>
-				<v8:NumberQualifiers>
-					<v8:Digits>15</v8:Digits>
-					<v8:FractionDigits>2</v8:FractionDigits>
-					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-				</v8:NumberQualifiers>
+				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
 			</Type>
 		</Attribute>
 		<Attribute name="СуммаРучнойСкидки" id="21">
@@ -4182,12 +3715,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>xs:decimal</v8:Type>
-				<v8:NumberQualifiers>
-					<v8:Digits>15</v8:Digits>
-					<v8:FractionDigits>2</v8:FractionDigits>
-					<v8:AllowedSign>Any</v8:AllowedSign>
-				</v8:NumberQualifiers>
+				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
 			</Type>
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьРучныеСкидкиВПродажах</Item>
@@ -4201,12 +3729,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>xs:decimal</v8:Type>
-				<v8:NumberQualifiers>
-					<v8:Digits>15</v8:Digits>
-					<v8:FractionDigits>2</v8:FractionDigits>
-					<v8:AllowedSign>Any</v8:AllowedSign>
-				</v8:NumberQualifiers>
+				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
 			</Type>
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьАвтоматическиеСкидкиВПродажах</Item>
@@ -4399,62 +3922,6 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ЭтапыГрафикаОплаты" id="42">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Этапы графика оплаты</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>v8:ValueTable</v8:Type>
-			</Type>
-			<Columns>
-				<Column name="ВариантОплаты" id="1">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Вариант оплаты</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>cfg:EnumRef.ВариантыОплатыКлиентом</v8:Type>
-					</Type>
-				</Column>
-				<Column name="СуммаПлатежа" id="2">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Сумма платежа</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:NumberQualifiers>
-							<v8:Digits>15</v8:Digits>
-							<v8:FractionDigits>2</v8:FractionDigits>
-							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-						</v8:NumberQualifiers>
-					</Type>
-				</Column>
-				<Column name="СуммаЗалогаЗаТару" id="3">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Сумма залога за тару</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:NumberQualifiers>
-							<v8:Digits>15</v8:Digits>
-							<v8:FractionDigits>2</v8:FractionDigits>
-							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-						</v8:NumberQualifiers>
-					</Type>
-				</Column>
-			</Columns>
-		</Attribute>
 		<Attribute name="ПоддерживаемыеТипыПодключаемогоОборудования" id="40">
 			<Title>
 				<v8:item>
@@ -4501,22 +3968,6 @@
 				<v8:Type>cfg:EnumRef.ПорядокРасчетов</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="СуммаПредоплатыВВалютеДокумента" id="48">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Сумма предоплаты в валюте документа</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:decimal</v8:Type>
-				<v8:NumberQualifiers>
-					<v8:Digits>15</v8:Digits>
-					<v8:FractionDigits>2</v8:FractionDigits>
-					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-				</v8:NumberQualifiers>
-			</Type>
-		</Attribute>
 		<Attribute name="СуммаНДС" id="49">
 			<Title>
 				<v8:item>
@@ -4525,12 +3976,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>xs:decimal</v8:Type>
-				<v8:NumberQualifiers>
-					<v8:Digits>15</v8:Digits>
-					<v8:FractionDigits>2</v8:FractionDigits>
-					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-				</v8:NumberQualifiers>
+				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
 			</Type>
 		</Attribute>
 		<Attribute name="НадписьРасхождениеЗаказ" id="52">
@@ -4650,12 +4096,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>xs:decimal</v8:Type>
-				<v8:NumberQualifiers>
-					<v8:Digits>15</v8:Digits>
-					<v8:FractionDigits>2</v8:FractionDigits>
-					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-				</v8:NumberQualifiers>
+				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
 			</Type>
 		</Attribute>
 		<Attribute name="ОрдернаяСхемаПриОтгрузке" id="51">
@@ -4688,12 +4129,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>xs:decimal</v8:Type>
-				<v8:NumberQualifiers>
-					<v8:Digits>15</v8:Digits>
-					<v8:FractionDigits>2</v8:FractionDigits>
-					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-				</v8:NumberQualifiers>
+				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
 			</Type>
 		</Attribute>
 		<Attribute name="ДатаДокументаДоИзменения" id="59">
@@ -4810,22 +4246,6 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ПроцентПредоплаты" id="38">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Процент предоплаты</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:decimal</v8:Type>
-				<v8:NumberQualifiers>
-					<v8:Digits>5</v8:Digits>
-					<v8:FractionDigits>2</v8:FractionDigits>
-					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-				</v8:NumberQualifiers>
-			</Type>
-		</Attribute>
 		<Attribute name="ИспользоватьГрафикиОплаты" id="68">
 			<Title>
 				<v8:item>
@@ -4868,17 +4288,6 @@
 			</Title>
 			<Type>
 				<v8:Type>cfg:CatalogRef.ВидыЦен</v8:Type>
-			</Type>
-		</Attribute>
-		<Attribute name="НалогообложениеИзСоглашения" id="72">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Налогообложение из соглашения</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="НадписьЭтапыОплаты" id="73">
@@ -4925,38 +4334,6 @@
 					<v8:Digits>10</v8:Digits>
 					<v8:FractionDigits>0</v8:FractionDigits>
 					<v8:AllowedSign>Any</v8:AllowedSign>
-				</v8:NumberQualifiers>
-			</Type>
-		</Attribute>
-		<Attribute name="СуммаПредоплатыЗаТаруВВалютеДокумента" id="77">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Сумма предоплаты за тару в валюте документа</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:decimal</v8:Type>
-				<v8:NumberQualifiers>
-					<v8:Digits>15</v8:Digits>
-					<v8:FractionDigits>2</v8:FractionDigits>
-					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-				</v8:NumberQualifiers>
-			</Type>
-		</Attribute>
-		<Attribute name="ПроцентПредоплатыЗаТару" id="78">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Процент предоплаты за тару</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:decimal</v8:Type>
-				<v8:NumberQualifiers>
-					<v8:Digits>5</v8:Digits>
-					<v8:FractionDigits>2</v8:FractionDigits>
-					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
@@ -5033,17 +4410,6 @@
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
-			</Type>
-		</Attribute>
-		<Attribute name="ТекстДокументыНаОсновании" id="86">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Текст документы на основании</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>v8ui:FormattedString</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="ТекстТТН" id="87">
@@ -5219,6 +4585,15 @@
 				<v8:Type>v8ui:FormattedString</v8:Type>
 			</Type>
 		</Attribute>
+		<Attribute name="ПараметрыПодключаемыхКоманд" id="101">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Параметры подключаемых команд</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
 		<Attribute name="ВалютаРегламентированногоУчета" id="102">
 			<Title>
 				<v8:item>
@@ -5230,14 +4605,92 @@
 				<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ПараметрыПодключаемыхКоманд" id="101">
+		<Attribute name="СуммаЗалогаЗаТару" id="103">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Параметры подключаемых команд</v8:content>
+					<v8:content>Сумма залога за тару</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
+			</Type>
+		</Attribute>
+		<Attribute name="ПоСоглашениюИспользуютсяДоговорыКонтрагентов" id="104">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>По соглашению используются договоры контрагентов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="УчетНДСКэшированныеЗначенияПараметров" id="105">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Учет НДСКэшированные значения параметров</v8:content>
 				</v8:item>
 			</Title>
 			<Type/>
+		</Attribute>
+		<Attribute name="ТекстСчетаФактурыВыданные" id="106">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст счета фактуры выданные</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8ui:FormattedString</v8:Type>
+			</Type>
+			<FunctionalOptions>
+				<Item>FunctionalOption.ИспользоватьУчетНДС</Item>
+			</FunctionalOptions>
+		</Attribute>
+		<Attribute name="ТекстДокументыНаОснованииПодвал" id="108">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст документы на основании</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8ui:FormattedString</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПараметрыОбменаСКонтрагентами" id="109">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Параметры обмена с контрагентами</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+		<Attribute name="НоваяАрхитектураВзаиморасчетов" id="110">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Новая архитектура взаиморасчетов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ИспользоватьУпрощеннуюСхемуОплатыВПродажах" id="111">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Использовать упрощенную схему оплаты в продажах</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
 		</Attribute>
 	</Attributes>
 	<Commands>
@@ -5925,7 +5378,7 @@
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ЗаписатьДокумент" id="34">
+		<Command name="ЗаписатьДокумент" id="36">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -5946,7 +5399,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ПровестиДокумент" id="25">
+		<Command name="ПровестиДокумент" id="37">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6005,12 +5458,6 @@
 							<v8:content>Создать на основании</v8:content>
 						</v8:item>
 					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Создать на основании</v8:content>
-						</v8:item>
-					</ToolTip>
 					<Picture>
 						<xr:Ref>CommonPicture.ЗаполнитьПоШаблону</xr:Ref>
 						<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -6025,12 +5472,6 @@
 									<v8:content>Создать на основании (Важное)</v8:content>
 								</v8:item>
 							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Создать на основании (Важное)</v8:content>
-								</v8:item>
-							</ToolTip>
 							<ExtendedTooltip name="ПодменюСоздатьНаОснованииВажноеРасширеннаяПодсказка" id="1431"/>
 						</ButtonGroup>
 						<ButtonGroup name="ПодменюСоздатьНаОснованииОбычное" id="1432">
@@ -6040,12 +5481,6 @@
 									<v8:content>Создать на основании (Обычное)</v8:content>
 								</v8:item>
 							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Создать на основании (Обычное)</v8:content>
-								</v8:item>
-							</ToolTip>
 							<ExtendedTooltip name="ПодменюСоздатьНаОснованииОбычноеРасширеннаяПодсказка" id="1433"/>
 						</ButtonGroup>
 						<ButtonGroup name="ПодменюСоздатьНаОснованииСмТакже" id="1434">
@@ -6055,15 +5490,24 @@
 									<v8:content>Создать на основании (См. также)</v8:content>
 								</v8:item>
 							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Создать на основании (См. также)</v8:content>
-								</v8:item>
-							</ToolTip>
 							<ExtendedTooltip name="ПодменюСоздатьНаОснованииСмТакжеРасширеннаяПодсказка" id="1435"/>
 						</ButtonGroup>
 					</ChildItems>
+				</Popup>
+				<Popup name="ПодменюЭДО" id="1395">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЭДО</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Команды электронного документооборота</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ПодменюЭДОРасширеннаяПодсказка" id="1396"/>
 				</Popup>
 				<Popup name="ПодменюПечать" id="1114">
 					<Title>
@@ -6091,30 +5535,9 @@
 							<v8:content>Команды формы</v8:content>
 						</v8:item>
 					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Команды формы</v8:content>
-						</v8:item>
-					</ToolTip>
 					<CommandSource>Form</CommandSource>
 					<ExtendedTooltip name="ФормаГруппаКомандыФормыРасширеннаяПодсказка" id="1119"/>
 				</ButtonGroup>
-				<Popup name="ПодменюЭДО" id="1395">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ЭДО</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Команды электронного документооборота</v8:content>
-						</v8:item>
-					</ToolTip>
-					<ExtendedTooltip name="ПодменюЭДОРасширеннаяПодсказка" id="1396"/>
-				</Popup>
 				<Popup name="ПодменюОтчеты" id="1213">
 					<Title>
 						<v8:item>
@@ -6122,12 +5545,6 @@
 							<v8:content>Отчеты</v8:content>
 						</v8:item>
 					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Отчеты</v8:content>
-						</v8:item>
-					</ToolTip>
 					<Picture>
 						<xr:Ref>CommonPicture.Отчеты</xr:Ref>
 						<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -6136,15 +5553,21 @@
 					<ExtendedTooltip name="ПодменюОтчетыРасширеннаяПодсказка" id="1214"/>
 					<ChildItems>
 						<ButtonGroup name="ПодменюОтчетыВажное" id="1215">
-							<ToolTip>
+							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подменю отчеты важное</v8:content>
 								</v8:item>
-							</ToolTip>
+							</Title>
 							<ExtendedTooltip name="ПодменюОтчетыВажноеРасширеннаяПодсказка" id="1216"/>
 						</ButtonGroup>
 						<ButtonGroup name="ПодменюОтчетыОбычное" id="1217">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Подменю отчеты обычное</v8:content>
+								</v8:item>
+							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -6154,6 +5577,12 @@
 							<ExtendedTooltip name="ПодменюОтчетыОбычноеРасширеннаяПодсказка" id="1218"/>
 						</ButtonGroup>
 						<ButtonGroup name="ПодменюОтчетыСмТакже" id="1219">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Подменю отчеты см также</v8:content>
+								</v8:item>
+							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -6227,15 +5656,9 @@
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
-						<v8:content>Группа статус</v8:content>
+						<v8:content>Статус</v8:content>
 					</v8:item>
 				</Title>
-				<ToolTip>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Группа статус</v8:content>
-					</v8:item>
-				</ToolTip>
 				<Group>Horizontal</Group>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
@@ -6290,12 +5713,6 @@
 						<v8:content>Страницы</v8:content>
 					</v8:item>
 				</Title>
-				<ToolTip>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Страницы</v8:content>
-					</v8:item>
-				</ToolTip>
 				<ExtendedTooltip name="ГруппаСтраницыExtendedTooltip" id="757"/>
 				<ChildItems>
 					<Page name="ГруппаОсновное" id="1170">
@@ -6305,12 +5722,6 @@
 								<v8:content>Основное</v8:content>
 							</v8:item>
 						</Title>
-						<ToolTip>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Основное</v8:content>
-							</v8:item>
-						</ToolTip>
 						<ExtendedTooltip name="ГруппаОсновноеРасширеннаяПодсказка" id="1171"/>
 						<ChildItems>
 							<UsualGroup name="ГруппаРеализацияПоЗаказам" id="534">
@@ -6355,12 +5766,6 @@
 														<v8:content>Страница заказ</v8:content>
 													</v8:item>
 												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Страница заказ</v8:content>
-													</v8:item>
-												</ToolTip>
 												<Group>Horizontal</Group>
 												<ExtendedTooltip name="СтраницаЗаказExtendedTooltip" id="722"/>
 												<ChildItems>
@@ -6448,12 +5853,6 @@
 														<v8:content>Страница заказы</v8:content>
 													</v8:item>
 												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Страница заказы</v8:content>
-													</v8:item>
-												</ToolTip>
 												<Group>Horizontal</Group>
 												<ExtendedTooltip name="СтраницаЗаказыExtendedTooltip" id="727"/>
 												<ChildItems>
@@ -6544,12 +5943,6 @@
 										<v8:content>Шапка</v8:content>
 									</v8:item>
 								</Title>
-								<ToolTip>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Шапка</v8:content>
-									</v8:item>
-								</ToolTip>
 								<Group>Horizontal</Group>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
@@ -6562,12 +5955,6 @@
 												<v8:content>Шапка лево</v8:content>
 											</v8:item>
 										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Шапка лево</v8:content>
-											</v8:item>
-										</ToolTip>
 										<Group>Vertical</Group>
 										<Representation>None</Representation>
 										<United>false</United>
@@ -6581,12 +5968,6 @@
 														<v8:content>Номер и дата</v8:content>
 													</v8:item>
 												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Номер и дата</v8:content>
-													</v8:item>
-												</ToolTip>
 												<Group>Horizontal</Group>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
@@ -6666,12 +6047,6 @@
 																<v8:content>Страницы проблема проверка контрагента партнер</v8:content>
 															</v8:item>
 														</Title>
-														<ToolTip>
-															<v8:item>
-																<v8:lang>ru</v8:lang>
-																<v8:content>Страницы проблема проверка контрагента партнер</v8:content>
-															</v8:item>
-														</ToolTip>
 														<GroupVerticalAlign>Center</GroupVerticalAlign>
 														<PagesRepresentation>None</PagesRepresentation>
 														<ExtendedTooltip name="СтраницыПроблемаПроверкаКонтрагентаПартнерРасширеннаяПодсказка" id="1128"/>
@@ -6683,12 +6058,6 @@
 																		<v8:content>Страница нет проблемы партнер</v8:content>
 																	</v8:item>
 																</Title>
-																<ToolTip>
-																	<v8:item>
-																		<v8:lang>ru</v8:lang>
-																		<v8:content>Страница нет проблемы партнер</v8:content>
-																	</v8:item>
-																</ToolTip>
 																<ExtendedTooltip name="СтраницаНетПроблемыПартнерРасширеннаяПодсказка" id="1130"/>
 																<ChildItems>
 																	<LabelDecoration name="ДекорацияНетПроблемыПартнер" id="1131">
@@ -6708,12 +6077,6 @@
 																		<v8:content>Страница есть проблема партнер</v8:content>
 																	</v8:item>
 																</Title>
-																<ToolTip>
-																	<v8:item>
-																		<v8:lang>ru</v8:lang>
-																		<v8:content>Страница есть проблема партнер</v8:content>
-																	</v8:item>
-																</ToolTip>
 																<ExtendedTooltip name="СтраницаЕстьПроблемаПартнерРасширеннаяПодсказка" id="1135"/>
 																<ChildItems>
 																	<PictureDecoration name="ПроблемаПроверкаКонтрагентаПартнер" id="1136">
@@ -6748,12 +6111,6 @@
 														<v8:content>Группа контрагента</v8:content>
 													</v8:item>
 												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Группа контрагент</v8:content>
-													</v8:item>
-												</ToolTip>
 												<Group>Horizontal</Group>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
@@ -6783,12 +6140,6 @@
 																<v8:content>Страницы проблема проверка контрагента контрагент</v8:content>
 															</v8:item>
 														</Title>
-														<ToolTip>
-															<v8:item>
-																<v8:lang>ru</v8:lang>
-																<v8:content>Страницы проблема проверка контрагента контрагент</v8:content>
-															</v8:item>
-														</ToolTip>
 														<GroupVerticalAlign>Center</GroupVerticalAlign>
 														<PagesRepresentation>None</PagesRepresentation>
 														<ExtendedTooltip name="СтраницыПроблемаПроверкаКонтрагентаКонтрагентРасширеннаяПодсказка" id="1145"/>
@@ -6800,12 +6151,6 @@
 																		<v8:content>Страница нет проблемы контрагент</v8:content>
 																	</v8:item>
 																</Title>
-																<ToolTip>
-																	<v8:item>
-																		<v8:lang>ru</v8:lang>
-																		<v8:content>Страница нет проблемы контрагент</v8:content>
-																	</v8:item>
-																</ToolTip>
 																<ExtendedTooltip name="СтраницаНетПроблемыКонтрагентРасширеннаяПодсказка" id="1147"/>
 																<ChildItems>
 																	<LabelDecoration name="ДекорацияНетПроблемыКонтрагент" id="1148">
@@ -6825,12 +6170,6 @@
 																		<v8:content>Страница есть проблема контрагент</v8:content>
 																	</v8:item>
 																</Title>
-																<ToolTip>
-																	<v8:item>
-																		<v8:lang>ru</v8:lang>
-																		<v8:content>Страница есть проблема контрагент</v8:content>
-																	</v8:item>
-																</ToolTip>
 																<ExtendedTooltip name="СтраницаЕстьПроблемаКонтрагентРасширеннаяПодсказка" id="1152"/>
 																<ChildItems>
 																	<PictureDecoration name="ПроблемаПроверкаКонтрагента" id="1153">
@@ -6862,15 +6201,9 @@
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Группа соглашение</v8:content>
+														<v8:content>Соглашение</v8:content>
 													</v8:item>
 												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Группа соглашение</v8:content>
-													</v8:item>
-												</ToolTip>
 												<Group>Horizontal</Group>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
@@ -6905,12 +6238,6 @@
 												<v8:content>Шапка право</v8:content>
 											</v8:item>
 										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Шапка право</v8:content>
-											</v8:item>
-										</ToolTip>
 										<Group>Vertical</Group>
 										<Representation>None</Representation>
 										<United>false</United>
@@ -6921,15 +6248,9 @@
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Группа хозяйственная операция</v8:content>
+														<v8:content>Хозяйственная операция</v8:content>
 													</v8:item>
 												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Группа хозяйственная операция</v8:content>
-													</v8:item>
-												</ToolTip>
 												<Group>Horizontal</Group>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
@@ -6978,7 +6299,7 @@
 															</xr:Item>
 														</ChoiceList>
 														<DropListWidth>28</DropListWidth>
-														<BackColor>0:7793b52f-6012-4980-866f-5cf97f767f94</BackColor>
+														<BackColor>0:de17b31f-a0b7-423b-91ef-265be5274361</BackColor>
 														<ContextMenu name="ХозяйственнаяОперацияКонтекстноеМеню" id="1006"/>
 														<ExtendedTooltip name="ХозяйственнаяОперацияРасширеннаяПодсказка" id="1007"/>
 													</InputField>
@@ -6988,7 +6309,7 @@
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Группа организация</v8:content>
+														<v8:content>Организация</v8:content>
 													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
@@ -7014,15 +6335,9 @@
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Группа договор</v8:content>
+														<v8:content>Договор</v8:content>
 													</v8:item>
 												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Группа договор</v8:content>
-													</v8:item>
-												</ToolTip>
 												<Group>Horizontal</Group>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
@@ -7052,12 +6367,6 @@
 														<v8:content>Склад</v8:content>
 													</v8:item>
 												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Склад</v8:content>
-													</v8:item>
-												</ToolTip>
 												<Group>Horizontal</Group>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
@@ -7086,12 +6395,12 @@
 										</ChildItems>
 									</UsualGroup>
 									<UsualGroup name="ГруппаНадписи" id="1189">
-										<ToolTip>
+										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
-												<v8:content>Группа надписи</v8:content>
+												<v8:content>Надписи</v8:content>
 											</v8:item>
-										</ToolTip>
+										</Title>
 										<Group>Vertical</Group>
 										<Representation>None</Representation>
 										<United>false</United>
@@ -7099,12 +6408,12 @@
 										<ExtendedTooltip name="ГруппаНадписиРасширеннаяПодсказка" id="1190"/>
 										<ChildItems>
 											<UsualGroup name="ГруппаНадписьОперация" id="1229">
-												<ToolTip>
+												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Группа надпись операция</v8:content>
+														<v8:content>Надпись операция</v8:content>
 													</v8:item>
-												</ToolTip>
+												</Title>
 												<Group>Horizontal</Group>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
@@ -7119,12 +6428,12 @@
 												</ChildItems>
 											</UsualGroup>
 											<UsualGroup name="ГруппаНадписьОрганизация" id="1196">
-												<ToolTip>
+												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Группа надпись организация</v8:content>
+														<v8:content>Надпись организация</v8:content>
 													</v8:item>
-												</ToolTip>
+												</Title>
 												<Group>Horizontal</Group>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
@@ -7162,12 +6471,12 @@
 												</ChildItems>
 											</UsualGroup>
 											<UsualGroup name="ГруппаНадписьДоговор" id="1201">
-												<ToolTip>
+												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Группа надпись договор</v8:content>
+														<v8:content>Надпись договор</v8:content>
 													</v8:item>
-												</ToolTip>
+												</Title>
 												<Group>Horizontal</Group>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
@@ -7200,12 +6509,12 @@
 											</UsualGroup>
 											<UsualGroup name="ГруппаНадписьСклад" id="1234">
 												<EnableContentChange>true</EnableContentChange>
-												<ToolTip>
+												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Группа надпись склад</v8:content>
+														<v8:content>Надпись склад</v8:content>
 													</v8:item>
-												</ToolTip>
+												</Title>
 												<GroupVerticalAlign>Center</GroupVerticalAlign>
 												<Group>Horizontal</Group>
 												<Representation>None</Representation>
@@ -7282,12 +6591,6 @@
 										<v8:content>Группа оплата</v8:content>
 									</v8:item>
 								</Title>
-								<ToolTip>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Группа оплата</v8:content>
-									</v8:item>
-								</ToolTip>
 								<Width>79</Width>
 								<HorizontalStretch>false</HorizontalStretch>
 								<Group>Horizontal</Group>
@@ -7357,12 +6660,6 @@
 								<v8:content>Товары</v8:content>
 							</v8:item>
 						</Title>
-						<ToolTip>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Товары</v8:content>
-							</v8:item>
-						</ToolTip>
 						<TitleDataPath>Объект.Товары.RowsCount</TitleDataPath>
 						<ExtendedTooltip name="ГруппаТоварыExtendedTooltip" id="758"/>
 						<ChildItems>
@@ -7378,6 +6675,12 @@
 									<xr:LoadTransparent>false</xr:LoadTransparent>
 								</RowsPicture>
 								<BorderColor>style:BorderColor</BorderColor>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Товары</v8:content>
+									</v8:item>
+								</Title>
 								<RowFilter xsi:nil="true"/>
 								<ContextMenu name="ТоварыКонтекстноеМеню" id="28">
 									<ChildItems>
@@ -7437,12 +6740,6 @@
 													<v8:content>Подобрать товары</v8:content>
 												</v8:item>
 											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Группа товары подобрать товары</v8:content>
-												</v8:item>
-											</ToolTip>
 											<ExtendedTooltip name="ГруппаТоварыПодобратьТоварыExtendedTooltip" id="767"/>
 											<ChildItems>
 												<ButtonGroup name="ГруппаТорговоеОборудование" id="359">
@@ -7452,12 +6749,6 @@
 															<v8:content>Торговое оборудование</v8:content>
 														</v8:item>
 													</Title>
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Торговое оборудование</v8:content>
-														</v8:item>
-													</ToolTip>
 													<ExtendedTooltip name="ГруппаТорговоеОборудованиеExtendedTooltip" id="768"/>
 													<ChildItems>
 														<Button name="ТоварыПоискПоШтрихкоду" id="269">
@@ -7514,12 +6805,6 @@
 															<v8:content>Заполнить</v8:content>
 														</v8:item>
 													</Title>
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Заполнить</v8:content>
-														</v8:item>
-													</ToolTip>
 													<ExtendedTooltip name="ТоварыГруппаЗаполнитьExtendedTooltip" id="775"/>
 													<ChildItems>
 														<Button name="ТоварыОткрытьПодбор" id="358">
@@ -7560,12 +6845,6 @@
 													<v8:content>Цены и скидки</v8:content>
 												</v8:item>
 											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Группа цены скидки</v8:content>
-												</v8:item>
-											</ToolTip>
 											<ExtendedTooltip name="ГруппаЦеныСкидкиРасширеннаяПодсказка" id="1176"/>
 											<ChildItems>
 												<ButtonGroup name="ГруппаТоварыЦены" id="320">
@@ -7604,12 +6883,6 @@
 															<v8:content>Скидки (наценки)</v8:content>
 														</v8:item>
 													</Title>
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Скидки (наценки)</v8:content>
-														</v8:item>
-													</ToolTip>
 													<ExtendedTooltip name="ГруппаТоварыСкидкиНаценкиExtendedTooltip" id="787"/>
 													<ChildItems>
 														<Button name="ТоварыРассчитатьСкидкиНаценки" id="351">
@@ -7642,15 +6915,9 @@
 															<Title>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>Группа товары информация о скидках</v8:content>
+																	<v8:content>Товары информация о скидках</v8:content>
 																</v8:item>
 															</Title>
-															<ToolTip>
-																<v8:item>
-																	<v8:lang>ru</v8:lang>
-																	<v8:content>Группа товары информация о скидках</v8:content>
-																</v8:item>
-															</ToolTip>
 															<ExtendedTooltip name="ГруппаТоварыИнформацияОСкидкахExtendedTooltip" id="793"/>
 															<ChildItems>
 																<Button name="ТоварыОткрытьИнформациюОСкидках" id="378">
@@ -7774,12 +7041,6 @@
 												<v8:content>Набор</v8:content>
 											</v8:item>
 										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Товары группа набор</v8:content>
-											</v8:item>
-										</ToolTip>
 										<Group>InCell</Group>
 										<ShowInHeader>true</ShowInHeader>
 										<ExtendedTooltip name="ТоварыГруппаНаборРасширеннаяПодсказка" id="1002"/>
@@ -7831,12 +7092,6 @@
 												<v8:content>Товары группа колонок серия</v8:content>
 											</v8:item>
 										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Товары группа колонок серия</v8:content>
-											</v8:item>
-										</ToolTip>
 										<Group>InCell</Group>
 										<ExtendedTooltip name="ТоварыГруппаКолонокСерияExtendedTooltip" id="805"/>
 										<ChildItems>
@@ -7891,12 +7146,6 @@
 												<v8:content>Упаковка, единица измерения</v8:content>
 											</v8:item>
 										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Упаковка, единица измерения</v8:content>
-											</v8:item>
-										</ToolTip>
 										<Group>InCell</Group>
 										<ExtendedTooltip name="ТоварыУпаковкаЕдиницаИзмеренияExtendedTooltip" id="809"/>
 										<ChildItems>
@@ -8108,12 +7357,6 @@
 												<v8:content>Товары группа заказ клиента</v8:content>
 											</v8:item>
 										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Товары группа заказ клиента</v8:content>
-											</v8:item>
-										</ToolTip>
 										<Group>InCell</Group>
 										<ExtendedTooltip name="ТоварыГруппаЗаказКлиентаExtendedTooltip" id="825"/>
 										<ChildItems>
@@ -8159,15 +7402,9 @@
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
-										<v8:content>Группа надпись и картинка несколько складов</v8:content>
+										<v8:content>Надпись и картинка несколько складов</v8:content>
 									</v8:item>
 								</Title>
-								<ToolTip>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Группа надпись и картинка несколько складов</v8:content>
-									</v8:item>
-								</ToolTip>
 								<Group>Horizontal</Group>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
@@ -8216,27 +7453,15 @@
 								<v8:content>Доставка</v8:content>
 							</v8:item>
 						</Title>
-						<ToolTip>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Доставка</v8:content>
-							</v8:item>
-						</ToolTip>
 						<ExtendedTooltip name="СтраницаДоставкаExtendedTooltip" id="828"/>
 						<ChildItems>
 							<UsualGroup name="ГруппаСпособДоставкиПеревозчик" id="1257">
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
-										<v8:content>Группа способ доставки перевозчик</v8:content>
+										<v8:content>Способ доставки перевозчик</v8:content>
 									</v8:item>
 								</Title>
-								<ToolTip>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Группа способ доставки перевозчик</v8:content>
-									</v8:item>
-								</ToolTip>
 								<Group>Horizontal</Group>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
@@ -8325,12 +7550,6 @@
 												<v8:content>Страницы перевозчик</v8:content>
 											</v8:item>
 										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Страницы перевозчик</v8:content>
-											</v8:item>
-										</ToolTip>
 										<PagesRepresentation>None</PagesRepresentation>
 										<ExtendedTooltip name="СтраницыПеревозчикРасширеннаяПодсказка" id="1266"/>
 										<ChildItems>
@@ -8341,12 +7560,6 @@
 														<v8:content>Страница перевозчик</v8:content>
 													</v8:item>
 												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Страница перевозчик</v8:content>
-													</v8:item>
-												</ToolTip>
 												<ExtendedTooltip name="СтраницаПеревозчикРасширеннаяПодсказка" id="1268"/>
 												<ChildItems>
 													<InputField name="ПеревозчикПартнер" id="1269">
@@ -8377,12 +7590,6 @@
 														<v8:content>Страница перевозчик пусто</v8:content>
 													</v8:item>
 												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Страница перевозчик пусто</v8:content>
-													</v8:item>
-												</ToolTip>
 												<VerticalAlign>Bottom</VerticalAlign>
 												<ExtendedTooltip name="СтраницаПеревозчикПустоРасширеннаяПодсказка" id="1273"/>
 												<ChildItems>
@@ -8404,12 +7611,6 @@
 										<v8:content>Страницы доставки</v8:content>
 									</v8:item>
 								</Title>
-								<ToolTip>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Страницы доставки</v8:content>
-									</v8:item>
-								</ToolTip>
 								<PagesRepresentation>None</PagesRepresentation>
 								<ExtendedTooltip name="СтраницыДоставкиExtendedTooltip" id="1278"/>
 								<ChildItems>
@@ -8420,12 +7621,6 @@
 												<v8:content>Страница самовывоз</v8:content>
 											</v8:item>
 										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Страница самовывоз</v8:content>
-											</v8:item>
-										</ToolTip>
 										<Group>Horizontal</Group>
 										<ExtendedTooltip name="СтраницаСамовывозExtendedTooltip" id="1280"/>
 										<ChildItems>
@@ -8457,12 +7652,6 @@
 												<v8:content>Страница доставка до получателя</v8:content>
 											</v8:item>
 										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Страница доставка до получателя</v8:content>
-											</v8:item>
-										</ToolTip>
 										<ExtendedTooltip name="СтраницаДоставкаДоПолучателяExtendedTooltip" id="1288"/>
 										<ChildItems>
 											<InputField name="АдресДоставкиПолучателя" id="1289">
@@ -8485,7 +7674,7 @@
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Группа зона время</v8:content>
+														<v8:content>Зона время</v8:content>
 													</v8:item>
 												</Title>
 												<ToolTip>
@@ -8512,7 +7701,7 @@
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Желаемое время
+																<v8:content>Желаемое время
 доставки с</v8:content>
 															</v8:item>
 														</Title>
@@ -8546,7 +7735,7 @@
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Группа доставка до получателя доп инфо</v8:content>
+														<v8:content>Доставка до получателя доп инфо</v8:content>
 													</v8:item>
 												</Title>
 												<ToolTip>
@@ -8567,8 +7756,8 @@
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Дополнительная
-информация
+																<v8:content>Дополнительная
+информация
 по доставке</v8:content>
 															</v8:item>
 														</Title>
@@ -8624,12 +7813,6 @@
 												<v8:content>Страница доставка перевозчиком по адресу</v8:content>
 											</v8:item>
 										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Страница доставка перевозчиком по адресу</v8:content>
-											</v8:item>
-										</ToolTip>
 										<ExtendedTooltip name="СтраницаДоставкаПеревозчикомПоАдресуExtendedTooltip" id="1324"/>
 										<ChildItems>
 											<InputField name="АдресДоставкиПеревозчика" id="1325">
@@ -8637,7 +7820,7 @@
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Адрес доставки
+														<v8:content>Адрес доставки
 до перевозчика</v8:content>
 													</v8:item>
 												</Title>
@@ -8654,15 +7837,9 @@
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Группа зона время1</v8:content>
+														<v8:content>Зона время 1</v8:content>
 													</v8:item>
 												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Группа зона время1</v8:content>
-													</v8:item>
-												</ToolTip>
 												<Group>Horizontal</Group>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
@@ -8673,7 +7850,7 @@
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Зона доставки
+																<v8:content>Зона доставки
 до перевозчика</v8:content>
 															</v8:item>
 														</Title>
@@ -8689,7 +7866,7 @@
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Время доставки 
+																<v8:content>Время доставки 
 к перевозчику с</v8:content>
 															</v8:item>
 														</Title>
@@ -8723,15 +7900,9 @@
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Группа доставка до получателя доп инфо1</v8:content>
+														<v8:content>Доставка до получателя доп инфо 1</v8:content>
 													</v8:item>
 												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Группа доставка до получателя доп инфо1</v8:content>
-													</v8:item>
-												</ToolTip>
 												<GroupVerticalAlign>Bottom</GroupVerticalAlign>
 												<Group>Horizontal</Group>
 												<VerticalAlign>Bottom</VerticalAlign>
@@ -8744,9 +7915,9 @@
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Дополнительная
-информация
-по доставке
+																<v8:content>Дополнительная
+информация
+по доставке
 до перевозчика</v8:content>
 															</v8:item>
 														</Title>
@@ -8774,7 +7945,7 @@
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Адрес доставки
+														<v8:content>Адрес доставки
 до клиента</v8:content>
 													</v8:item>
 												</Title>
@@ -8819,12 +7990,6 @@
 												<v8:content>Страница доставка перевозчиком</v8:content>
 											</v8:item>
 										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Страница доставка перевозчиком</v8:content>
-											</v8:item>
-										</ToolTip>
 										<ExtendedTooltip name="СтраницаДоставкаПеревозчикомExtendedTooltip" id="1369"/>
 										<ChildItems>
 											<InputField name="АдресДоставкиПолучателя2" id="1372">
@@ -8832,7 +7997,7 @@
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Адрес доставки
+														<v8:content>Адрес доставки
 до клиента</v8:content>
 													</v8:item>
 												</Title>
@@ -8849,15 +8014,9 @@
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Группа доставка до получателя доп инфо2</v8:content>
+														<v8:content>Доставка до получателя доп инфо 2</v8:content>
 													</v8:item>
 												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Группа доставка до получателя доп инфо2</v8:content>
-													</v8:item>
-												</ToolTip>
 												<GroupVerticalAlign>Bottom</GroupVerticalAlign>
 												<Group>Horizontal</Group>
 												<VerticalAlign>Bottom</VerticalAlign>
@@ -8870,8 +8029,8 @@
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Дополнительная
-информация
+																<v8:content>Дополнительная
+информация
 по доставке</v8:content>
 															</v8:item>
 														</Title>
@@ -8932,12 +8091,6 @@
 								<v8:content>Дополнительно</v8:content>
 							</v8:item>
 						</Title>
-						<ToolTip>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Дополнительно</v8:content>
-							</v8:item>
-						</ToolTip>
 						<ExtendedTooltip name="ГруппаДополнительноExtendedTooltip" id="861"/>
 						<ChildItems>
 							<UsualGroup name="ГруппаПараметры" id="335">
@@ -8947,12 +8100,6 @@
 										<v8:content>Параметры</v8:content>
 									</v8:item>
 								</Title>
-								<ToolTip>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Группа параметры</v8:content>
-									</v8:item>
-								</ToolTip>
 								<Group>Horizontal</Group>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
@@ -8965,12 +8112,6 @@
 												<v8:content>Параметры лево</v8:content>
 											</v8:item>
 										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Группа параметры лево</v8:content>
-											</v8:item>
-										</ToolTip>
 										<Group>Vertical</Group>
 										<Representation>None</Representation>
 										<United>false</United>
@@ -9032,7 +8173,7 @@
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Группа фин.
+														<v8:content>Группа фин.
 учета расчетов</v8:content>
 													</v8:item>
 												</Title>
@@ -9047,7 +8188,7 @@
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Направление
+														<v8:content>Направление
 деятельности</v8:content>
 													</v8:item>
 												</Title>
@@ -9067,12 +8208,6 @@
 												<v8:content>Параметры право</v8:content>
 											</v8:item>
 										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Параметры право</v8:content>
-											</v8:item>
-										</ToolTip>
 										<Group>Vertical</Group>
 										<Representation>None</Representation>
 										<United>false</United>
@@ -9086,12 +8221,6 @@
 														<v8:content>Валюта</v8:content>
 													</v8:item>
 												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Валюта</v8:content>
-													</v8:item>
-												</ToolTip>
 												<Group>Horizontal</Group>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
@@ -9162,12 +8291,6 @@
 														<v8:content>Многооборотная тара</v8:content>
 													</v8:item>
 												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Группа тара</v8:content>
-													</v8:item>
-												</ToolTip>
 												<Group>Vertical</Group>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
@@ -9177,15 +8300,9 @@
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Группа возвращать срок возврата</v8:content>
+																<v8:content>Возвращать срок возврата</v8:content>
 															</v8:item>
 														</Title>
-														<ToolTip>
-															<v8:item>
-																<v8:lang>ru</v8:lang>
-																<v8:content>Группа возвращать срок возврата</v8:content>
-															</v8:item>
-														</ToolTip>
 														<Group>Horizontal</Group>
 														<Representation>None</Representation>
 														<ShowTitle>false</ShowTitle>
@@ -9221,15 +8338,9 @@
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Группа требуется залог за тару</v8:content>
+														<v8:content>Требуется залог за тару</v8:content>
 													</v8:item>
 												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Группа требуется залог за тару</v8:content>
-													</v8:item>
-												</ToolTip>
 												<Group>Horizontal</Group>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
@@ -9260,12 +8371,6 @@
 										<v8:content>Печать</v8:content>
 									</v8:item>
 								</Title>
-								<ToolTip>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Группа печать</v8:content>
-									</v8:item>
-								</ToolTip>
 								<Group>Horizontal</Group>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
@@ -9276,7 +8381,7 @@
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
-												<v8:content>Вариант оформления
+												<v8:content>Вариант оформления
 продажи</v8:content>
 											</v8:item>
 										</Title>
@@ -9318,12 +8423,6 @@
 										<v8:content>Дополнительные реквизиты</v8:content>
 									</v8:item>
 								</Title>
-								<ToolTip>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Дополнительные реквизиты</v8:content>
-									</v8:item>
-								</ToolTip>
 								<Group>Vertical</Group>
 								<Representation>NormalSeparation</Representation>
 								<ShowTitle>false</ShowTitle>
@@ -9340,12 +8439,6 @@
 						<v8:content>Подвал</v8:content>
 					</v8:item>
 				</Title>
-				<ToolTip>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Подвал</v8:content>
-					</v8:item>
-				</ToolTip>
 				<HorizontalStretch>true</HorizontalStretch>
 				<Group>Horizontal</Group>
 				<Representation>None</Representation>
@@ -9356,15 +8449,9 @@
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
-								<v8:content>Группа состояние ЭДО</v8:content>
+								<v8:content>Состояние ЭДО</v8:content>
 							</v8:item>
 						</Title>
-						<ToolTip>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Группа состояние ЭДО</v8:content>
-							</v8:item>
-						</ToolTip>
 						<Group>Vertical</Group>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
@@ -9394,15 +8481,9 @@
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
-								<v8:content>Группа итого расчеты</v8:content>
+								<v8:content>Итого расчеты</v8:content>
 							</v8:item>
 						</Title>
-						<ToolTip>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Группа итого расчеты</v8:content>
-							</v8:item>
-						</ToolTip>
 						<HorizontalStretch>true</HorizontalStretch>
 						<HorizontalAlign>Right</HorizontalAlign>
 						<Representation>None</Representation>
@@ -9425,7 +8506,7 @@
 								<Group>Horizontal</Group>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
-								<BackColor>0:94581921-73ec-4d1f-8a7a-1efb94b73d52</BackColor>
+								<BackColor>0:8292a2e1-9f78-4874-9bed-1b41d880f83a</BackColor>
 								<ExtendedTooltip name="ГруппаИтогоExtendedTooltip" id="905"/>
 								<ChildItems>
 									<UsualGroup name="ГруппаВсегоСкидка" id="446">
@@ -9435,12 +8516,6 @@
 												<v8:content>Всего скидка</v8:content>
 											</v8:item>
 										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Группа всего скидка</v8:content>
-											</v8:item>
-										</ToolTip>
 										<Group>Horizontal</Group>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
@@ -9461,7 +8536,7 @@
 												<Format>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>ЧЦ=15; ЧДЦ=2; ЧН=0,00</v8:content>
+														<v8:content>ЧДЦ=2; ЧН=0,00</v8:content>
 													</v8:item>
 												</Format>
 												<ContextMenu name="СуммаСкидкиКонтекстноеМеню" id="448"/>
@@ -9473,7 +8548,7 @@
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
-												<v8:content>Группа страницы всего</v8:content>
+												<v8:content>Страницы всего</v8:content>
 											</v8:item>
 										</Title>
 										<ToolTip>
@@ -9492,12 +8567,6 @@
 														<v8:content>Страница с НДС</v8:content>
 													</v8:item>
 												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Страница с НДС</v8:content>
-													</v8:item>
-												</ToolTip>
 												<ExtendedTooltip name="СтраницаВсегоСНДСExtendedTooltip" id="907"/>
 												<ChildItems>
 													<InputField name="СуммаВсегоСНДС" id="478">
@@ -9514,7 +8583,7 @@
 														<Format>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>ЧЦ=15; ЧДЦ=2; ЧН=0,00</v8:content>
+																<v8:content>ЧДЦ=2; ЧН=0,00</v8:content>
 															</v8:item>
 														</Format>
 														<ContextMenu name="СуммаВсегоСНДСКонтекстноеМеню" id="479"/>
@@ -9529,12 +8598,6 @@
 														<v8:content>Страница без НДС</v8:content>
 													</v8:item>
 												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Страница без НДС</v8:content>
-													</v8:item>
-												</ToolTip>
 												<ExtendedTooltip name="СтраницаВсегоБезНДСExtendedTooltip" id="909"/>
 												<ChildItems>
 													<InputField name="СуммаВсегоБезНДС" id="481">
@@ -9551,7 +8614,7 @@
 														<Format>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>ЧЦ=15; ЧДЦ=2; ЧН=0,00</v8:content>
+																<v8:content>ЧДЦ=2; ЧН=0,00</v8:content>
 															</v8:item>
 														</Format>
 														<ContextMenu name="СуммаВсегоБезНДСКонтекстноеМеню" id="482"/>
@@ -9581,12 +8644,12 @@
 				</ChildItems>
 			</UsualGroup>
 			<UsualGroup name="ГруппаСчетФактураИСостояние" id="1428">
-				<ToolTip>
+				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
-						<v8:content>Группа счет фактура и состояние</v8:content>
+						<v8:content>Счет фактура и состояние</v8:content>
 					</v8:item>
-				</ToolTip>
+				</Title>
 				<Group>Horizontal</Group>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
@@ -9608,12 +8671,12 @@
 						<ContextMenu name="ПроблемаПроверкаКонтрагентаСчетФактураКонтекстноеМеню" id="1157"/>
 						<ExtendedTooltip name="ПроблемаПроверкаКонтрагентаСчетФактураРасширеннаяПодсказка" id="1158"/>
 					</PictureDecoration>
-					<LabelField name="ТекстДокументыНаОсновании" id="1226">
-						<DataPath>ТекстДокументыНаОсновании</DataPath>
+					<LabelField name="ТекстДокументыНаОснованииПодвал" id="1444">
+						<DataPath>ТекстДокументыНаОснованииПодвал</DataPath>
 						<TitleLocation>None</TitleLocation>
 						<AutoMaxWidth>false</AutoMaxWidth>
-						<ContextMenu name="ТекстДокументыНаОснованииКонтекстноеМеню" id="1227"/>
-						<ExtendedTooltip name="ТекстДокументыНаОснованииРасширеннаяПодсказка" id="1228"/>
+						<ContextMenu name="ТекстДокументыНаОснованииПодвалКонтекстноеМеню" id="1445"/>
+						<ExtendedTooltip name="ТекстДокументыНаОснованииПодвалРасширеннаяПодсказка" id="1446"/>
 					</LabelField>
 				</ChildItems>
 			</UsualGroup>
@@ -9621,15 +8684,9 @@
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
-						<v8:content>Группа интеграция</v8:content>
+						<v8:content>Интеграция</v8:content>
 					</v8:item>
 				</Title>
-				<ToolTip>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Группа интеграция</v8:content>
-					</v8:item>
-				</ToolTip>
 				<Group>Vertical</Group>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
@@ -9696,12 +8753,7 @@
 								</v8:item>
 							</Title>
 							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>15</v8:Digits>
-									<v8:FractionDigits>2</v8:FractionDigits>
-									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-								</v8:NumberQualifiers>
+								<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
 							</Type>
 						</Column>
 						<Column name="БезВозвратнойТары" id="4">
@@ -9723,12 +8775,7 @@
 								</v8:item>
 							</Title>
 							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>15</v8:Digits>
-									<v8:FractionDigits>2</v8:FractionDigits>
-									<v8:AllowedSign>Any</v8:AllowedSign>
-								</v8:NumberQualifiers>
+								<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
 							</Type>
 						</Column>
 						<Column name="СуммаБезВозвратнойТары" id="6">
@@ -9739,12 +8786,7 @@
 								</v8:item>
 							</Title>
 							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>15</v8:Digits>
-									<v8:FractionDigits>2</v8:FractionDigits>
-									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-								</v8:NumberQualifiers>
+								<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
 							</Type>
 						</Column>
 						<Column name="СуммаНДСБезВозвратнойТары" id="7">
@@ -9755,12 +8797,7 @@
 								</v8:item>
 							</Title>
 							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>15</v8:Digits>
-									<v8:FractionDigits>2</v8:FractionDigits>
-									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-								</v8:NumberQualifiers>
+								<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
 							</Type>
 						</Column>
 						<Column name="СуммаАвтоматическойСкидкиБезВозвратнойТары" id="8">
@@ -9771,12 +8808,7 @@
 								</v8:item>
 							</Title>
 							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>15</v8:Digits>
-									<v8:FractionDigits>2</v8:FractionDigits>
-									<v8:AllowedSign>Any</v8:AllowedSign>
-								</v8:NumberQualifiers>
+								<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
 							</Type>
 						</Column>
 						<Column name="Артикул" id="9">
@@ -9827,12 +8859,7 @@
 								</v8:item>
 							</Title>
 							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>15</v8:Digits>
-									<v8:FractionDigits>2</v8:FractionDigits>
-									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-								</v8:NumberQualifiers>
+								<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
 							</Type>
 						</Column>
 						<Column name="ИндексНабора" id="13">
@@ -9854,6 +8881,17 @@
 								<Item>FunctionalOption.ИспользоватьНаборы</Item>
 							</FunctionalOptions>
 						</Column>
+						<Column name="НДСИсчисляетсяНалоговымАгентом" id="14">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>НДСИсчисляется налоговым агентом</v8:content>
+								</v8:item>
+							</Title>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Column>
 					</AdditionalColumns>
 				</Columns>
 			</Attribute>
@@ -9865,12 +8903,7 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:Type>xs:decimal</v8:Type>
-					<v8:NumberQualifiers>
-						<v8:Digits>15</v8:Digits>
-						<v8:FractionDigits>2</v8:FractionDigits>
-						<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-					</v8:NumberQualifiers>
+					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
 				</Type>
 			</Attribute>
 			<Attribute name="ВалютаДокумента" id="3">
@@ -9882,17 +8915,6 @@
 				</Title>
 				<Type>
 					<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
-				</Type>
-			</Attribute>
-			<Attribute name="ТекстСчетФактура" id="4">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Счет-фактура</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>v8ui:FormattedString</v8:Type>
 				</Type>
 			</Attribute>
 			<Attribute name="ИспользоватьПодключаемоеОборудование" id="5">
@@ -9973,12 +8995,7 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:Type>xs:decimal</v8:Type>
-					<v8:NumberQualifiers>
-						<v8:Digits>15</v8:Digits>
-						<v8:FractionDigits>2</v8:FractionDigits>
-						<v8:AllowedSign>Any</v8:AllowedSign>
-					</v8:NumberQualifiers>
+					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
 				</Type>
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьАвтоматическиеСкидкиВПродажах</Item>
@@ -10040,12 +9057,7 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:Type>xs:decimal</v8:Type>
-					<v8:NumberQualifiers>
-						<v8:Digits>15</v8:Digits>
-						<v8:FractionDigits>2</v8:FractionDigits>
-						<v8:AllowedSign>Any</v8:AllowedSign>
-					</v8:NumberQualifiers>
+					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
 				</Type>
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьРучныеСкидкиВПродажах</Item>
@@ -10059,12 +9071,7 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:Type>xs:decimal</v8:Type>
-					<v8:NumberQualifiers>
-						<v8:Digits>15</v8:Digits>
-						<v8:FractionDigits>2</v8:FractionDigits>
-						<v8:AllowedSign>Any</v8:AllowedSign>
-					</v8:NumberQualifiers>
+					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
 				</Type>
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьРучныеСкидкиВПродажах</Item>
@@ -10079,12 +9086,7 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:Type>xs:decimal</v8:Type>
-					<v8:NumberQualifiers>
-						<v8:Digits>15</v8:Digits>
-						<v8:FractionDigits>2</v8:FractionDigits>
-						<v8:AllowedSign>Any</v8:AllowedSign>
-					</v8:NumberQualifiers>
+					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
 				</Type>
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьАвтоматическиеСкидкиВПродажах</Item>
@@ -10098,12 +9100,7 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:Type>xs:decimal</v8:Type>
-					<v8:NumberQualifiers>
-						<v8:Digits>15</v8:Digits>
-						<v8:FractionDigits>2</v8:FractionDigits>
-						<v8:AllowedSign>Any</v8:AllowedSign>
-					</v8:NumberQualifiers>
+					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
 				</Type>
 			</Attribute>
 			<Attribute name="СуммаОплаты" id="19">
@@ -10114,12 +9111,7 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:Type>xs:decimal</v8:Type>
-					<v8:NumberQualifiers>
-						<v8:Digits>15</v8:Digits>
-						<v8:FractionDigits>2</v8:FractionDigits>
-						<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-					</v8:NumberQualifiers>
+					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
 				</Type>
 			</Attribute>
 			<Attribute name="СуммаОтгрузки" id="20">
@@ -10130,12 +9122,7 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:Type>xs:decimal</v8:Type>
-					<v8:NumberQualifiers>
-						<v8:Digits>15</v8:Digits>
-						<v8:FractionDigits>2</v8:FractionDigits>
-						<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-					</v8:NumberQualifiers>
+					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
 				</Type>
 			</Attribute>
 			<Attribute name="СуммаРучнойСкидки" id="21">
@@ -10146,12 +9133,7 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:Type>xs:decimal</v8:Type>
-					<v8:NumberQualifiers>
-						<v8:Digits>15</v8:Digits>
-						<v8:FractionDigits>2</v8:FractionDigits>
-						<v8:AllowedSign>Any</v8:AllowedSign>
-					</v8:NumberQualifiers>
+					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
 				</Type>
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьРучныеСкидкиВПродажах</Item>
@@ -10165,12 +9147,7 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:Type>xs:decimal</v8:Type>
-					<v8:NumberQualifiers>
-						<v8:Digits>15</v8:Digits>
-						<v8:FractionDigits>2</v8:FractionDigits>
-						<v8:AllowedSign>Any</v8:AllowedSign>
-					</v8:NumberQualifiers>
+					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
 				</Type>
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьАвтоматическиеСкидкиВПродажах</Item>
@@ -10363,62 +9340,6 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ЭтапыГрафикаОплаты" id="42">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Этапы графика оплаты</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>v8:ValueTable</v8:Type>
-				</Type>
-				<Columns>
-					<Column name="ВариантОплаты" id="1">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Вариант оплаты</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>cfg:EnumRef.ВариантыОплатыКлиентом</v8:Type>
-						</Type>
-					</Column>
-					<Column name="СуммаПлатежа" id="2">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Сумма платежа</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:decimal</v8:Type>
-							<v8:NumberQualifiers>
-								<v8:Digits>15</v8:Digits>
-								<v8:FractionDigits>2</v8:FractionDigits>
-								<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-							</v8:NumberQualifiers>
-						</Type>
-					</Column>
-					<Column name="СуммаЗалогаЗаТару" id="3">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Сумма залога за тару</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:decimal</v8:Type>
-							<v8:NumberQualifiers>
-								<v8:Digits>15</v8:Digits>
-								<v8:FractionDigits>2</v8:FractionDigits>
-								<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-							</v8:NumberQualifiers>
-						</Type>
-					</Column>
-				</Columns>
-			</Attribute>
 			<Attribute name="ПоддерживаемыеТипыПодключаемогоОборудования" id="40">
 				<Title>
 					<v8:item>
@@ -10465,22 +9386,6 @@
 					<v8:Type>cfg:EnumRef.ПорядокРасчетов</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="СуммаПредоплатыВВалютеДокумента" id="48">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Сумма предоплаты в валюте документа</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>xs:decimal</v8:Type>
-					<v8:NumberQualifiers>
-						<v8:Digits>15</v8:Digits>
-						<v8:FractionDigits>2</v8:FractionDigits>
-						<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-					</v8:NumberQualifiers>
-				</Type>
-			</Attribute>
 			<Attribute name="СуммаНДС" id="49">
 				<Title>
 					<v8:item>
@@ -10489,12 +9394,7 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:Type>xs:decimal</v8:Type>
-					<v8:NumberQualifiers>
-						<v8:Digits>15</v8:Digits>
-						<v8:FractionDigits>2</v8:FractionDigits>
-						<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-					</v8:NumberQualifiers>
+					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
 				</Type>
 			</Attribute>
 			<Attribute name="НадписьРасхождениеЗаказ" id="52">
@@ -10614,12 +9514,7 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:Type>xs:decimal</v8:Type>
-					<v8:NumberQualifiers>
-						<v8:Digits>15</v8:Digits>
-						<v8:FractionDigits>2</v8:FractionDigits>
-						<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-					</v8:NumberQualifiers>
+					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
 				</Type>
 			</Attribute>
 			<Attribute name="ОрдернаяСхемаПриОтгрузке" id="51">
@@ -10652,12 +9547,7 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:Type>xs:decimal</v8:Type>
-					<v8:NumberQualifiers>
-						<v8:Digits>15</v8:Digits>
-						<v8:FractionDigits>2</v8:FractionDigits>
-						<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-					</v8:NumberQualifiers>
+					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
 				</Type>
 			</Attribute>
 			<Attribute name="ДатаДокументаДоИзменения" id="59">
@@ -10774,22 +9664,6 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ПроцентПредоплаты" id="38">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Процент предоплаты</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>xs:decimal</v8:Type>
-					<v8:NumberQualifiers>
-						<v8:Digits>5</v8:Digits>
-						<v8:FractionDigits>2</v8:FractionDigits>
-						<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-					</v8:NumberQualifiers>
-				</Type>
-			</Attribute>
 			<Attribute name="ИспользоватьГрафикиОплаты" id="68">
 				<Title>
 					<v8:item>
@@ -10832,17 +9706,6 @@
 				</Title>
 				<Type>
 					<v8:Type>cfg:CatalogRef.ВидыЦен</v8:Type>
-				</Type>
-			</Attribute>
-			<Attribute name="НалогообложениеИзСоглашения" id="72">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Налогообложение из соглашения</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
 			<Attribute name="НадписьЭтапыОплаты" id="73">
@@ -10889,38 +9752,6 @@
 						<v8:Digits>10</v8:Digits>
 						<v8:FractionDigits>0</v8:FractionDigits>
 						<v8:AllowedSign>Any</v8:AllowedSign>
-					</v8:NumberQualifiers>
-				</Type>
-			</Attribute>
-			<Attribute name="СуммаПредоплатыЗаТаруВВалютеДокумента" id="77">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Сумма предоплаты за тару в валюте документа</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>xs:decimal</v8:Type>
-					<v8:NumberQualifiers>
-						<v8:Digits>15</v8:Digits>
-						<v8:FractionDigits>2</v8:FractionDigits>
-						<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-					</v8:NumberQualifiers>
-				</Type>
-			</Attribute>
-			<Attribute name="ПроцентПредоплатыЗаТару" id="78">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Процент предоплаты за тару</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>xs:decimal</v8:Type>
-					<v8:NumberQualifiers>
-						<v8:Digits>5</v8:Digits>
-						<v8:FractionDigits>2</v8:FractionDigits>
-						<v8:AllowedSign>Nonnegative</v8:AllowedSign>
 					</v8:NumberQualifiers>
 				</Type>
 			</Attribute>
@@ -10997,17 +9828,6 @@
 				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
-				</Type>
-			</Attribute>
-			<Attribute name="ТекстДокументыНаОсновании" id="86">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Текст документы на основании</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>v8ui:FormattedString</v8:Type>
 				</Type>
 			</Attribute>
 			<Attribute name="ТекстТТН" id="87">
@@ -11201,6 +10021,93 @@
 				</Title>
 				<Type>
 					<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="СуммаЗалогаЗаТару" id="103">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Сумма залога за тару</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
+				</Type>
+			</Attribute>
+			<Attribute name="ПоСоглашениюИспользуютсяДоговорыКонтрагентов" id="104">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>По соглашению используются договоры контрагентов</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="УчетНДСКэшированныеЗначенияПараметров" id="105">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Учет НДСКэшированные значения параметров</v8:content>
+					</v8:item>
+				</Title>
+				<Type/>
+			</Attribute>
+			<Attribute name="ТекстСчетаФактурыВыданные" id="106">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Текст счета фактуры выданные</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>v8ui:FormattedString</v8:Type>
+				</Type>
+				<FunctionalOptions>
+					<Item>FunctionalOption.ИспользоватьУчетНДС</Item>
+				</FunctionalOptions>
+			</Attribute>
+			<Attribute name="ТекстДокументыНаОснованииПодвал" id="108">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Текст документы на основании</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>v8ui:FormattedString</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="ПараметрыОбменаСКонтрагентами" id="109">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Параметры обмена с контрагентами</v8:content>
+					</v8:item>
+				</Title>
+				<Type/>
+			</Attribute>
+			<Attribute name="НоваяАрхитектураВзаиморасчетов" id="110">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Новая архитектура взаиморасчетов</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="ИспользоватьУпрощеннуюСхемуОплатыВПродажах" id="111">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Использовать упрощенную схему оплаты в продажах</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
 		</Attributes>

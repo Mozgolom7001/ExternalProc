@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<Enum uuid="d2921321-f1dd-4346-bef7-d0a45ba39d87">
+	<Enum uuid="75d683e2-0061-4fad-baaa-d455520fe3ec">
 		<InternalInfo>
 			<xr:GeneratedType name="EnumRef.СтавкиНДС" category="Ref">
-				<xr:TypeId>cd17e252-7dea-47ef-b396-f2ab52cdd592</xr:TypeId>
-				<xr:ValueId>f4f21d3f-0fb4-4507-80cf-da026429db2b</xr:ValueId>
+				<xr:TypeId>79ff6bb3-f459-40f1-b1e6-57ccff1ff900</xr:TypeId>
+				<xr:ValueId>11f095fa-a1a9-4053-884f-a996620d2a9a</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumManager.СтавкиНДС" category="Manager">
-				<xr:TypeId>ad9b85be-951d-4387-91c8-c2b229dbbac6</xr:TypeId>
-				<xr:ValueId>e24ae50e-282d-4d7f-b214-8ddd06f9cbfd</xr:ValueId>
+				<xr:TypeId>6aa02c7f-a513-4609-b6ef-d0e3d48d99b8</xr:TypeId>
+				<xr:ValueId>47f525ce-2348-4702-9188-a31f1ca71033</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumList.СтавкиНДС" category="List">
-				<xr:TypeId>f50278ae-a708-43ec-ba1c-9f8142acd7ec</xr:TypeId>
-				<xr:ValueId>cd34c12a-8494-4ab1-a6ce-644118c9c58c</xr:ValueId>
+				<xr:TypeId>0d96a317-bed9-49cc-973c-6851f8ec91b3</xr:TypeId>
+				<xr:ValueId>9eaef207-6b5c-4734-9e10-45b54fbd9787</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>

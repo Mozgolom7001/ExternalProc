@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<Enum uuid="7b90c7b8-35fe-4f59-81f1-792df014b83a">
+	<Enum uuid="f2333ab1-d817-4d11-8445-3c7c63553e4d">
 		<InternalInfo>
 			<xr:GeneratedType name="EnumRef.ТипыНалогообложенияНДС" category="Ref">
-				<xr:TypeId>560be613-d86f-408f-b4e4-8db6e6082329</xr:TypeId>
-				<xr:ValueId>34f84403-7991-4fac-b0ac-0791fef3173a</xr:ValueId>
+				<xr:TypeId>14774886-c56e-40b8-a47f-e5560b3802ea</xr:TypeId>
+				<xr:ValueId>8f541d58-27de-497a-bc97-59abbd376f31</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumManager.ТипыНалогообложенияНДС" category="Manager">
-				<xr:TypeId>a5b9dbe5-e86c-4955-9f0f-663b7c575a6f</xr:TypeId>
-				<xr:ValueId>c95d89ac-a8e8-4340-89f1-e6ba83e61a66</xr:ValueId>
+				<xr:TypeId>aa5913c8-dc48-44e4-8d7a-210110a4f2d0</xr:TypeId>
+				<xr:ValueId>5e6a5622-2dca-49fe-9e9f-b2b1c8d83825</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumList.ТипыНалогообложенияНДС" category="List">
-				<xr:TypeId>0510cb76-8f63-4879-b0fe-be6af6d9846b</xr:TypeId>
-				<xr:ValueId>2e2fa995-807b-4f56-9f02-612e0e62acd6</xr:ValueId>
+				<xr:TypeId>74af0a4e-331d-4256-9a6b-455fa8ab722e</xr:TypeId>
+				<xr:ValueId>2368b696-873a-46f5-b8b4-40010b003653</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -20,27 +20,27 @@
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
 		<ChildObjects>
-			<EnumValue uuid="3714687c-8398-4aa7-bd05-8ac0ce31a8ad">
-				<Properties>
-					<Name>ПродажаОблагаетсяНДС</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="a8a3c85b-5a55-49b4-aefa-0058d1b09517">
-				<Properties>
-					<Name>ПродажаОблагаетсяЕНВД</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="8df081b1-d2bf-4d4b-bc1e-3208d41c1651">
+			<EnumValue uuid="6649bf15-24eb-4258-8749-1560ca20bfc1">
 				<Properties>
 					<Name>ПродажаНеОблагаетсяНДС</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="07fc5b80-203a-40b2-8e0f-58407882d80f">
+			<EnumValue uuid="6e5a57bb-cfc0-4bbc-8c6f-c089f83d228e">
+				<Properties>
+					<Name>ПродажаОблагаетсяНДС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c2854113-f3ec-4f3d-a8a1-e7811fd7527e">
 				<Properties>
 					<Name>ПродажаНаЭкспорт</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a42ba344-f364-4271-ac17-4d39f30b05b6">
+				<Properties>
+					<Name>ПродажаОблагаетсяЕНВД</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</EnumValue>

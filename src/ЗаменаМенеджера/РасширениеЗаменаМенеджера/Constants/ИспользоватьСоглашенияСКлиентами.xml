@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<Constant uuid="7fb67156-c7a0-4e1a-abee-2a7f5c84ae3e">
+	<Constant uuid="a9210c7e-67dc-4d53-90fd-b6593dce1ef8">
 		<InternalInfo>
 			<xr:GeneratedType name="ConstantManager.ИспользоватьСоглашенияСКлиентами" category="Manager">
-				<xr:TypeId>96555940-8a0c-4447-9699-3e2e4bbb39bf</xr:TypeId>
-				<xr:ValueId>775739ee-b089-4676-99ef-171a7ccc7cc6</xr:ValueId>
+				<xr:TypeId>939c3594-61de-4e4c-a747-f8c63c76485e</xr:TypeId>
+				<xr:ValueId>b751b9ee-72fb-4e32-95a0-a33c1b89647e</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ConstantValueManager.ИспользоватьСоглашенияСКлиентами" category="ValueManager">
-				<xr:TypeId>9852fb29-7b48-481c-884a-3997e5b1cedf</xr:TypeId>
-				<xr:ValueId>a444f8c5-0550-4361-8378-fe4d63625023</xr:ValueId>
+				<xr:TypeId>0fb32f7f-94cf-484c-823a-13714e3c4853</xr:TypeId>
+				<xr:ValueId>ab967371-9d05-4454-bd72-5f50e18f1364</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ConstantValueKey.ИспользоватьСоглашенияСКлиентами" category="ValueKey">
-				<xr:TypeId>bef38da0-961a-554c-b770-dee7d532b21a</xr:TypeId>
-				<xr:ValueId>8365f609-a2bf-533a-967e-fa4d6e9ae3e6</xr:ValueId>
+				<xr:TypeId>9b542638-65fc-4b47-86bd-f8922c5d0c5b</xr:TypeId>
+				<xr:ValueId>e5a80f6d-1521-4cc7-8775-3964f90c94c0</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
