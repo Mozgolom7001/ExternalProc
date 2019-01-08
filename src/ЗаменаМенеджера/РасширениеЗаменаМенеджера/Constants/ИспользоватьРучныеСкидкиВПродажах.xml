@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Constant uuid="100e2c80-d51a-4839-8830-557352621f38">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьРучныеСкидкиВПродажах" category="Manager">
+				<xr:TypeId>d70247e4-72ab-458a-9359-64523440bed6</xr:TypeId>
+				<xr:ValueId>a5447240-7a12-4852-8a44-0ce5cfec1632</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьРучныеСкидкиВПродажах" category="ValueManager">
+				<xr:TypeId>ebf59e6a-7596-4ada-a242-784bfc3b5b1b</xr:TypeId>
+				<xr:ValueId>20d6bb5f-e214-4ddf-a199-f5923904e630</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьРучныеСкидкиВПродажах" category="ValueKey">
+				<xr:TypeId>0e7d1d12-1bf3-5efa-9ad7-dff473aba3a1</xr:TypeId>
+				<xr:ValueId>19794572-94a3-50eb-ad18-717935df7c9d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИспользоватьРучныеСкидкиВПродажах</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

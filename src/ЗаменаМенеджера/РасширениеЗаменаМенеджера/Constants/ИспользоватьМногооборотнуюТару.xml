@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Constant uuid="83cc8ca9-6bd8-49cb-9578-b6e0d6588c19">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьМногооборотнуюТару" category="Manager">
+				<xr:TypeId>76087464-2646-4ffa-8f6b-91496cef2882</xr:TypeId>
+				<xr:ValueId>60654e7a-e6cb-4bdb-b6d7-aad852d09cb0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьМногооборотнуюТару" category="ValueManager">
+				<xr:TypeId>67ff72fb-c44d-45dc-9518-650be2d627fd</xr:TypeId>
+				<xr:ValueId>3280bee9-da24-444c-9576-4c8f068009a7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьМногооборотнуюТару" category="ValueKey">
+				<xr:TypeId>ee9efa80-882a-5452-9125-caab0fbddea3</xr:TypeId>
+				<xr:ValueId>651662b7-68c3-53df-b9b5-212d1743b26e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИспользоватьМногооборотнуюТару</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>
