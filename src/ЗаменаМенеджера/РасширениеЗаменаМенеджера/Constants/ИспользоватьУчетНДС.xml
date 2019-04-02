@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Constant uuid="1b62290b-b19b-44ff-b269-2ed458e39415">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьУчетНДС" category="Manager">
+				<xr:TypeId>28fbf481-405f-4fdc-94c9-5106b7e7473d</xr:TypeId>
+				<xr:ValueId>900c416a-4b0d-46ea-967c-e37df4b62060</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьУчетНДС" category="ValueManager">
+				<xr:TypeId>9fc464eb-836c-4fc6-8a95-0c27a4e79dd2</xr:TypeId>
+				<xr:ValueId>5e7d409a-b44d-4d21-b71b-8cfafafadc90</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьУчетНДС" category="ValueKey">
+				<xr:TypeId>b48a85d3-ca93-4bb6-9c03-91b6063bf6be</xr:TypeId>
+				<xr:ValueId>03c10c20-d567-4e55-8e14-24fa6bc98aff</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИспользоватьУчетНДС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

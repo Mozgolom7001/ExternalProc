@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Constant uuid="b971d9d6-d15a-4db7-9c69-c1db6ba19ae7">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьПодключаемоеОборудование" category="Manager">
+				<xr:TypeId>58d9de48-ba0f-4849-a963-d37436a2f1e0</xr:TypeId>
+				<xr:ValueId>13779766-bd74-48b2-a6e9-23fb46545092</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьПодключаемоеОборудование" category="ValueManager">
+				<xr:TypeId>feda3f70-87d5-45e7-8dd7-7b7236713505</xr:TypeId>
+				<xr:ValueId>024012be-0609-43e1-9e71-fe827f679f28</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьПодключаемоеОборудование" category="ValueKey">
+				<xr:TypeId>640a7b3b-57cb-45ab-a796-673b23420c99</xr:TypeId>
+				<xr:ValueId>fe3e46ca-7bc0-4300-ac26-e67cd3c49cfa</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИспользоватьПодключаемоеОборудование</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

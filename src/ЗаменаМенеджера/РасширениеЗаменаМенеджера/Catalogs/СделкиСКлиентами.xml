@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="f473b9c4-f75b-48c4-b3ed-e3e9e0bd6ba7">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СделкиСКлиентами" category="Object">
+				<xr:TypeId>7ac6280c-1f38-4325-802b-226b0de0eb3d</xr:TypeId>
+				<xr:ValueId>77cb4d34-227f-4e3f-902a-923adae51a08</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СделкиСКлиентами" category="Ref">
+				<xr:TypeId>0a0010de-2112-477a-a8e6-48e3c1caca7c</xr:TypeId>
+				<xr:ValueId>5bc04d89-bc66-40dd-b32c-f2b405101539</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СделкиСКлиентами" category="Selection">
+				<xr:TypeId>d7b76580-4607-42ff-bbbd-391087cd0405</xr:TypeId>
+				<xr:ValueId>593fbfa5-71f5-43d7-9d16-945dc0e4d6e9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СделкиСКлиентами" category="List">
+				<xr:TypeId>2065688c-594a-4986-ac90-7b888bcbb176</xr:TypeId>
+				<xr:ValueId>80300020-8ef4-4f7c-8f4e-3597b38da674</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СделкиСКлиентами" category="Manager">
+				<xr:TypeId>eb139a6a-187b-4730-8ccf-defead5a88f6</xr:TypeId>
+				<xr:ValueId>ca694835-ea9e-4198-90ec-d4ffcdc96274</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СделкиСКлиентами</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

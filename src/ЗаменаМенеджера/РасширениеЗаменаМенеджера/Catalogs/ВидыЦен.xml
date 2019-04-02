@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="c7ba0141-c7ae-4516-baa8-1974d6305da1">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыЦен" category="Object">
+				<xr:TypeId>e339b44a-7c26-477d-ae2b-7c46e225ad56</xr:TypeId>
+				<xr:ValueId>45c7833a-f270-47a8-b4ee-b93489783b79</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыЦен" category="Ref">
+				<xr:TypeId>94a809c2-20e1-4bc8-98dd-2aa420c692b6</xr:TypeId>
+				<xr:ValueId>b249002e-f936-4b83-b56c-1ddb5ad34e68</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыЦен" category="Selection">
+				<xr:TypeId>b7f992b1-4e3f-4f4a-be03-145e26361aea</xr:TypeId>
+				<xr:ValueId>a4946529-9091-46cf-bbc8-a5596bf87ef0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыЦен" category="List">
+				<xr:TypeId>c51b62e3-4585-447b-81a8-5945a6c0e1ca</xr:TypeId>
+				<xr:ValueId>6e9ab61c-0cfa-4f84-a71a-44f83b9e0f1d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыЦен" category="Manager">
+				<xr:TypeId>4e57e827-fc41-4b58-94a9-d1bf60897b6d</xr:TypeId>
+				<xr:ValueId>bab0b24e-a49d-4ecb-b8a8-4f5721ee4adb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыЦен</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

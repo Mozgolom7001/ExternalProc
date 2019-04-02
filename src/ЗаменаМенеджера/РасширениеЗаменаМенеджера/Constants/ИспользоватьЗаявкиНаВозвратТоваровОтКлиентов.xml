@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Constant uuid="2a3e0c63-1c17-47b3-b14f-5cf0d9ab0da3">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьЗаявкиНаВозвратТоваровОтКлиентов" category="Manager">
+				<xr:TypeId>78f12947-1038-407b-946a-f983ef21a413</xr:TypeId>
+				<xr:ValueId>2e573858-9fb0-4621-8fbb-db67f10b94e0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьЗаявкиНаВозвратТоваровОтКлиентов" category="ValueManager">
+				<xr:TypeId>54624119-3b49-4dbe-a669-ce06e0a8a068</xr:TypeId>
+				<xr:ValueId>ef235915-764e-4978-a5b4-e9e0cb610154</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьЗаявкиНаВозвратТоваровОтКлиентов" category="ValueKey">
+				<xr:TypeId>bc5b012f-22f4-4064-b8c4-1a59d9a2fb10</xr:TypeId>
+				<xr:ValueId>55759628-c439-4052-ae5d-ad86001b8886</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИспользоватьЗаявкиНаВозвратТоваровОтКлиентов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>
