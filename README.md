@@ -1,4 +1,4 @@
-![Release](https://img.shields.io/github/v/release/Mozgolom7001/ExternalProc)
+[![Release](https://img.shields.io/github/v/release/Mozgolom7001/ExternalProc)](https://github.com/Mozgolom7001/ExternalProc/releases)
 # ExternalProc
 Внешние обработки 1С
 
