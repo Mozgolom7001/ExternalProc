@@ -1,3 +1,5 @@
+[![Release](https://img.shields.io/github/v/release/Mozgolom7001/ExternalProc)](https://github.com/Mozgolom7001/ExternalProc/releases)
+![License](https://img.shields.io/github/license/Mozgolom7001/ExternalProc)
 # ExternalProc
 Внешние обработки 1С
 
