@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
 	<Document uuid="da27a502-6571-4754-a049-e6803ba56dc6">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentObject.РеализацияТоваровУслуг" category="Object">
@@ -34,6 +34,7 @@
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="4a041ddd-62e2-4f37-9af9-821ce66b0bfa">
+				<InternalInfo/>
 				<Properties>
 					<Name>ВремяДоставкиС</Name>
 					<Comment/>
@@ -47,6 +48,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="944d9c3c-ecd7-464b-9c1a-215956d2ecae">
+				<InternalInfo/>
 				<Properties>
 					<Name>ГруппаФинансовогоУчета</Name>
 					<Comment/>
@@ -57,6 +59,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="31201f3c-75d1-4e6e-a54b-cbfdf33043d8">
+				<InternalInfo/>
 				<Properties>
 					<Name>Подразделение</Name>
 					<Comment/>
@@ -67,6 +70,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="4cd15809-b4dd-4dc1-82e9-5c404fcb2563">
+				<InternalInfo/>
 				<Properties>
 					<Name>ДополнительнаяИнформацияПоДоставке</Name>
 					<Comment/>
@@ -81,6 +85,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="4ad9ac7b-76b8-44f6-9614-2958285dd83e">
+				<InternalInfo/>
 				<Properties>
 					<Name>ПеревозчикПартнер</Name>
 					<Comment/>
@@ -91,6 +96,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="9fdad260-92a6-465c-8f2a-41791815f2d4">
+				<InternalInfo/>
 				<Properties>
 					<Name>Статус</Name>
 					<Comment/>
@@ -101,6 +107,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="b987d5c9-b1ba-4af9-9549-63b04256eb7d">
+				<InternalInfo/>
 				<Properties>
 					<Name>ДатаПереходаПраваСобственности</Name>
 					<Comment/>
@@ -114,6 +121,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="ea1d0a25-1a54-4328-bb5b-09006e63347d">
+				<InternalInfo/>
 				<Properties>
 					<Name>РеализацияПоЗаказам</Name>
 					<Comment/>
@@ -124,6 +132,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="a2b82b6e-c05e-4e96-82d8-611af8cade35">
+				<InternalInfo/>
 				<Properties>
 					<Name>ЗаказКлиента</Name>
 					<Comment/>
@@ -134,6 +143,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="15daa0a0-8fa9-4e5a-97cb-b2e59eca8a91">
+				<InternalInfo/>
 				<Properties>
 					<Name>Партнер</Name>
 					<Comment/>
@@ -144,6 +154,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="b22d9905-f9a4-4b3a-8ecd-5d40a6b03f1c">
+				<InternalInfo/>
 				<Properties>
 					<Name>Контрагент</Name>
 					<Comment/>
@@ -154,6 +165,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="7f7310c1-b09d-48fc-83d9-6ec58efee867">
+				<InternalInfo/>
 				<Properties>
 					<Name>КонтактноеЛицо</Name>
 					<Comment/>
@@ -164,6 +176,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="936051c1-701e-4291-9b48-408f4746585c">
+				<InternalInfo/>
 				<Properties>
 					<Name>Соглашение</Name>
 					<Comment/>
@@ -174,6 +187,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="ec91ff84-56cd-4eeb-946e-1627ceaf0dfd">
+				<InternalInfo/>
 				<Properties>
 					<Name>ХозяйственнаяОперация</Name>
 					<Comment/>
@@ -184,6 +198,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="f4e1a3cb-03db-449a-9fd9-5586cf3c0905">
+				<InternalInfo/>
 				<Properties>
 					<Name>Организация</Name>
 					<Comment/>
@@ -194,6 +209,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="6c63c4ab-6010-4d0a-890a-c34222e70829">
+				<InternalInfo/>
 				<Properties>
 					<Name>Договор</Name>
 					<Comment/>
@@ -204,6 +220,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="4cc09d32-ffc0-4c22-b11d-205e0f4a5d83">
+				<InternalInfo/>
 				<Properties>
 					<Name>Склад</Name>
 					<Comment/>
@@ -214,6 +231,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="4877516c-aff7-4265-bd97-dad1baf55d97">
+				<InternalInfo/>
 				<Properties>
 					<Name>Комментарий</Name>
 					<Comment/>
@@ -228,6 +246,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="b75593c5-e54b-4fba-b2ec-d2552d4c21d3">
+				<InternalInfo/>
 				<Properties>
 					<Name>ЦенаВключаетНДС</Name>
 					<Comment/>
@@ -238,6 +257,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="50fb5c82-a4c2-4f1d-a5ba-0a7360b40314">
+				<InternalInfo/>
 				<Properties>
 					<Name>СпособДоставки</Name>
 					<Comment/>
@@ -248,6 +268,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="55be850f-8bbd-496d-9843-6d447e706788">
+				<InternalInfo/>
 				<Properties>
 					<Name>АдресДоставки</Name>
 					<Comment/>
@@ -262,6 +283,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="4b36fbe1-d576-4978-885f-aaa6ca6389a1">
+				<InternalInfo/>
 				<Properties>
 					<Name>ЗонаДоставки</Name>
 					<Comment/>
@@ -272,6 +294,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="3084d82d-0032-45e5-bfbf-7fbb5257236f">
+				<InternalInfo/>
 				<Properties>
 					<Name>ВремяДоставкиПо</Name>
 					<Comment/>
@@ -285,6 +308,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="8fcf4273-c74d-49ea-888c-2cc84bccbe61">
+				<InternalInfo/>
 				<Properties>
 					<Name>ОсобыеУсловияПеревозки</Name>
 					<Comment/>
@@ -295,6 +319,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="6af11abf-5cbb-4c19-835b-1c3b657cd422">
+				<InternalInfo/>
 				<Properties>
 					<Name>НаправлениеДеятельности</Name>
 					<Comment/>
@@ -305,6 +330,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="44f2d2aa-e2ad-4225-8cd4-5bf077e63fbd">
+				<InternalInfo/>
 				<Properties>
 					<Name>ОсобыеУсловияПеревозкиОписание</Name>
 					<Comment/>
@@ -319,6 +345,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="b85494a5-86bc-4d08-8912-a47bd2a35bee">
+				<InternalInfo/>
 				<Properties>
 					<Name>АдресДоставкиПеревозчика</Name>
 					<Comment/>
@@ -333,6 +360,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="955e3500-229a-4715-af5c-c384e3455b1c">
+				<InternalInfo/>
 				<Properties>
 					<Name>Менеджер</Name>
 					<Comment/>
@@ -343,6 +371,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="4d64b9fd-1564-4bca-b748-1c8ee62cedfd">
+				<InternalInfo/>
 				<Properties>
 					<Name>Сделка</Name>
 					<Comment/>
@@ -353,6 +382,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="e1df2fe7-6a40-4330-9e13-084080a96e83">
+				<InternalInfo/>
 				<Properties>
 					<Name>КартаЛояльности</Name>
 					<Comment/>
@@ -363,6 +393,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="e53d5346-35dc-4327-810f-02c13bf3156b">
+				<InternalInfo/>
 				<Properties>
 					<Name>НалогообложениеНДС</Name>
 					<Comment/>
@@ -373,6 +404,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="83b3eaf6-9aeb-4944-9776-f3a398b775a9">
+				<InternalInfo/>
 				<Properties>
 					<Name>ВернутьМногооборотнуюТару</Name>
 					<Comment/>
@@ -383,6 +415,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="4c7133bc-d7fb-4e33-a2a9-3155430a9705">
+				<InternalInfo/>
 				<Properties>
 					<Name>ДатаВозвратаМногооборотнойТары</Name>
 					<Comment/>
@@ -396,6 +429,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="42c364e1-79c3-4a29-b0c9-930f164e8f44">
+				<InternalInfo/>
 				<Properties>
 					<Name>ТребуетсяЗалогЗаТару</Name>
 					<Comment/>
@@ -406,6 +440,7 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="ecd54a25-6337-43d1-90c1-142c8cfcfcde">
+				<InternalInfo/>
 				<Properties>
 					<Name>ВариантОформленияПродажи</Name>
 					<Comment/>
@@ -434,6 +469,7 @@
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="e034f477-7e2c-453b-a4c3-157284aab9ca">
+						<InternalInfo/>
 						<Properties>
 							<Name>КоличествоУпаковок</Name>
 							<Comment/>
@@ -449,6 +485,7 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="9011e593-6c04-419f-96fe-65f82e38c258">
+						<InternalInfo/>
 						<Properties>
 							<Name>НоменклатураНабора</Name>
 							<Comment/>
@@ -459,6 +496,7 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="b6342ad4-0789-475b-8016-87fad16b03f0">
+						<InternalInfo/>
 						<Properties>
 							<Name>Номенклатура</Name>
 							<Comment/>
@@ -469,6 +507,7 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="27882789-489b-4b31-9e85-50d2b6b22375">
+						<InternalInfo/>
 						<Properties>
 							<Name>ХарактеристикаНабора</Name>
 							<Comment/>
@@ -479,6 +518,7 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="934d9406-43eb-477e-9327-33289efd6ac0">
+						<InternalInfo/>
 						<Properties>
 							<Name>КодТНВЭД</Name>
 							<Comment/>
@@ -489,6 +529,7 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="0c611b04-b61c-4e6c-877e-6188f9fbb27d">
+						<InternalInfo/>
 						<Properties>
 							<Name>Характеристика</Name>
 							<Comment/>
@@ -499,6 +540,7 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="9ad6dedd-1647-4496-881c-378c53520436">
+						<InternalInfo/>
 						<Properties>
 							<Name>СтатусУказанияСерий</Name>
 							<Comment/>
@@ -514,6 +556,7 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="6d069fc9-dc28-4729-9774-346e28da5c9c">
+						<InternalInfo/>
 						<Properties>
 							<Name>Серия</Name>
 							<Comment/>
@@ -524,6 +567,7 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="d3951fea-2dcb-43b0-82b9-4e29971c9a84">
+						<InternalInfo/>
 						<Properties>
 							<Name>Упаковка</Name>
 							<Comment/>
@@ -534,6 +578,7 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="b987e927-6b94-4e30-91d6-b0dba2cf34f5">
+						<InternalInfo/>
 						<Properties>
 							<Name>ВидЦены</Name>
 							<Comment/>
@@ -544,6 +589,7 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="c9b1cbd5-358d-48ed-b2e9-54b75e57c44a">
+						<InternalInfo/>
 						<Properties>
 							<Name>ПроцентАвтоматическойСкидки</Name>
 							<Comment/>
@@ -559,6 +605,7 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="b2ed1835-5193-41db-bf66-1ead23859119">
+						<InternalInfo/>
 						<Properties>
 							<Name>ПроцентРучнойСкидки</Name>
 							<Comment/>
@@ -574,6 +621,7 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="540c979d-2c96-4b4c-99a0-f1051c177ab5">
+						<InternalInfo/>
 						<Properties>
 							<Name>СтавкаНДС</Name>
 							<Comment/>
@@ -584,6 +632,7 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="5ba9076c-9699-4da3-8cc4-0b8cb2d9446f">
+						<InternalInfo/>
 						<Properties>
 							<Name>Склад</Name>
 							<Comment/>
@@ -594,6 +643,7 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="617e1501-e8ea-4ebd-8e33-b6b817d74d20">
+						<InternalInfo/>
 						<Properties>
 							<Name>СрокПоставки</Name>
 							<Comment/>
@@ -609,6 +659,7 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="c05baf7e-b9a2-471b-9f6d-1d96d659e470">
+						<InternalInfo/>
 						<Properties>
 							<Name>ЗаказКлиента</Name>
 							<Comment/>
@@ -619,6 +670,7 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="1d44964b-453c-42d8-a004-16684882ea90">
+						<InternalInfo/>
 						<Properties>
 							<Name>КодСтроки</Name>
 							<Comment/>
@@ -653,6 +705,7 @@
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="923f2630-82f3-477e-864b-15661c614690">
+						<InternalInfo/>
 						<Properties>
 							<Name>ИдентификаторСтроки</Name>
 							<Comment/>
